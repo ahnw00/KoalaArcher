@@ -21,7 +21,7 @@ public class StageManager : MonoBehaviour
             stageList[0].aimSpeed = 0;
             stageList[0].bestScore = 0;
 
-            stageList.Add(stageList[0]);
+            //stageList.Add(stageList[0]);
         }
     }
 

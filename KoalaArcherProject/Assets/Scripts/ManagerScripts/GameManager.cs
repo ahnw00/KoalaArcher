@@ -13,7 +13,7 @@ using UnityEngine.UI;
 //그렇기 때문에 single ton 이란 스킬을 사용하게 된다.
 //single ton은 똑같은 객체가 여러 개 생기는 걸 방지하는 스킬이다.
 //gameManager은 전체 게임에서 객체가 단 하나만 존재햐아 한다. 왜냐면은 씬을 넘나들면서 여러개가 생길 수 있는데, 그러면은 관리자가 여러개가 되니까 그건안된다.
-//세이브데이터 관리, 씬 넘나들기를 여기서 한다.
+//세이브데이터 관리를 여기서 한다.
 public class GameManager : MonoBehaviour
 {
     JsonManager jsonManager;
