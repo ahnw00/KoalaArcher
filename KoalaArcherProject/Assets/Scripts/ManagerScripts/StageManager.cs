@@ -15,7 +15,7 @@ public class StageManager : MonoBehaviour
         saveData = gameManager.saveData;
         stageList = saveData.stageList;
 
-        if(stageList[0] == null)
+        if(stageList == null)
         {
             stageList[0] = new StageClass();
             stageList[0].aimSpeed = 0;
