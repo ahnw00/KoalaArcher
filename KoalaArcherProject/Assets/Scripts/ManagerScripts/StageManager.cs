@@ -6,7 +6,7 @@ public class StageManager : MonoBehaviour
 {
     GameManager gameManager;
     SaveDataClass saveData;
-    List<StageClass> stageList;
+    List<StageClass> stageList;    
 
     // Start is called before the first frame update
     void Start()
@@ -15,13 +15,13 @@ public class StageManager : MonoBehaviour
         saveData = gameManager.saveData;
         stageList = saveData.stageList;
 
-        if(stageList == null)
+        if(stageList.Count == 0)
         {
-            stageList[0] = new StageClass();
-            stageList[0].aimSpeed = 0;
-            stageList[0].bestScore = 0;
+            StageClass stage = new StageClass();
+            stage.aimSpeed = 0;
+            stage.bestScore = 0;
 
-            //stageList.Add(stageList[0]);
+            stageList.Add(stage);
         }
     }
 

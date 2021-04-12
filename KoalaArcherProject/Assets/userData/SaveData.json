@@ -1,5 +1,12 @@
 {
     "stageList": [],
+    "currentStage": {
+        "scoreOfCounterpart": 0,
+        "aimSpeed": 0.0,
+        "powerOfGauge": 0.0,
+        "numberOfShot": 10,
+        "bestScore": 0
+    },
     "isFirstTimeOfPlay": true,
     "indexOfStageCompleted": 0
 }

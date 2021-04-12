@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Stage1Btn : MonoBehaviour
 {
+    GameManager gameManager;
+    SaveDataClass saveData;
+    StageClass stage;
     public void ChangeScene()
     {
         SceneManager.LoadScene("GameScene");
+        //saveData.currentStage = 
     }
 }
