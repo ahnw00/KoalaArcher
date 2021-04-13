@@ -18,7 +18,7 @@ public class StageManager : MonoBehaviour
         if(stageList.Count == 0)
         {
             StageClass stage = new StageClass();
-            stage.aimSpeed = 0;
+            stage.aimSpeed = 5;
             stage.bestScore = 0;
 
             stageList.Add(stage);

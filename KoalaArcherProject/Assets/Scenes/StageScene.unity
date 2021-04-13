@@ -777,6 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd58ebfcb378494ea6ac79541d17768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stageBtnList: []
 --- !u!1 &1267497848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1244,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd58ebfcb378494ea6ac79541d17768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stageBtnList:
+  - {fileID: 1672717822}
+  - {fileID: 1242876227}
+  - {fileID: 1025565822}
+  - {fileID: 283148202}
+  - {fileID: 1227495063}
 --- !u!1 &1729155667
 GameObject:
   m_ObjectHideFlags: 0

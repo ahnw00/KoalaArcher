@@ -8,20 +8,21 @@ public class StageBtn : MonoBehaviour
     GameManager gameManager;
     SaveDataClass saveData;
     StageClass stage;
+    public List<GameObject> stageBtnList;
     public void ChangeScene()
     {
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
-
-        SceneManager.LoadScene("GameScene");
         
         for(int i = 0; i < 5; i++)
         {
-            if(this == this.transform.parent.GetChild(i + 1))
+            if(this.gameObject == stageBtnList[i])
             {
                 stage = saveData.stageList[i];
                 saveData.currentStage = stage;
             }
         }
+
+        SceneManager.LoadScene("GameScene");
     }
 }

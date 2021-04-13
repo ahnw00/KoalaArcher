@@ -30,7 +30,7 @@ public class InGameManager : MonoBehaviour
 
     IEnumerator AngleAmingCoroutine()
     {
-        float speed = 5;
+        float leftOrRight = 1;
         float timer = 0;
 
         while(true)
@@ -40,13 +40,13 @@ public class InGameManager : MonoBehaviour
 
             if(barPosition.x > 287)
             {
-                speed = -5;
+                leftOrRight = -1;
             }
             else if(barPosition.x < -287)
             {
-                speed = 5;
+                leftOrRight = 1;
             }
-            angleBar.transform.Translate(Vector2.right * Time.deltaTime * speed);
+            angleBar.transform.Translate(Vector2.right * Time.deltaTime * stage.aimSpeed * leftOrRight);
             
             timer += Time.deltaTime;
             if(timer >= 5)
