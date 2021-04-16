@@ -19,10 +19,12 @@ public class StageManager : MonoBehaviour
         {
             StageClass stage = new StageClass();
             stage.aimSpeed = 5;
+            stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
 
             stageList.Add(stage);
         }
+        
     }
 
     // Update is called once per frame

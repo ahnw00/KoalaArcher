@@ -1,8 +1,10 @@
 {
     "stageList": [],
-    "currentStage": {
+    "currentSelectedStage": {
         "scoreOfCounterpart": 0,
         "aimSpeed": 0.0,
+        "aimingTime": 0.0,
+        "powerGaugeSpeed": 0.0,
         "powerOfGauge": 0.0,
         "numberOfShot": 10,
         "bestScore": 0

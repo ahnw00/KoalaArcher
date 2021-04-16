@@ -7,8 +7,8 @@ public class StageBtn : MonoBehaviour
 {
     GameManager gameManager;
     SaveDataClass saveData;
-    StageClass stage;
     public List<GameObject> stageBtnList;
+    
     public void ChangeScene()
     {
         gameManager = GameManager.singleTon;
@@ -18,8 +18,7 @@ public class StageBtn : MonoBehaviour
         {
             if(this.gameObject == stageBtnList[i])
             {
-                stage = saveData.stageList[i];
-                saveData.currentStage = stage;
+                saveData.currentSelectedStage = saveData.stageList[i];
             }
         }
 

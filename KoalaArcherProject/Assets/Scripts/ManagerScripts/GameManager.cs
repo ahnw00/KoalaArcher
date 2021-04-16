@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     JsonManager jsonManager;
     public SaveDataClass saveData;
     public static GameManager singleTon;
-
+   
 
     void Awake()
     {

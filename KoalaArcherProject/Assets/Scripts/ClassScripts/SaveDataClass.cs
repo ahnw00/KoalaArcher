@@ -11,14 +11,14 @@ using System;
 public class SaveDataClass
 {
     public List<StageClass> stageList;
-    public StageClass currentStage;
+    public StageClass currentSelectedStage;
     public bool isFirstTimeOfPlay;
     public int indexOfStageCompleted;
         
     public SaveDataClass()
     {
         stageList = new List<StageClass>();
-        currentStage = null;
+        currentSelectedStage = null;
 
         isFirstTimeOfPlay = true;
         indexOfStageCompleted = 0;
