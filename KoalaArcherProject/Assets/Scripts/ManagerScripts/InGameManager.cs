@@ -14,6 +14,11 @@ public class InGameManager : MonoBehaviour
     public bool isOnPowerGaugeCoroutine;
     public int currentAmingScore;
     public int currentPowerScore;
+    public List<int> scoreList;
+    public List<int> amingScoreList;
+    public List<int> powerScoreList;
+
+    public GameObject textPrefab;
     //IEnumerator angleCoroutine;
     //IEnumerator powerCoroutine;
 
@@ -23,6 +28,9 @@ public class InGameManager : MonoBehaviour
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
         stage = saveData.currentSelectedStage;
+        scoreList = new List<int>();
+        amingScoreList = new List<int>();
+        powerScoreList = new List<int>();
 
         StartCoroutine(AngleAmingCoroutine());
     }
@@ -97,11 +105,24 @@ public class InGameManager : MonoBehaviour
                 if(powerGaugeBar.GetComponent<Image>().fillAmount > 0.75)
                 {
                     currentPowerScore = 1;
+                    for (int i = 0; i < 10; i++)
+                    {
+                        if (powerScoreList[i] == null)
+                            powerScoreList.Add(currentPowerScore);
+                    }
                 }
                 else if(powerGaugeBar.GetComponent<Image>().fillAmount <= 0.75)
                 {
                     currentPowerScore = 0;
+                    for (int i = 0; i < 10; i++)
+                    {
+                        if (powerScoreList[i] == null)
+                            powerScoreList.Add(currentPowerScore);
+                    }
                 }
+
+                
+
                 break;
             }
         }

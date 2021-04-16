@@ -30,15 +30,31 @@ public class TouchPanelScript : MonoBehaviour
             if(angleBarPosX >= -60 && angleBarPosX < 60)
             {
                 inGameManager.currentAmingScore = 2;
+                for(int i=0; i < 10; i++)
+                {
+                    if (inGameManager.amingScoreList[i] == null)
+                        inGameManager.amingScoreList.Add(inGameManager.currentAmingScore);
+                }
             }
             else if(angleBarPosX >= 60 && angleBarPosX < 180 && angleBarPosX >= -180 && angleBarPosX < -60)
             {
                 inGameManager.currentAmingScore = 1;
+                for (int i = 0; i < 10; i++)
+                {
+                    if (inGameManager.amingScoreList[i] == null)
+                        inGameManager.amingScoreList.Add(inGameManager.currentAmingScore);
+                }
             }
             else if(angleBarPosX >= 180 && angleBarPosX < 300 && angleBarPosX >= -300 && angleBarPosX < -180)
             {
                 inGameManager.currentAmingScore = 0;
+                for (int i = 0; i < 10; i++)
+                {
+                    if (inGameManager.amingScoreList[i] == null)
+                        inGameManager.amingScoreList.Add(inGameManager.currentAmingScore);
+                }
             }
+            
 
             StartCoroutine(inGameManager.PowerGaugeCoroutine());
         }
