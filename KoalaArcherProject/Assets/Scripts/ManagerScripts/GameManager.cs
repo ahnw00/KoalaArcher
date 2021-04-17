@@ -19,7 +19,9 @@ public class GameManager : MonoBehaviour
     JsonManager jsonManager;
     public SaveDataClass saveData;
     public static GameManager singleTon;
-   
+
+    // 다인 수정한 부분
+    public Button loadBtn;
 
     void Awake()
     {
@@ -41,21 +43,26 @@ public class GameManager : MonoBehaviour
         saveData = new SaveDataClass();
         Save();  // 이거는 필요할 때만 있는 코드. 디버그용
         Load();
-        
+
+        // 다인 수정한 부분
+        if (saveData.isFirstTimeOfPlay == false)
+        {
+            loadBtn.interactable = true;
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
-   // Update is called once per frame
+    // Update is called once per frame
     void Update()
     {
-        
+
     }
-    
+
     //세이브데이터 세이브
     public void Save()
     {

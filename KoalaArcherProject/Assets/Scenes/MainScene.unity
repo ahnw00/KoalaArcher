@@ -900,6 +900,7 @@ GameObject:
   - component: {fileID: 1729519307}
   - component: {fileID: 1729519306}
   - component: {fileID: 1729519305}
+  - component: {fileID: 1729519308}
   m_Layer: 5
   m_Name: LoadButton
   m_TagString: Untagged
@@ -966,11 +967,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1729519306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1729519308}
+        m_TargetAssemblyTypeName: NewSaveBtn, Assembly-CSharp
+        m_MethodName: LoadStageScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1729519306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1009,6 +1022,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729519303}
   m_CullTransparentMesh: 1
+--- !u!114 &1729519308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729519303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9dc2363330de9840a30bc9aefd4ee82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1890239094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1179,6 +1204,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7634039806966904296, guid: 0097542fa4d84a9459d7faa5ed2b9014, type: 3}
+      propertyPath: loadBtn
+      value: 
+      objectReference: {fileID: 1729519305}
+    - target: {fileID: 7634039806966904296, guid: 0097542fa4d84a9459d7faa5ed2b9014, type: 3}
+      propertyPath: continueBtn
+      value: 
+      objectReference: {fileID: 1729519303}
     - target: {fileID: 7634039806966904297, guid: 0097542fa4d84a9459d7faa5ed2b9014, type: 3}
       propertyPath: m_Name
       value: GameManager

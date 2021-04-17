@@ -14,7 +14,7 @@ public class SaveDataClass
     public StageClass currentSelectedStage;
     public bool isFirstTimeOfPlay;
     public int indexOfStageCompleted;
-        
+
     public SaveDataClass()
     {
         stageList = new List<StageClass>();
