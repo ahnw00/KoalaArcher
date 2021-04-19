@@ -20,8 +20,6 @@ public class GameManager : MonoBehaviour
     public SaveDataClass saveData;
     public static GameManager singleTon;
 
-    // 다인 수정한 부분
-    public Button loadBtn;
 
     void Awake()
     {
@@ -43,12 +41,6 @@ public class GameManager : MonoBehaviour
         saveData = new SaveDataClass();
         Save();  // 이거는 필요할 때만 있는 코드. 디버그용
         Load();
-
-        // 다인 수정한 부분
-        if (saveData.isFirstTimeOfPlay == false)
-        {
-            loadBtn.interactable = true;
-        }
     }
 
     // Start is called before the first frame update
