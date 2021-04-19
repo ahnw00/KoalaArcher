@@ -22,6 +22,6 @@ public class StageBtn : MonoBehaviour
             }
         }
 
-        SceneManager.LoadScene("GameScene");
+        SceneLoadManager.instance.LoadScene("GameScene");
     }
 }

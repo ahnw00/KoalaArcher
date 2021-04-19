@@ -7,6 +7,6 @@ public class GameToStageBtn : MonoBehaviour
 {
     public void changeToStage()
     {
-        SceneManager.LoadScene("StageScene");
+        SceneLoadManager.instance.LoadScene("StageScene");
     }
 }

@@ -14,7 +14,9 @@ public class SceneLoadManager : MonoBehaviour
     private void Awake()
     {
         if(instance == null)
+        {
             instance = this;
+        }
 
         if (instance != this)
         {
@@ -31,6 +33,7 @@ public class SceneLoadManager : MonoBehaviour
         gameObject.SetActive(true);
         SceneManager.sceneLoaded += LoadSceneEnd;
         loadSceneName = sceneName;
+        
         StartCoroutine(Load(sceneName));
     }
 
@@ -50,6 +53,7 @@ public class SceneLoadManager : MonoBehaviour
             if (op.progress < 0.9f)
             {
                 progressBar.fillAmount = Mathf.Lerp(progressBar.fillAmount, op.progress, timer);
+
                 if (progressBar.fillAmount >= op.progress)
                 {
                     timer = 0f;
@@ -79,7 +83,6 @@ public class SceneLoadManager : MonoBehaviour
 
 
     private IEnumerator Fade(bool isFadeIn)
-
     {
         float timer = 0f;
 

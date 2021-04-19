@@ -15,10 +15,10 @@ public class InGameManager : MonoBehaviour
     public int currentAmingScore;
     public int currentPowerScore;
     public List<int> scoreList;
-    public List<int> amingScoreList;
-    public List<int> powerScoreList;
-
-    public GameObject textPrefab;
+    public int orderOfShot;
+    public bool whileShooting;
+    public float timer;
+    //public GameObject textPrefab;
     //IEnumerator angleCoroutine;
     //IEnumerator powerCoroutine;
 
@@ -29,8 +29,12 @@ public class InGameManager : MonoBehaviour
         saveData = gameManager.saveData;
         stage = saveData.currentSelectedStage;
         scoreList = new List<int>();
-        amingScoreList = new List<int>();
-        powerScoreList = new List<int>();
+        orderOfShot = 0;
+        timer = 0;
+        for(int i = 0; i < 10; i++)
+        {
+            scoreList.Add(0);
+        }
 
         StartCoroutine(AngleAmingCoroutine());
     }
@@ -38,91 +42,106 @@ public class InGameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Debug.Log(timer);
     }
 
     IEnumerator AngleAmingCoroutine()
     {
         float leftOrRight = 1;
-        float timer = 0;
+
 
         while(true)
         {
             yield return null;
             isOnAmingCoroutine = true;
-            Vector2 barPosition = angleBar.GetComponent<RectTransform>().anchoredPosition;
+            whileShooting = true;
+            Vector3 barPosition = angleBar.GetComponent<RectTransform>().eulerAngles;
 
-
-            if(barPosition.x > 287)
-            {
-                leftOrRight = -1;
-            }
-            else if(barPosition.x < -287)
+            if(barPosition.z < 102.6f)
             {
                 leftOrRight = 1;
             }
-            angleBar.transform.Translate(Vector2.right * Time.deltaTime * stage.aimSpeed * leftOrRight);
-            
+            else if(barPosition.z > 253.5f)
+            {
+                leftOrRight = -1;
+            }
+            angleBar.transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime * stage.aimSpeed * leftOrRight);
 
-            timer += Time.deltaTime;
-            if(timer >= 5)
-            {             
-                isOnAmingCoroutine = false;  
-                break;
-            }            
+            Debug.Log(barPosition.z);
+            
+            timer += Time.deltaTime;  
+            if(timer >= stage.timeLimit)
+            {
+                isOnAmingCoroutine = false;
+            }       
         }        
     }
 
     public IEnumerator PowerGaugeCoroutine()
     {
-        float timer = 0;
-        //float isUnderBottom = 1;
-
         while(true)
         {
             yield return null;
             isOnPowerGaugeCoroutine = true;
             Vector2 powerGaugePosition = powerGaugeBar.GetComponent<RectTransform>().anchoredPosition;
 
-
-            /*if(powerGaugePosition.y < -852)
-            {
-                isUnderBottom = 0;
-            }
-            else if(powerGaugePosition.y >= -852)
-            {
-                isUnderBottom = 1;
-            }*/
-            //powerGaugeBar.transform.Translate(Vector2.down * Time.deltaTime * stage.powerGaugeSpeed * isUnderBottom);
             powerGaugeBar.GetComponent<Image>().fillAmount = Mathf.Lerp(powerGaugeBar.GetComponent<Image>().fillAmount,0, Time.deltaTime * stage.powerGaugeSpeed); 
-            //Time.deltaTime * stage.powerGaugeSpeed * isUnderBottom; 
-
 
             timer += Time.deltaTime;
-            if(timer >= 5)
+            if(timer >= stage.timeLimit)
             {
                 isOnPowerGaugeCoroutine = false;
                 if(powerGaugeBar.GetComponent<Image>().fillAmount > 0.75)
                 {
                     currentPowerScore = 1;
-                    for (int i = 0; i < 10; i++)
+                    scoreList[orderOfShot] += currentPowerScore * 2;
+
+                    switch(scoreList[orderOfShot])
                     {
-                        if (powerScoreList[i] == null)
-                            powerScoreList.Add(currentPowerScore);
+                        case 8:
+                        scoreList[orderOfShot] = 9;
+                        break;
+
+                        case 6:
+                        scoreList[orderOfShot] = 8;
+                        break;
+
+                        case 4:
+                        scoreList[orderOfShot] = 7;
+                        break;
+
+                        case 2:
+                        scoreList[orderOfShot] = 6;
+                        break;
                     }
                 }
                 else if(powerGaugeBar.GetComponent<Image>().fillAmount <= 0.75)
                 {
                     currentPowerScore = 0;
-                    for (int i = 0; i < 10; i++)
+                    scoreList[orderOfShot] += currentPowerScore * 2;
+
+                    switch(scoreList[orderOfShot])
                     {
-                        if (powerScoreList[i] == null)
-                            powerScoreList.Add(currentPowerScore);
+                        case 8:
+                        scoreList[orderOfShot] = 9;
+                        break;
+
+                        case 6:
+                        scoreList[orderOfShot] = 8;
+                        break;
+
+                        case 4:
+                        scoreList[orderOfShot] = 7;
+                        break;
+
+                        case 2:
+                        scoreList[orderOfShot] = 6;
+                        break;
                     }
                 }
 
-                
-
+                whileShooting = false;
+                timer = 0;
                 break;
             }
         }

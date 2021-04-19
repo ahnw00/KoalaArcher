@@ -13,6 +13,7 @@ public class StageClass
     public float powerOfGauge;
     public int numberOfShot;
     public int bestScore;
+    public float timeLimit;
 
     public StageClass()
     {
@@ -23,5 +24,6 @@ public class StageClass
         powerOfGauge = 0;
         numberOfShot = 10;
         bestScore = 0;
+        timeLimit = 0;
     }
 }

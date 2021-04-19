@@ -25,37 +25,25 @@ public class TouchPanelScript : MonoBehaviour
         {
             inGameManager.StopAllCoroutines(); // 작동안함
             inGameManager.isOnAmingCoroutine = false;
-            float angleBarPosX = inGameManager.angleBar.GetComponent<RectTransform>().anchoredPosition.x;
+            float angleBarEulerZ = inGameManager.angleBar.GetComponent<RectTransform>().eulerAngles.z;
 
-            if(angleBarPosX >= -60 && angleBarPosX < 60)
+            if(angleBarEulerZ >= -60 && angleBarEulerZ < 60)
             {
                 inGameManager.currentAmingScore = 2;
-                for(int i=0; i < 10; i++)
-                {
-                    if (inGameManager.amingScoreList[i] == null)
-                        inGameManager.amingScoreList.Add(inGameManager.currentAmingScore);
-                }
+                inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
             }
-            else if(angleBarPosX >= 60 && angleBarPosX < 180 && angleBarPosX >= -180 && angleBarPosX < -60)
+            else if(angleBarEulerZ >= 60 && angleBarEulerZ < 180 && angleBarEulerZ >= -180 && angleBarEulerZ < -60)
             {
                 inGameManager.currentAmingScore = 1;
-                for (int i = 0; i < 10; i++)
-                {
-                    if (inGameManager.amingScoreList[i] == null)
-                        inGameManager.amingScoreList.Add(inGameManager.currentAmingScore);
-                }
+                inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
             }
-            else if(angleBarPosX >= 180 && angleBarPosX < 300 && angleBarPosX >= -300 && angleBarPosX < -180)
+            else if(angleBarEulerZ >= 180 && angleBarEulerZ < 300 && angleBarEulerZ >= -300 && angleBarEulerZ < -180)
             {
                 inGameManager.currentAmingScore = 0;
-                for (int i = 0; i < 10; i++)
-                {
-                    if (inGameManager.amingScoreList[i] == null)
-                        inGameManager.amingScoreList.Add(inGameManager.currentAmingScore);
-                }
+                inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
             }
             
-
+            inGameManager.isOnAmingCoroutine = false;
             StartCoroutine(inGameManager.PowerGaugeCoroutine());
         }
 

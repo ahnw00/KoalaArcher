@@ -28,6 +28,7 @@ public class StageManager : MonoBehaviour
             stage.aimSpeed = 5;
             stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
+            stage.timeLimit = 7;
 
             stageList.Add(stage);
         }
