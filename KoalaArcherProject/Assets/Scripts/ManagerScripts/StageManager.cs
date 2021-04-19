@@ -31,7 +31,7 @@ public class StageManager : MonoBehaviour
 
             stageList.Add(stage);
         }
-        else if (saveData.indexOfStageCompleted == stageList.Count)
+        else if (stageList.Count < saveData.indexOfStageCompleted)
         {
             StageClass stage = new StageClass();
             stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
