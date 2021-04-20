@@ -7,6 +7,7 @@ public class InGameManager : MonoBehaviour
 {
     GameManager gameManager;
     SaveDataClass saveData;
+    ScoreScript scoreScript;
     public StageClass stage;
     public GameObject angleBar;
     public GameObject powerGaugeBar;
@@ -18,9 +19,6 @@ public class InGameManager : MonoBehaviour
     public int orderOfShot;
     public bool whileShooting; //패널을 터치할때 슈팅하고 있을때만 터치할 수 있도록
     public float timer;
-    //public GameObject textPrefab;
-    //IEnumerator angleCoroutine;
-    //IEnumerator powerCoroutine;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +26,7 @@ public class InGameManager : MonoBehaviour
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
         stage = saveData.currentSelectedStage;
+        scoreScript = FindObjectOfType<ScoreScript>();
         scoreList = new List<int>();
         orderOfShot = 0;
         timer = 0;
@@ -68,13 +67,13 @@ public class InGameManager : MonoBehaviour
             }
             angleBar.transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime * stage.aimSpeed * leftOrRight);
             
-            //만약 제한 시간이 지날 경우 코루틴이 끝나도록
+            //만약 아무것도 안누른채 제한 시간이 지날 경우 파워게이지 코루틴으로 넘어가도록. 그 후엔 파워게이지의 if문에 걸려 바로 점수 반환이 됨.
             timer += Time.deltaTime;  
             if(timer >= stage.timeLimit)
             {
                 isOnAmingCoroutine = false;
-                orderOfShot++;
-                StopAllCoroutines();
+                StartCoroutine(PowerGaugeCoroutine());
+                break;
             }       
         }        
     }
@@ -89,15 +88,14 @@ public class InGameManager : MonoBehaviour
             isOnPowerGaugeCoroutine = true;
             float powerGaugeFillAmount = powerGaugeBar.GetComponent<Image>().fillAmount;
 
-            powerGaugeBar.GetComponent<Image>().fillAmount = Mathf.Lerp(powerGaugeBar.GetComponent<Image>().fillAmount, 0, Time.deltaTime * stage.powerGaugeSpeed); 
-
+            powerGaugeBar.GetComponent<Image>().fillAmount = Mathf.Lerp(powerGaugeFillAmount, 0, Time.deltaTime * stage.powerGaugeSpeed); 
 
             //제한 시간이 지나면 코루틴을 종료하고 점수를 반환한다.
             timer += Time.deltaTime;
             if(timer >= stage.timeLimit)
             {
                 isOnPowerGaugeCoroutine = false;
-                orderOfShot++;
+
                 if(powerGaugeFillAmount > 0.75)
                 {
                     currentPowerScore = 1;
@@ -150,14 +148,23 @@ public class InGameManager : MonoBehaviour
                 whileShooting = false;
                 timer = 0;
                 angleBar.GetComponent<RectTransform>().eulerAngles = new Vector3(0, 0, 180);
-                powerGaugeBar.GetComponent<Image>().fillAmount = 1;
-                yield return new WaitForSeconds(3f);
+                powerGaugeBar.GetComponent<Image>().fillAmount = 0;
 
-                if(orderOfShot != 10)
+                //10번째 슈팅이 아닐 경우, 3초 뒤에 다음 코루틴을 실행시킨다.
+                if(orderOfShot < 9)
                 {
+                    orderOfShot++;
+                    scoreScript.InstantiationOfScoreText();
+                    yield return new WaitForSeconds(3f);
                     StartCoroutine(AngleAmingCoroutine());
                 }
-                
+                //10번째 슈팅일 경우, 더 이상 코루틴을 실행하지 않는다.
+                else if(orderOfShot == 9)
+                {
+                    orderOfShot++;
+                    scoreScript.InstantiationOfScoreText();
+                }
+
                 break;
             }
         }

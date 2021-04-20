@@ -25,10 +25,10 @@ public class StageManager : MonoBehaviour
         if (stageList.Count == 0)
         {
             StageClass stage = new StageClass();
-            stage.aimSpeed = 5;
+            stage.aimSpeed = 100;
             stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
-            stage.timeLimit = 7;
+            stage.timeLimit = 3;
 
             stageList.Add(stage);
         }
@@ -41,12 +41,5 @@ public class StageManager : MonoBehaviour
 
             stageList.Add(stage);
         }
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

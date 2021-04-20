@@ -13,21 +13,13 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
         inGameManager = FindObjectOfType<InGameManager>();
-        
     }
 
+    //한 번의 슈팅이 끝났을 때 점수가 점수판 위에 뜨도록 해주는 함수
     public void InstantiationOfScoreText()
     {
-        /*
-        while(true)
-        {
-            yield return null;
-            if(!inGameManager.whileShooting)
-            {
-                scoreText = Instantiate(textprefab, new Vector3(-295 + 64.5f * inGameManager.orderOfShot, 17, 0), textprefab.transform.rotation);
-                scoreText.transform.SetParent(this.transform);
-            }
-        }*/
+        scoreText = Instantiate(textprefab, this.transform);
+        scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector3(-295 + 71.66f * (inGameManager.orderOfShot - 1), 31, 0);
+        scoreText.text = inGameManager.scoreList[inGameManager.orderOfShot - 1].ToString();
     }
-  
 }

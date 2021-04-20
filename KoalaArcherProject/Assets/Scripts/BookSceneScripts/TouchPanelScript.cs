@@ -13,12 +13,6 @@ public class TouchPanelScript : MonoBehaviour
         inGameManager = FindObjectOfType<InGameManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void touchFunction()
     {
         //각도 조준하는 중일때 터치를 받으면 일어나는 일들
@@ -28,6 +22,7 @@ public class TouchPanelScript : MonoBehaviour
             inGameManager.isOnAmingCoroutine = false;
             float angleBarEulerZ = inGameManager.angleBar.GetComponent<RectTransform>().eulerAngles.z;
 
+            //조준선의 각도에 따라 점수를 매겨줘
             if(angleBarEulerZ >= 170.9 && angleBarEulerZ < 190.4)
             {
                 inGameManager.currentAmingScore = 2;
@@ -51,7 +46,7 @@ public class TouchPanelScript : MonoBehaviour
         //파워 게이지 코루틴이 돌아가는 중에 터치를 받으면 일어나는 일
         else if(inGameManager.isOnPowerGaugeCoroutine)
         {
-            inGameManager.powerGaugeBar.GetComponent<Image>().fillAmount += 0.05f;
+            inGameManager.powerGaugeBar.GetComponent<Image>().fillAmount += 0.4f;
         }
     }
 }
