@@ -159,6 +159,7 @@ public class InGameManager : MonoBehaviour
 
                 whileShooting = false;
                 timer = 0;
+                numberOfClicked=0;
                 angleBar.GetComponent<RectTransform>().eulerAngles = new Vector3(0, 0, 180);
                 powerGaugeBar.GetComponent<Image>().fillAmount = 0;
 

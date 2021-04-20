@@ -840,6 +840,7 @@ GameObject:
   - component: {fileID: 537183878}
   - component: {fileID: 537183877}
   - component: {fileID: 537183876}
+  - component: {fileID: 537183880}
   m_Layer: 5
   m_Name: Bird
   m_TagString: Untagged
@@ -948,6 +949,25 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!95 &537183880
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537183874}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a6dcbe5bc7795042952f87959d051eb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &537321347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,6 +1495,7 @@ GameObject:
   - component: {fileID: 750638066}
   - component: {fileID: 750638068}
   - component: {fileID: 750638067}
+  - component: {fileID: 750638069}
   m_Layer: 5
   m_Name: Cloud
   m_TagString: Untagged
@@ -1539,6 +1560,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750638065}
   m_CullTransparentMesh: 1
+--- !u!95 &750638069
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750638065}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b1d52204cf249b8449aae790c4254346, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &891463586
 GameObject:
   m_ObjectHideFlags: 0
