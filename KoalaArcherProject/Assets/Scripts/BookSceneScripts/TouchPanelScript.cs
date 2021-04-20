@@ -15,10 +15,16 @@ public class TouchPanelScript : MonoBehaviour
 
     public void touchFunction()
     {
-        //각도 조준하는 중일때 터치를 받으면 일어나는 일들
-        if(inGameManager.isOnAmingCoroutine)
+        //만약 한번만 클릭했을때 한번 더 클릭하면 클릭 횟수에 1 더해줘
+        if(inGameManager.numberOfClicked == 1)
+        {
+            inGameManager.numberOfClicked++;
+        }
+        //클릭 횟수가 두번이고, 각도 조준하는 중일때 터치를 받으면 일어나는 일들
+        if(inGameManager.isOnAmingCoroutine && inGameManager.numberOfClicked == 2)
         {
             inGameManager.StopAllCoroutines();
+            inGameManager.numberOfClicked = 0;
             inGameManager.isOnAmingCoroutine = false;
             float angleBarEulerZ = inGameManager.angleBar.GetComponent<RectTransform>().eulerAngles.z;
 

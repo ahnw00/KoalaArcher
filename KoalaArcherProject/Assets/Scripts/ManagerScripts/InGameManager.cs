@@ -19,6 +19,7 @@ public class InGameManager : MonoBehaviour
     public int orderOfShot;
     public bool whileShooting; //패널을 터치할때 슈팅하고 있을때만 터치할 수 있도록
     public float timer;
+    public int numberOfClicked;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class InGameManager : MonoBehaviour
         stage = saveData.currentSelectedStage;
         scoreScript = FindObjectOfType<ScoreScript>();
         scoreList = new List<int>();
+        numberOfClicked = 0;
         orderOfShot = 0;
         timer = 0;
         for(int i = 0; i < 10; i++)
@@ -57,18 +59,28 @@ public class InGameManager : MonoBehaviour
             whileShooting = true;
             Vector3 barPosition = angleBar.GetComponent<RectTransform>().eulerAngles;
 
-            if(barPosition.z < 102.6f)
+            //한번 누르면 클릭 횟수 1증가
+            if(Input.GetKeyDown(KeyCode.Mouse0))
             {
-                leftOrRight = 1;
+                numberOfClicked++;
             }
-            else if(barPosition.z > 253.5f)
-            {
-                leftOrRight = -1;
-            }
-            angleBar.transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime * stage.aimSpeed * leftOrRight);
             
-            //만약 아무것도 안누른채 제한 시간이 지날 경우 파워게이지 코루틴으로 넘어가도록. 그 후엔 파워게이지의 if문에 걸려 바로 점수 반환이 됨.
-            timer += Time.deltaTime;  
+            //클릭 횟수가 한번 이상일 경우 에이밍바를 왔다리 갔다리 해주고 타이머 흐르도록..
+            if(numberOfClicked != 0)
+            {
+                timer += Time.deltaTime; 
+                if(barPosition.z < 102.6f)
+                {
+                    leftOrRight = 1;
+                }
+                else if(barPosition.z > 253.5f)
+                {
+                    leftOrRight = -1;
+                }
+                angleBar.transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime * stage.aimSpeed * leftOrRight);
+            }
+
+            //만약 아무것도 안누른채 제한 시간이 지날 경우 파워게이지 코루틴으로 넘어가도록. 그 후엔 파워게이지의 if문에 걸려 바로 점수 반환이 됨. 
             if(timer >= stage.timeLimit)
             {
                 isOnAmingCoroutine = false;
