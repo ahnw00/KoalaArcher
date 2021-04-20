@@ -15,11 +15,11 @@ C:/Users/ahnw0/OneDrive/Desktop/Unity/KoalaArcher/KoalaArcherProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50563
+50139
 Successfully changed project path to: C:/Users/ahnw0/OneDrive/Desktop/Unity/KoalaArcher/KoalaArcherProject
 C:/Users/ahnw0/OneDrive/Desktop/Unity/KoalaArcher/KoalaArcherProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,763 +35,735 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001774 seconds.
+Registered in 0.001430 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.775 seconds
+- Completed reload, in  1.795 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000857 seconds.
+Registered in 0.000852 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000209FDE0A020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D578119020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD4F5BC0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D5774068F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863683030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D57C9B8840 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862338DC0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D57D9E8DC0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE4E020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001D57813DC30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863A45F20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D5778D1090 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD929010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D5778D1090 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93C420 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D577A94E20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE1D8030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D57C9DEFC0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862853230 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D5778D1090 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862395020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D57C63B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208623C2A30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D57C668A30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001D57C19F840 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208623C2A30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001D577A68420 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93C420 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001D5778D90A0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863A45F20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001D577A68420 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDBB9470 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001D57D595200 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93C420 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001D5778D90A0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE146E20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D577A94E20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDC6B890 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001D57C8BCC30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE1F5020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001D577801F30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863683030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001D57C9E65D0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDC6B890 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001D57C387010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863C20220 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001D57C991040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD580380 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001D57C208040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862D78010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D57C387010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086305D620 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D57C5C6E40 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863C89020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001D577B4C6A0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9BD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001D57750A450 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8D6800 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001D57CC37E20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD85E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001D57C8EA840 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862853230 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D57C885630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
+- Completed reload, in  1.084 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.6 MB.
 System memory in use after: 87.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 4.061600 ms (FindLiveObjects: 0.938600 ms CreateObjectMapping: 0.311200 ms MarkObjects: 2.653500 ms  DeleteObjects: 0.156500 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2266.
+Total: 2.570400 ms (FindLiveObjects: 0.333100 ms CreateObjectMapping: 0.139900 ms MarkObjects: 1.983800 ms  DeleteObjects: 0.112500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16f48d3721c4a28b57e806c89d53d8d') in 0.015624 seconds
-  Import took 0.019424 seconds .
+  path: Assets/Sprites/StageSceneSprites/5 _ 5.png
+  artifactKey: Guid(53d1b516a3d99c347848a7c38b14861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/5 _ 5.png using Guid(53d1b516a3d99c347848a7c38b14861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98c70e68820f777d9002a6fc5bec329') in 0.135829 seconds
+  Import took 0.144381 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.025675 seconds.
-  path: Assets/Scripts/ManagerScripts
-  artifactKey: Guid(3f80d00ef855bfb4ebae1d20bef07388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ManagerScripts using Guid(3f80d00ef855bfb4ebae1d20bef07388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3016601e1ae818fb20e12a54ac0c78fe') in 0.011172 seconds
-  Import took 0.017303 seconds .
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/PausePopUpSprites/일시정지배경.png
+  artifactKey: Guid(1e9838e6916cc2d419a36c28fa47d296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/일시정지배경.png using Guid(1e9838e6916cc2d419a36c28fa47d296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd074ac7a8fed6d5ab21090ad90b9a918') in 0.048600 seconds
+  Import took 0.051790 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001577 seconds.
-  path: Assets/Scripts/ManagerScripts
-  artifactKey: Guid(3f80d00ef855bfb4ebae1d20bef07388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ManagerScripts using Guid(3f80d00ef855bfb4ebae1d20bef07388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3016601e1ae818fb20e12a54ac0c78fe') in 0.002580 seconds
-  Import took 0.006981 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/다음 스테이지.png
+  artifactKey: Guid(7ab53bf62b8d97f4c8053d826b18cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/다음 스테이지.png using Guid(7ab53bf62b8d97f4c8053d826b18cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0ad4174ab771357d30b3cc99186b46') in 0.028500 seconds
+  Import took 0.032535 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.163153 seconds.
-  path: Assets/Scripts/ManagerScripts/InGameManager.cs
-  artifactKey: Guid(eead954ba32ce0b4f8f06a04a5e84354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ManagerScripts/InGameManager.cs using Guid(eead954ba32ce0b4f8f06a04a5e84354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c03aae521e7e8cfbeebec30096ed6') in 0.027842 seconds
-  Import took 0.031336 seconds .
+  Time since last request: 0.000372 seconds.
+  path: Assets/Sprites/StageSceneSprites/클리어스테이지수.png
+  artifactKey: Guid(48a3ed41fbc93714b9728511c80f9376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/클리어스테이지수.png using Guid(48a3ed41fbc93714b9728511c80f9376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cdd7310a6ac969d354843099157eac') in 0.046691 seconds
+  Import took 0.054379 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018351 seconds.
-  path: Assets/Scripts/ManagerScripts/InGameManager.cs
-  artifactKey: Guid(eead954ba32ce0b4f8f06a04a5e84354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ManagerScripts/InGameManager.cs using Guid(eead954ba32ce0b4f8f06a04a5e84354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c03aae521e7e8cfbeebec30096ed6') in 0.001946 seconds
-  Import took 0.005088 seconds .
+  Time since last request: 0.000393 seconds.
+  path: Assets/Sprites/StageSceneSprites/5.png
+  artifactKey: Guid(4cedde1e5e0d1a049a79b4e36d5ec9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/5.png using Guid(4cedde1e5e0d1a049a79b4e36d5ec9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f46d76d4f0ae4fc3d2be105fc869586') in 0.041421 seconds
+  Import took 0.049745 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.301655 seconds.
-  path: Assets/Prefabs/GameManager.prefab
-  artifactKey: Guid(0097542fa4d84a9459d7faa5ed2b9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManager.prefab using Guid(0097542fa4d84a9459d7faa5ed2b9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb67103fcb4d003bab725b08171f2bdf') in 0.035768 seconds
-  Import took 0.041573 seconds .
+  Time since last request: 0.002129 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/STAGE 2.png
+  artifactKey: Guid(b3107fc5ea24c3f4bb62b9ee93bfbb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/STAGE 2.png using Guid(b3107fc5ea24c3f4bb62b9ee93bfbb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c3ab9ee468dc2901659359c3fbf33b') in 0.032608 seconds
+  Import took 0.049175 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Prefabs/SceneLoader.prefab
-  artifactKey: Guid(d7b2757fb806a8d42bd0a48c4cb37be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SceneLoader.prefab using Guid(d7b2757fb806a8d42bd0a48c4cb37be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f96c1315cfe2cfa106a5d2c4253f3d0') in 0.017397 seconds
-  Import took 0.020559 seconds .
+  Time since last request: 0.001803 seconds.
+  path: Assets/Sprites/StageSceneSprites/4.png
+  artifactKey: Guid(d9046e8b620fc9740bddbf0b273ad751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/4.png using Guid(d9046e8b620fc9740bddbf0b273ad751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cad7de25136851f41e33faa0f97d05c') in 0.033987 seconds
+  Import took 0.038557 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Prefabs/Score.prefab
-  artifactKey: Guid(36d41f932c407ac4390be04e6fb969e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Score.prefab using Guid(36d41f932c407ac4390be04e6fb969e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697af99ddac752afee58bf2615240b74') in 0.037152 seconds
-  Import took 0.045117 seconds .
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sprites/PausePopUpSprites/효과음.png
+  artifactKey: Guid(96234c6e7e0aa7143a7ea8ffa6e8c4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/효과음.png using Guid(96234c6e7e0aa7143a7ea8ffa6e8c4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8125fa4cf80dbe055e2e39c3308a5b06') in 0.040198 seconds
+  Import took 0.053146 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Prefabs/PausePopUp.prefab
-  artifactKey: Guid(ec701d775407aa14598feff828bdb5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PausePopUp.prefab using Guid(ec701d775407aa14598feff828bdb5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed6dbde3f65d65950d547b0ad55bd01') in 0.030449 seconds
-  Import took 0.040567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.947254 seconds.
-  path: Assets/Fonts/OdBestFreind.ttf
-  artifactKey: Guid(87a1f88e62ff14b48b2dec88d5029431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/OdBestFreind.ttf using Guid(87a1f88e62ff14b48b2dec88d5029431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d6000ebaadfc2bc642215639bea897') in 0.090393 seconds
-  Import took 0.093765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.625109 seconds.
-  path: Assets/Sprites/UISprites/STAGE 1.png
-  artifactKey: Guid(88a8cba3f7b774f4f8f3f8dec784c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/STAGE 1.png using Guid(88a8cba3f7b774f4f8f3f8dec784c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b98fc8bda3e6ad44e27381c8c1a45') in 0.037893 seconds
-  Import took 0.041190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/UISprites/STAGE 2.png
-  artifactKey: Guid(d914e881c6233684e97eb8c9630a48b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/STAGE 2.png using Guid(d914e881c6233684e97eb8c9630a48b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b8d6a4e8ac5defc73d03fc5bb45e20') in 0.021309 seconds
-  Import took 0.025628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sprites/UISprites/각도게이지.png
-  artifactKey: Guid(4dea4dcfc2d58a94ba05b97c99cba70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/각도게이지.png using Guid(4dea4dcfc2d58a94ba05b97c99cba70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d51714cf8df752eab35ef568ef4265') in 0.044770 seconds
-  Import took 0.052494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003515 seconds.
-  path: Assets/Sprites/UISprites/점수판위숫자.png
-  artifactKey: Guid(61179e7e35c9a9e45b09af6ca611f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/점수판위숫자.png using Guid(61179e7e35c9a9e45b09af6ca611f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5137afb8920b9e74063cb16d6bb23227') in 0.037516 seconds
-  Import took 0.045526 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/StageSceneSprites/4 _ 5.png
+  artifactKey: Guid(791591339641a3d4e938db5d94b38e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/4 _ 5.png using Guid(791591339641a3d4e938db5d94b38e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f558f270cdd70ec6b8fe30b48d33079c') in 0.039536 seconds
+  Import took 0.045077 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000193 seconds.
-  path: Assets/Sprites/UISprites/일시정지.png
-  artifactKey: Guid(859a90dfe1e846c4fa6e576817c76f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/일시정지.png using Guid(859a90dfe1e846c4fa6e576817c76f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a42fc2748f2adce8a60b3deba8f022') in 0.029272 seconds
-  Import took 0.033660 seconds .
+  path: Assets/Sprites/InGamePopUpSprites/STAGE 4.png
+  artifactKey: Guid(eed7682cba4540d42909949c330440e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/STAGE 4.png using Guid(eed7682cba4540d42909949c330440e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b422b7dc14306297059f2f1149321fec') in 0.035658 seconds
+  Import took 0.047681 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Sprites/UISprites/점수.png
-  artifactKey: Guid(e4839ff9cfcfe124fb85c4ac068bfaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/점수.png using Guid(e4839ff9cfcfe124fb85c4ac068bfaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd05f648d87e7a236c7632d8255a3be') in 0.033222 seconds
-  Import took 0.039183 seconds .
+  Time since last request: 0.000967 seconds.
+  path: Assets/Sprites/StageSceneSprites/배경.png
+  artifactKey: Guid(efc7106f207617f4d94f3524225cfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/배경.png using Guid(efc7106f207617f4d94f3524225cfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722a987820882f7c4ff26efbbd16a5bf') in 0.047364 seconds
+  Import took 0.052935 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Sprites/UISprites/STAGE 3.png
-  artifactKey: Guid(fd35bada703720f4085108e1fb8fd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/STAGE 3.png using Guid(fd35bada703720f4085108e1fb8fd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f98343ee473f545c637d2d59900f22') in 0.034014 seconds
-  Import took 0.038669 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/배경.png
+  artifactKey: Guid(121a6ebf7cdb3fd4780de9b76cbc14e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/배경.png using Guid(121a6ebf7cdb3fd4780de9b76cbc14e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee399125c988a44d3392df3073e4a4e8') in 0.034955 seconds
+  Import took 0.045803 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprites/UISprites/점수판.png
-  artifactKey: Guid(119d2ebf71fae754688dbb51acd63dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/점수판.png using Guid(119d2ebf71fae754688dbb51acd63dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e415f95787c4b41fae269bc17d86f6f') in 0.033601 seconds
-  Import took 0.045582 seconds .
+  Time since last request: 0.001080 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/코알라5.png
+  artifactKey: Guid(a94b34345e9afc7469b2104cd1328703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/코알라5.png using Guid(a94b34345e9afc7469b2104cd1328703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410d3e59cbd5e72608adbdc66fd4e3fe') in 0.038829 seconds
+  Import took 0.044813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/Sprites/UISprites/힘게이지.png
-  artifactKey: Guid(0b6c5c55231d05f4189cf16d06fd17c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/힘게이지.png using Guid(0b6c5c55231d05f4189cf16d06fd17c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42e3d71c4449f54ef735f1fc7a63337') in 0.023565 seconds
-  Import took 0.033180 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/코알라3.png
+  artifactKey: Guid(2056aa57146a1994d84ae38eddd0e00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/코알라3.png using Guid(2056aa57146a1994d84ae38eddd0e00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca9ffbc2b1dfc6d3040045307c0d839') in 0.041295 seconds
+  Import took 0.053730 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000983 seconds.
-  path: Assets/Sprites/UISprites/힘게이지화살표.png
-  artifactKey: Guid(ab2bb86de907a844eb52d4c564565a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/힘게이지화살표.png using Guid(ab2bb86de907a844eb52d4c564565a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5da96321141bb2ede68199f7ff7a577') in 0.026826 seconds
-  Import took 0.035157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/UISprites/STAGE 5.png
-  artifactKey: Guid(13f273c8f3bf2754da00a75274875745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/STAGE 5.png using Guid(13f273c8f3bf2754da00a75274875745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e855789e560256b84703484027248b2') in 0.035712 seconds
-  Import took 0.040554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Sprites/UISprites/각도게이지화살표.png
-  artifactKey: Guid(510ddb12500eb6f408ffe5ca80c4bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/각도게이지화살표.png using Guid(510ddb12500eb6f408ffe5ca80c4bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdcaa4629c7e2be5a54628745a31f28') in 0.035456 seconds
-  Import took 0.042118 seconds .
+  Time since last request: 0.000658 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/STAGE 1.png
+  artifactKey: Guid(a0a44b5af49b03149833536fa7b261e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/STAGE 1.png using Guid(a0a44b5af49b03149833536fa7b261e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cd8a60dcf70e2e1cd94a529793c8cb') in 0.030924 seconds
+  Import took 0.042712 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000228 seconds.
-  path: Assets/Sprites/UISprites/STAGE 4.png
-  artifactKey: Guid(19ddc39976c0cba49be5353210c3b3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/STAGE 4.png using Guid(19ddc39976c0cba49be5353210c3b3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b098471f23bb40ca6917e320a987ac91') in 0.040308 seconds
-  Import took 0.052096 seconds .
+  path: Assets/Sprites/InGamePopUpSprites/failed.png
+  artifactKey: Guid(15d38e536ab448d41b6e81fef9851794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/failed.png using Guid(15d38e536ab448d41b6e81fef9851794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6245da4bc09320cbc0a780b81e4900f3') in 0.042012 seconds
+  Import took 0.048773 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.906939 seconds.
-  path: Assets/Sprites/UISprites/192cc302b82bd532.png
-  artifactKey: Guid(cffab065b7bb7da488162a8c5326985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/192cc302b82bd532.png using Guid(cffab065b7bb7da488162a8c5326985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9018cc97e3b5c3cbdc912d77c74dbc35') in 0.026823 seconds
-  Import took 0.030853 seconds .
+  Time since last request: 0.002704 seconds.
+  path: Assets/Sprites/StageSceneSprites/2 _ 5.png
+  artifactKey: Guid(47e30ddb023746b4480916990d3c5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/2 _ 5.png using Guid(47e30ddb023746b4480916990d3c5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecddf86e564f0bb235765d5122ffc07') in 0.037609 seconds
+  Import took 0.050302 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
+  Time since last request: 0.000842 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/COMPLETE.png
+  artifactKey: Guid(53680b1b76132b94f87ff32cec48b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/COMPLETE.png using Guid(53680b1b76132b94f87ff32cec48b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d36638843f90c1e27aa9280e9e39819') in 0.048440 seconds
+  Import took 0.056302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/코알라4.png
+  artifactKey: Guid(4d9d95da24e426b4fae9d53a72d74a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/코알라4.png using Guid(4d9d95da24e426b4fae9d53a72d74a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131c46269db74cf113864e5c8242cf36') in 0.039398 seconds
+  Import took 0.043025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/코알라1.png
+  artifactKey: Guid(223b9c17791bf2d4c80cb9f439ce12d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/코알라1.png using Guid(223b9c17791bf2d4c80cb9f439ce12d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ca8e10272112421b56b9e145d44418') in 0.038910 seconds
+  Import took 0.048153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/Sprites/StageSceneSprites/0 _ 5.png
+  artifactKey: Guid(0daaf4b37374ef945b0219d34f80e126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/0 _ 5.png using Guid(0daaf4b37374ef945b0219d34f80e126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d6aa09782539740401a7a56b40552d') in 0.037473 seconds
+  Import took 0.051535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/StageSceneSprites/2.png
+  artifactKey: Guid(bbd75d39e9494d048a8874e5fc4687b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/2.png using Guid(bbd75d39e9494d048a8874e5fc4687b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199566db720999b1f8506e5bbad35a44') in 0.051560 seconds
+  Import took 0.056173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/PausePopUpSprites/배경음게이지바.png
+  artifactKey: Guid(5712e7be36883b448a28fe51e3ac5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/배경음게이지바.png using Guid(5712e7be36883b448a28fe51e3ac5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c72015e180c70f320ec52dfba0e12b') in 0.035560 seconds
+  Import took 0.042703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/STAGE 5.png
+  artifactKey: Guid(40c383d663fa3744c9299df863855e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/STAGE 5.png using Guid(40c383d663fa3744c9299df863855e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ca7b6092ecdc8439cdb4db600e6389') in 0.036810 seconds
+  Import took 0.045610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/your score.png
+  artifactKey: Guid(1da3bd0bcf8ea0449b7388846357b993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/your score.png using Guid(1da3bd0bcf8ea0449b7388846357b993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11949e7914335d8feac846b9ecad1b8d') in 0.028545 seconds
+  Import took 0.048441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/Sprites/StageSceneSprites/1 _ 5.png
+  artifactKey: Guid(1fbbaa10d62390c4981280f063960ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/1 _ 5.png using Guid(1fbbaa10d62390c4981280f063960ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e91e07f0ed99d349bf4a862dcabc0f8') in 0.042398 seconds
+  Import took 0.056719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprites/PausePopUpSprites/효과음게이지.png
+  artifactKey: Guid(d2f327285a032da46a6b1966bbfabec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/효과음게이지.png using Guid(d2f327285a032da46a6b1966bbfabec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b850d979b855df57209407e506b65f3') in 0.016833 seconds
+  Import took 0.027466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001487 seconds.
+  path: Assets/Sprites/StageSceneSprites/뒤로가기.png
+  artifactKey: Guid(5ce6c375009ae4a489a9883a3498e261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/뒤로가기.png using Guid(5ce6c375009ae4a489a9883a3498e261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56604a473b19fe53f74bf2f9108ba97') in 0.036102 seconds
+  Import took 0.045705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000874 seconds.
+  path: Assets/Sprites/PausePopUpSprites/스테이지 선택.png
+  artifactKey: Guid(b09031a5eb7cce04393eb9cc08c087ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/스테이지 선택.png using Guid(b09031a5eb7cce04393eb9cc08c087ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9bd476ea79c65df7bf2cdb7c5e0614') in 0.035402 seconds
+  Import took 0.039588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/STAGE 3.png
+  artifactKey: Guid(30d52f7ad56fd0f43b6b899779c56d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/STAGE 3.png using Guid(30d52f7ad56fd0f43b6b899779c56d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f01b86de2063b77a1020045a922b057') in 0.017354 seconds
+  Import took 0.021046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sprites/UISprites/각도게이지.png
+  artifactKey: Guid(4dea4dcfc2d58a94ba05b97c99cba70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/각도게이지.png using Guid(4dea4dcfc2d58a94ba05b97c99cba70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d51714cf8df752eab35ef568ef4265') in 0.032014 seconds
+  Import took 0.037970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Sprites/UISprites/일시정지.png
+  artifactKey: Guid(859a90dfe1e846c4fa6e576817c76f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/일시정지.png using Guid(859a90dfe1e846c4fa6e576817c76f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a42fc2748f2adce8a60b3deba8f022') in 0.030440 seconds
+  Import took 0.042469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/Sprites/UISprites/점수판위숫자.png
+  artifactKey: Guid(61179e7e35c9a9e45b09af6ca611f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/점수판위숫자.png using Guid(61179e7e35c9a9e45b09af6ca611f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5137afb8920b9e74063cb16d6bb23227') in 0.029345 seconds
+  Import took 0.047174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
   path: Assets/Sprites/UISprites/ca810f866639ef2c.png
   artifactKey: Guid(5f604e535d91efd42977eaa4cadc80b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/ca810f866639ef2c.png using Guid(5f604e535d91efd42977eaa4cadc80b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c36ac3609b07a96545875f375102a72') in 0.030100 seconds
-  Import took 0.036859 seconds .
+Start importing Assets/Sprites/UISprites/ca810f866639ef2c.png using Guid(5f604e535d91efd42977eaa4cadc80b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ece687f8bd08df829a6145e8d2f55') in 0.038979 seconds
+  Import took 0.045152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/UISprites/힘게이지화살표.png
+  artifactKey: Guid(ab2bb86de907a844eb52d4c564565a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/힘게이지화살표.png using Guid(ab2bb86de907a844eb52d4c564565a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5da96321141bb2ede68199f7ff7a577') in 0.029131 seconds
+  Import took 0.039782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002134 seconds.
+  path: Assets/Sprites/UISprites/STAGE 5.png
+  artifactKey: Guid(13f273c8f3bf2754da00a75274875745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/STAGE 5.png using Guid(13f273c8f3bf2754da00a75274875745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e855789e560256b84703484027248b2') in 0.016759 seconds
+  Import took 0.028006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Sprites/UISprites/각도게이지화살표.png
+  artifactKey: Guid(510ddb12500eb6f408ffe5ca80c4bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/각도게이지화살표.png using Guid(510ddb12500eb6f408ffe5ca80c4bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdcaa4629c7e2be5a54628745a31f28') in 0.034915 seconds
+  Import took 0.055307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Sprites/UISprites/STAGE 4.png
+  artifactKey: Guid(19ddc39976c0cba49be5353210c3b3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/STAGE 4.png using Guid(19ddc39976c0cba49be5353210c3b3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b098471f23bb40ca6917e320a987ac91') in 0.037425 seconds
+  Import took 0.043337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sprites/UISprites/STAGE 1.png
+  artifactKey: Guid(88a8cba3f7b774f4f8f3f8dec784c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/STAGE 1.png using Guid(88a8cba3f7b774f4f8f3f8dec784c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b98fc8bda3e6ad44e27381c8c1a45') in 0.039736 seconds
+  Import took 0.051104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/UISprites/STAGE 2.png
+  artifactKey: Guid(d914e881c6233684e97eb8c9630a48b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/STAGE 2.png using Guid(d914e881c6233684e97eb8c9630a48b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b8d6a4e8ac5defc73d03fc5bb45e20') in 0.031666 seconds
+  Import took 0.036011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/UISprites/점수.png
+  artifactKey: Guid(e4839ff9cfcfe124fb85c4ac068bfaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/점수.png using Guid(e4839ff9cfcfe124fb85c4ac068bfaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd05f648d87e7a236c7632d8255a3be') in 0.034021 seconds
+  Import took 0.039902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/UISprites/STAGE 3.png
+  artifactKey: Guid(fd35bada703720f4085108e1fb8fd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/STAGE 3.png using Guid(fd35bada703720f4085108e1fb8fd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f98343ee473f545c637d2d59900f22') in 0.033002 seconds
+  Import took 0.036633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/PausePopUpSprites/게임 종료.png
+  artifactKey: Guid(870d8393a3fb254449c3758786a632f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/게임 종료.png using Guid(870d8393a3fb254449c3758786a632f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d474db41259ae0530b3f482e45ef073') in 0.018038 seconds
+  Import took 0.029226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/UISprites/192cc302b82bd532.png
+  artifactKey: Guid(cffab065b7bb7da488162a8c5326985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/192cc302b82bd532.png using Guid(cffab065b7bb7da488162a8c5326985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7875e369e8c7bef4094ab65688d259') in 0.035102 seconds
+  Import took 0.038955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/코알라6.png
+  artifactKey: Guid(663a22519e72ccc4d84883085644f8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/코알라6.png using Guid(663a22519e72ccc4d84883085644f8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab80f4bd080a0015bceb42c2850aa988') in 0.055664 seconds
+  Import took 0.064529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001472 seconds.
+  path: Assets/Sprites/PausePopUpSprites/x버튼.png
+  artifactKey: Guid(ee4d1bebd336246489c694452f3588e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/x버튼.png using Guid(ee4d1bebd336246489c694452f3588e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e09f788c4b9a6ae4ba9ef1cc13532a') in 0.043665 seconds
+  Import took 0.062009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001585 seconds.
+  path: Assets/Sprites/StageSceneSprites/1.png
+  artifactKey: Guid(89a5df1b5e2f5e14b83959a995ec2d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/1.png using Guid(89a5df1b5e2f5e14b83959a995ec2d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3468c9212b4bc1603c18a9529eb8214e') in 0.048259 seconds
+  Import took 0.066629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/식사 중....png
+  artifactKey: Guid(f4b75315bc3a4a041b9bcc06db83edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/식사 중....png using Guid(f4b75315bc3a4a041b9bcc06db83edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1a34c03ef13a672c816bf0da18b726') in 0.044354 seconds
+  Import took 0.053009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Sprites/PausePopUpSprites/배경음커서.png
+  artifactKey: Guid(b8a390d822d5e254bbc7eeb949b37802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/배경음커서.png using Guid(b8a390d822d5e254bbc7eeb949b37802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f16680758eab96905e43cb8f1bd7fbd') in 0.039656 seconds
+  Import took 0.045143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sprites/PausePopUpSprites/효과음게이지바.png
+  artifactKey: Guid(c1e8e23b597a43b4f85883a5828baac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/효과음게이지바.png using Guid(c1e8e23b597a43b4f85883a5828baac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0781babdbec3d9052fc4a16e9e82fcfa') in 0.033787 seconds
+  Import took 0.044022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001298 seconds.
+  path: Assets/Sprites/UISprites/점수판.png
+  artifactKey: Guid(119d2ebf71fae754688dbb51acd63dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/점수판.png using Guid(119d2ebf71fae754688dbb51acd63dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e415f95787c4b41fae269bc17d86f6f') in 0.022201 seconds
+  Import took 0.034957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001375 seconds.
+  path: Assets/Sprites/StageSceneSprites/3 _ 5.png
+  artifactKey: Guid(ffded75a4fdef68459779cf7934eeb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/3 _ 5.png using Guid(ffded75a4fdef68459779cf7934eeb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6beb2c249080d293d5c34d6777c9070c') in 0.029586 seconds
+  Import took 0.043033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/UISprites/힘게이지.png
+  artifactKey: Guid(0b6c5c55231d05f4189cf16d06fd17c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/힘게이지.png using Guid(0b6c5c55231d05f4189cf16d06fd17c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42e3d71c4449f54ef735f1fc7a63337') in 0.032988 seconds
+  Import took 0.038132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/다시하기.png
+  artifactKey: Guid(4ddcb63e01330a0499c774fbc3e0adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/다시하기.png using Guid(4ddcb63e01330a0499c774fbc3e0adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbda52fe0bdf8022a625b6e011f4aed') in 0.033695 seconds
+  Import took 0.041231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/StageSceneSprites/3.png
+  artifactKey: Guid(0a0ca331b3c08b34896be15ea7ad7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StageSceneSprites/3.png using Guid(0a0ca331b3c08b34896be15ea7ad7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f9cc333573e5ae770d2ad0fab40de8') in 0.037001 seconds
+  Import took 0.041888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/식사 중...png
+  artifactKey: Guid(29cc74f5fc3dc054b9983aa13671aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/식사 중...png using Guid(29cc74f5fc3dc054b9983aa13671aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecf9237e5def43e89af3282ce38ee2a') in 0.036697 seconds
+  Import took 0.045865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/X버튼.png
+  artifactKey: Guid(2ac7b063214dc364db6eafaa2427bbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/X버튼.png using Guid(2ac7b063214dc364db6eafaa2427bbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a8cdd28cbe1138f4f6139745c7b6ea') in 0.035228 seconds
+  Import took 0.038772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/PausePopUpSprites/배경음.png
+  artifactKey: Guid(aedb6217eac16dd489e89285c330f367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/배경음.png using Guid(aedb6217eac16dd489e89285c330f367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bcb808f005cfc3c356ab8c371c3d21') in 0.022886 seconds
+  Import took 0.030523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/InGamePopUpSprites/배경.png
+  artifactKey: Guid(6040f3e7a1ca2de4ea2869091ac0f102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/InGamePopUpSprites/배경.png using Guid(6040f3e7a1ca2de4ea2869091ac0f102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5784f24fee375301abc359f3ec034d3') in 0.055949 seconds
+  Import took 0.063405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/코알라2.png
+  artifactKey: Guid(4018e85278bb7bf40ac52c01252690f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/코알라2.png using Guid(4018e85278bb7bf40ac52c01252690f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832643f6c6329fe666d9f23a706581b1') in 0.045873 seconds
+  Import took 0.055093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Sprites/LoadingSceneSprites/식사 중..png
+  artifactKey: Guid(ced457341d9e65e40b507b4b12153d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LoadingSceneSprites/식사 중..png using Guid(ced457341d9e65e40b507b4b12153d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ceb7af83946581886118696855a137c') in 0.028845 seconds
+  Import took 0.035472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/PausePopUpSprites/효과음커서.png
+  artifactKey: Guid(1a7edb3094203524b9a6cece46e67805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/효과음커서.png using Guid(1a7edb3094203524b9a6cece46e67805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957d9b087bcd72c304e1b8426adefacf') in 0.030256 seconds
+  Import took 0.035343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/PausePopUpSprites/배경음게이지.png
+  artifactKey: Guid(fd8c4f26d5850ec44b77539df458b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PausePopUpSprites/배경음게이지.png using Guid(fd8c4f26d5850ec44b77539df458b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb02928e7794d73d1567def4c97a6fe') in 0.031402 seconds
+  Import took 0.038149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.781566 seconds.
+  path: Assets/Scripts/Sprites/PauseUI
+  artifactKey: Guid(383165264e26c9a4bbc3fe8a9c657356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Sprites/PauseUI using Guid(383165264e26c9a4bbc3fe8a9c657356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76f8ff5f8f7fabf804e6200ae5ecc05') in 0.008123 seconds
+  Import took 0.012720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005972 seconds.
+  path: Assets/Scripts/Sprites/PauseUI
+  artifactKey: Guid(383165264e26c9a4bbc3fe8a9c657356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Sprites/PauseUI using Guid(383165264e26c9a4bbc3fe8a9c657356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76f8ff5f8f7fabf804e6200ae5ecc05') in 0.002386 seconds
+  Import took 0.007610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.932037 seconds.
+  path: Assets/Scripts/Sprites/GaugeSprites
+  artifactKey: Guid(d6b8e4e6702865b46b9aabc30b840bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Sprites/GaugeSprites using Guid(d6b8e4e6702865b46b9aabc30b840bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e5eceaadcab7e9385a1cda935463d8') in 0.014370 seconds
+  Import took 0.020395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.499595 seconds.
+  path: Assets/Scripts/Sprites/ClearUI
+  artifactKey: Guid(961f5cc0c9e46144f92813daafa83b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Sprites/ClearUI using Guid(961f5cc0c9e46144f92813daafa83b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09caa44236882b10377181e00787a7a') in 0.024961 seconds
+  Import took 0.030341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.126476 seconds.
+  path: Assets/Prefabs/GameManager.prefab
+  artifactKey: Guid(0097542fa4d84a9459d7faa5ed2b9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameManager.prefab using Guid(0097542fa4d84a9459d7faa5ed2b9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb67103fcb4d003bab725b08171f2bdf') in 0.032588 seconds
+  Import took 0.035790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Prefabs/Score.prefab
+  artifactKey: Guid(36d41f932c407ac4390be04e6fb969e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Score.prefab using Guid(36d41f932c407ac4390be04e6fb969e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697af99ddac752afee58bf2615240b74') in 0.034702 seconds
+  Import took 0.038642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Prefabs/SceneLoader.prefab
+  artifactKey: Guid(d7b2757fb806a8d42bd0a48c4cb37be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SceneLoader.prefab using Guid(d7b2757fb806a8d42bd0a48c4cb37be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f96c1315cfe2cfa106a5d2c4253f3d0') in 0.041135 seconds
+  Import took 0.045891 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002118 seconds.
+Registered in 0.001828 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020865F23010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D57CC51010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE079F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D57D8354F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D577AA2C70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863C1DD70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D5780684A0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863AFD010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001D5776BA500 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862E7E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D57D5871D0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863AFD010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D57E7AE1D0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD7BC010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D57C19C630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865C3B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D578048230 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863AFD010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D5776BA500 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208637C3010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D57CC51010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D577B2D010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001D577730010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863AFD010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001D57E7AE1D0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDF37040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001D57C2B0030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDF37040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001D57C2B0030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636843E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001D57D595200 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDF37040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001D57CFC5C20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE146E20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D57C19C630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDC6B890 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001D57DAFC020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862AE0020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001D577801F30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001D577AA2C70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208667A4A40 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001D57DAFC020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862748C20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001D5779D7650 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636EAA00 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001D577851700 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE0A020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D577943C30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865C3B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D57EC8BE20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDD229F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001D57E540080 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001D57750A270 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDC5B190 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001D57CDF8030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865F50A20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001D57EC93E30 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865C3B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2340.
-Total: 1.913200 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 1.463300 ms  DeleteObjects: 0.100700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 293.006053 seconds.
-  path: Assets/Scenes/StageScene.unity
-  artifactKey: Guid(ce5d24b8b21a46b43960aff9636c4618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StageScene.unity using Guid(ce5d24b8b21a46b43960aff9636c4618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05538a73a3c8202a0d41dfd7d8ec6e69') in 0.026024 seconds
-  Import took 0.031886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.681516 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(cd43e3d6fc27d7c4ab2fd3096ae94a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(cd43e3d6fc27d7c4ab2fd3096ae94a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aadd58faa6ea4f0c1333588f7385de') in 0.022785 seconds
-  Import took 0.030705 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001160 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865DDD030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE079F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862D41D50 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866774E50 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE086010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208663B7260 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866982020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8D6800 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862E7E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE086010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208637C3010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8335B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866982020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8D6800 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862669030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208740F32B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8D6800 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086633E830 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020864504F20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863D77040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020864504F20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BDD4F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD835E70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866136C10 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086305D620 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862338C60 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9810 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866302660 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865E0AA40 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208644F4060 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 2.521900 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.076400 ms MarkObjects: 1.923300 ms  DeleteObjects: 0.166300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001123 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865F23010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE07270 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866451E10 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD97B590 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDD5D010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208663B7260 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F2CA0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863186040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD76E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDD5D010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208740F4070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F2CA0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8B8020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086399F040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD7E8420 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8B8020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863A23030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020864504F20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863D77040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208740F4070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020864504F20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BDD4F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862C53030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862B56440 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086305D620 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD57F370 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9DB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8B8020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE055020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD76E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.919 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2348.
-Total: 2.068100 ms (FindLiveObjects: 0.371600 ms CreateObjectMapping: 0.114900 ms MarkObjects: 1.457100 ms  DeleteObjects: 0.122600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.519676 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38d2ff02668c2ee2d77baa5160e1b50') in 0.012209 seconds
-  Import took 0.015622 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000901 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002086761E040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE07270 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862D41D50 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863907EC0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208628E7010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866625070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208628E7010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086318E070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086232FC40 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208628E7010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208628E7010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8D6800 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086399F040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862299CA0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208637F3070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086633E830 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086641FAF0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862AE0020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086641FAF0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE245430 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208663C0110 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDAD1010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086305D620 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086430B160 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9BD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208740F68F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD81E8D0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2352.
-Total: 1.993400 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.447200 ms  DeleteObjects: 0.124200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.269034 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(cd43e3d6fc27d7c4ab2fd3096ae94a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(cd43e3d6fc27d7c4ab2fd3096ae94a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffcc20e8665028eddba7e5282e89b5d') in 0.016529 seconds
-  Import took 0.024034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.978589 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea9860146e4dbb013e1d3de4c772564') in 0.004270 seconds
-  Import took 0.009157 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001426 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865F23010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE08170 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866451E10 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE086D70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F2CA0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866625070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020867640010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863186040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862857010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208623C9030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F2CA0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8B8020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086399F040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086232FC90 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208637F3070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE01020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862AE0020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE245430 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDF3E720 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDAD1010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086305D620 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208623A6070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9450 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086666B730 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE058470 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863DB9010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D57E812010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
@@ -800,545 +772,15 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2356.
-Total: 2.132100 ms (FindLiveObjects: 0.375800 ms CreateObjectMapping: 0.084800 ms MarkObjects: 1.541700 ms  DeleteObjects: 0.126000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.851791 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3ec348ff80e2a3c4109717347ae18e') in 0.020202 seconds
-  Import took 0.028001 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000839 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865A00080 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE079F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866451E10 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086266EBF0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866625070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDD65020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863E1D030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863E8B030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086399F040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE086B70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208637F3070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE01020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862AE0020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE245430 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208663C63E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDAD1010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862A1A020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636EA460 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863E8B030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086666F740 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD76E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
+- Completed reload, in  0.838 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 4.527700 ms (FindLiveObjects: 0.437900 ms CreateObjectMapping: 0.128100 ms MarkObjects: 3.828100 ms  DeleteObjects: 0.131600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000778 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865B3B040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE079F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE1DE390 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865A22010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086640BBB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863DB9010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865A22010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862D36020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862A1E030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086634CEF0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE01020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862AE0020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8BC030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863E26460 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDAD1010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086305D620 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862F32070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9810 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD93B020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086666F740 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863DB9010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 5.246500 ms (FindLiveObjects: 2.607200 ms CreateObjectMapping: 0.354300 ms MarkObjects: 2.128500 ms  DeleteObjects: 0.152200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001293 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865DDD030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE079F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866490020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862A1A070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208669B6020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086640BBB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863A0B030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE1DD630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862B6A470 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208669B6020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863A0B030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662FACB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865C9B050 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208642C7990 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662FACB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086633E830 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866650200 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020867B48050 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866650200 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE48170 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD835E70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020867B48050 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862B6A470 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636EA460 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662FACB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE055020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD76E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2368.
-Total: 4.762700 ms (FindLiveObjects: 0.881600 ms CreateObjectMapping: 1.010600 ms MarkObjects: 2.719000 ms  DeleteObjects: 0.148400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000786 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865DDD030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE08170 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDC89930 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F2CA0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086640BBB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863A0B030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE1DD630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862857010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F2CA0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862AC0050 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863A0B030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086399F040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862A1E030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086658A6D0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086399F040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE01020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020867B48050 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE48170 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD835E70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208641B8030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863DB9010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208669C3050 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9090 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086399F040 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE055020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863DB9010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2372.
-Total: 2.636100 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.123000 ms MarkObjects: 1.910100 ms  DeleteObjects: 0.145800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001112 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020865F23010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE08170 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866490020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865B31070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020867446010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086640BBB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE1DD630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F6CB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020867446010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD9819F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8B8020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208642C20C0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD991F70 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208637F3070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE01020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208678480A0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE24CCD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086679FA20 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8D2010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDF3E720 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDAD1010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208662F6CB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636EA460 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D99F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD8B8020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD6194D0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208623C9030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2376.
-Total: 5.081300 ms (FindLiveObjects: 0.241200 ms CreateObjectMapping: 0.088500 ms MarkObjects: 4.578300 ms  DeleteObjects: 0.171300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000969 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002086736A030 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE079F0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866451E10 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863ED5DB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086640BBB0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE1DD630 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020866660220 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863B6F020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE7E6E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636E7020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865BD11B0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086666B700 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020865C9B050 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086634C3E0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208637F3070 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE01020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863C1D010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208678480A0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636E7020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020863C1D010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDE48170 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FDF3E720 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208678480A0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020862A1A020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FE236060 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208635D9BD0 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002086666B700 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000208636E7020 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000209FD76E010 doesn't match image C:\Users\ahnw0\OneDrive\Desktop\Unity\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.815 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2380.
-Total: 2.441200 ms (FindLiveObjects: 0.464000 ms CreateObjectMapping: 0.162100 ms MarkObjects: 1.682900 ms  DeleteObjects: 0.130500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 2.238800 ms (FindLiveObjects: 0.506200 ms CreateObjectMapping: 0.140100 ms MarkObjects: 1.455400 ms  DeleteObjects: 0.134400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
