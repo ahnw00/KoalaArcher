@@ -9,11 +9,13 @@ public class SceneLoadManager : MonoBehaviour
 
     [SerializeField] private CanvasGroup sceneLoaderCanvasGroup;
     [SerializeField] private Image progressBar;
+    [SerializeField] private GameObject myKoala;
+    [SerializeField] private GameObject loadingBar;
     private string loadSceneName;
- 
+
     private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
         }
@@ -23,7 +25,7 @@ public class SceneLoadManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        
+
         DontDestroyOnLoad(gameObject);
         gameObject.SetActive(false);
     }
@@ -31,9 +33,11 @@ public class SceneLoadManager : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         gameObject.SetActive(true);
+        myKoala.SetActive(true);
+        loadingBar.SetActive(true);
         SceneManager.sceneLoaded += LoadSceneEnd;
         loadSceneName = sceneName;
-        
+
         StartCoroutine(Load(sceneName));
     }
 
@@ -74,7 +78,7 @@ public class SceneLoadManager : MonoBehaviour
 
     private void LoadSceneEnd(Scene scene, LoadSceneMode loadSceneMode)
     {
-        if(scene.name == loadSceneName)
+        if (scene.name == loadSceneName)
         {
             StartCoroutine(Fade(false));
             SceneManager.sceneLoaded -= LoadSceneEnd;
@@ -86,14 +90,14 @@ public class SceneLoadManager : MonoBehaviour
     {
         float timer = 0f;
 
-        while(timer <= 1f)
+        while (timer <= 1f)
         {
             yield return null;
             timer += Time.unscaledDeltaTime * 2f;
             sceneLoaderCanvasGroup.alpha = Mathf.Lerp(isFadeIn ? 0 : 1, isFadeIn ? 1 : 0, timer);
         }
 
-        if(!isFadeIn)
+        if (!isFadeIn)
         {
             gameObject.SetActive(false);
         }
