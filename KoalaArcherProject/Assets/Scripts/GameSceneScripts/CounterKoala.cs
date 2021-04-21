@@ -17,6 +17,7 @@ public class CounterKoala : MonoBehaviour
     public int resultScoreOfCounter;
     public Text textPrefab;
     public GameObject textParent;
+    public GameObject resultPopUp;
     Text scoreText;
     Text resultScore;
 
@@ -83,7 +84,8 @@ public class CounterKoala : MonoBehaviour
                 }
                 resultScore.text = resultScoreOfCounter.ToString();
                 resultScore.GetComponent<Text>().color = Color.black;
-                
+                yield return new WaitForSeconds(3f);
+                resultPopUp.SetActive(true);
                 break;
             }
         }
