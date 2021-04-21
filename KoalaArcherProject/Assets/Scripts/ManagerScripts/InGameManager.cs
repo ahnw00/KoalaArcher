@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InGameManager : MonoBehaviour
 {
     GameManager gameManager;
-    SaveDataClass saveData;
+    public SaveDataClass saveData;
     ScoreScript scoreScript;
     public StageClass stage;
     public GameObject angleBar;
@@ -176,6 +176,7 @@ public class InGameManager : MonoBehaviour
                 {
                     orderOfShot++;
                     scoreScript.InstantiationOfScoreText();
+                    scoreScript.ShowResultScore();
                 }
 
                 break;

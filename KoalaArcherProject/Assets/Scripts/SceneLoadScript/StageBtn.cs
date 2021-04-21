@@ -19,6 +19,7 @@ public class StageBtn : MonoBehaviour
             if(this.gameObject == stageBtnList[i])
             {
                 saveData.currentSelectedStage = saveData.stageList[i];
+                saveData.currentStageIndex = i;
             }
         }
 

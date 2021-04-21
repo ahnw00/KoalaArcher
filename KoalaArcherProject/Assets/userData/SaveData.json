@@ -11,5 +11,6 @@
         "timeLimit": 0.0
     },
     "isFirstTimeOfPlay": true,
-    "indexOfStageCompleted": 0
+    "indexOfStageCompleted": 0,
+    "currentStageIndex": 0
 }
