@@ -7,6 +7,6 @@ public class NewSaveBtn : MonoBehaviour
 {
     public void LoadStageScene()
     {
-        SceneLoadManager.instance.LoadScene("StageScene");
+        SceneLoadManager.instance.LoadScene("CutScene");
     }
 }
