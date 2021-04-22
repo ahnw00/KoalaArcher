@@ -9,13 +9,14 @@ public class ScoreAndImage : MonoBehaviour
     CounterKoala counterScoreScript;
     public Text resultScore;
     public GameObject resultImage;
-    public Image completedImage;
-    public Image failedImage;
+    public Sprite completedImage;
+    public Sprite failedImage;
     void Start()
     {
         inGameManager=FindObjectOfType<InGameManager>();
         scoreScript=FindObjectOfType<ScoreScript>();
         counterScoreScript=FindObjectOfType<CounterKoala>();
+
         StartCoroutine(ResultCoroutine());
         StartCoroutine(ResultSpriteCoroutine());
     }
@@ -27,25 +28,26 @@ public class ScoreAndImage : MonoBehaviour
             yield return null;
             if(inGameManager.orderOfShot - 1 == 9)
             {
-                resultScore.Text = scoreScript.resultScore.ToString();
+                resultScore.GetComponent<Text>().text = scoreScript.resultScore.ToString();
                 break;
             }
         }
     }
     
-    IEnumerator ResultSpriteCoroutine(){
+    IEnumerator ResultSpriteCoroutine()
+    {
         while(true)
         {
             yield return null;
             if(inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore > counterScoreScript.resultScoreOfCounter)
             {
-                resultImage.Image = completedImage;
+                resultImage.GetComponent<Image>().sprite = completedImage;
                 break;
             }
             
-            else if(inGameManager.orederOfShot - 1 == 9 && scoreScript.resultScore <= counterScoreScript.resultScoreOfCounter)
+            else if(inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore <= counterScoreScript.resultScoreOfCounter)
             {
-                resultImage.Image=failedImage;
+                resultImage.GetComponent<Image>().sprite = failedImage;
                 break;
             }
         }

@@ -1464,7 +1464,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 13, y: -114}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &739413243
 MonoBehaviour:
@@ -1487,8 +1487,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 150
+    m_Font: {fileID: 12800000, guid: 87a1f88e62ff14b48b2dec88d5029431, type: 3}
+    m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -3692,7 +3692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1657431935
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3715,7 +3715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -63.559998}
+  m_AnchoredPosition: {x: 0, y: -63.56006}
   m_SizeDelta: {x: 0, y: -659.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657431936
@@ -3768,6 +3768,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c6ba2d20a12aa4783e7dbf8e19f11c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultScore: {fileID: 739413243}
+  resultImage: {fileID: 1223602884}
+  completedImage: {fileID: 21300000, guid: 53680b1b76132b94f87ff32cec48b304, type: 3}
+  failedImage: {fileID: 21300000, guid: 15d38e536ab448d41b6e81fef9851794, type: 3}
 --- !u!1 &1725845121
 GameObject:
   m_ObjectHideFlags: 0
@@ -3934,7 +3938,6 @@ GameObject:
   - component: {fileID: 1860486460}
   - component: {fileID: 1860486459}
   - component: {fileID: 1860486458}
-  - component: {fileID: 1860486457}
   m_Layer: 5
   m_Name: GameToStageBtn
   m_TagString: Untagged
@@ -3962,18 +3965,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -683}
   m_SizeDelta: {x: 480, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1860486457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860486455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 504b70608bf98d7439ccc781e76a8614, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1860486458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4018,7 +4009,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860486457}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameToStageBtn, Assembly-CSharp
         m_MethodName: changeToStage
         m_Mode: 1
