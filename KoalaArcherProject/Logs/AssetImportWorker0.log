@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'ko' Physical Memory: 8001 MB
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'ko' Physical Memory: 8090 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,465 +11,461 @@ C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject
+E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2003
-Successfully changed project path to: C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject
-C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject
+57943
+Successfully changed project path to: E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject
+E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 126.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject/Assets
+[Subsystems] Discovering subsystems at path E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
     Vendor:   
-    VRAM:     1983 MB
-    Driver:   27.21.14.5167
+    VRAM:     4045 MB
+    Driver:   20.19.15.4549
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005929 seconds.
+Registered in 0.012947 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.441 seconds
+- Completed reload, in  2.497 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004419 seconds.
+Registered in 0.003805 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002586BA5D590 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000002A97F550600 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B2B8320 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000002A97EFA42C0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258712B0350 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002A97FA5E5D0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B99C420 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000002A97F5B2030 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B9AD960 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000002A97F575210 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B879880 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002A97F51D820 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BC61230 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002A97F690130 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B9AD960 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002A97F575210 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BC38280 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002A97F70C440 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BA5D590 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002A7C844E020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B81C010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002A7C847BA30 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BA8AFA0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000002A97FA5E5D0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BC61230 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000002A97F1B8D80 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870AF9E20 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000002A97F71D850 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BA54A10 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000002A7C8CA9030 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B88CC90 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002A97F690130 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586FE70010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002A7C76D0080 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BA8AFA0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000002A97FA5E5D0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870174020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000002A7C7AAA020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B8A3B30 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000002A97F54A840 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B72F2F0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000002A97F2724C0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870174020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002A7C7AAA020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870AF9E20 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002A7C7B33C40 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870E1E090 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002A97F1E2440 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B57D240 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000002A97F257FD0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870406520 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000002A97F1B8D80 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BA8AFA0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000002A97FA5E5D0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B9AD960 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000002A7C7B33C40 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.023 seconds
+- Completed reload, in  1.843 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.8 MB.
+Unloading 1831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2275.
-Total: 5.415200 ms (FindLiveObjects: 0.426400 ms CreateObjectMapping: 0.234900 ms MarkObjects: 4.336600 ms  DeleteObjects: 0.413600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/CounterScore.prefab
-  artifactKey: Guid(29b27718bafc62d4688db4716f96b53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CounterScore.prefab using Guid(29b27718bafc62d4688db4716f96b53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05c2bd07d4dc0a9f2e8ab488e6f7b99') in 0.203815 seconds
-  Import took 0.211293 seconds .
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 3.592000 ms (FindLiveObjects: 0.313900 ms CreateObjectMapping: 0.147000 ms MarkObjects: 2.969900 ms  DeleteObjects: 0.159600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000763 seconds.
-  path: Assets/Prefabs/SceneLoader.prefab
-  artifactKey: Guid(d7b2757fb806a8d42bd0a48c4cb37be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SceneLoader.prefab using Guid(d7b2757fb806a8d42bd0a48c4cb37be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ae5520932494ad6acfccf8a4c2a596') in 0.059154 seconds
-  Import took 0.069409 seconds .
+  path: Assets/Scripts/MainSceneScripts
+  artifactKey: Guid(e9b3e2caab18c2f43a6bb1c376c75dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainSceneScripts using Guid(e9b3e2caab18c2f43a6bb1c376c75dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b592ca5a400a605f1017a9f77ac606') in 0.040972 seconds
+  Import took 0.050072 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000662 seconds.
-  path: Assets/Prefabs/Score.prefab
-  artifactKey: Guid(36d41f932c407ac4390be04e6fb969e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Score.prefab using Guid(36d41f932c407ac4390be04e6fb969e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9481ad99b464ea22cd4df083fa3ea96') in 0.046048 seconds
-  Import took 0.054620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Prefabs/SoundManager.prefab
-  artifactKey: Guid(38680b5ef53573b429103533f61a00a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SoundManager.prefab using Guid(38680b5ef53573b429103533f61a00a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688e0a1062420b8c091b980d132748c9') in 0.025054 seconds
-  Import took 0.031925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001272 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a320fcf552a2630620d9b78cf62af60') in 0.016084 seconds
-  Import took 0.024556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/Prefabs/GameManager.prefab
-  artifactKey: Guid(0097542fa4d84a9459d7faa5ed2b9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManager.prefab using Guid(0097542fa4d84a9459d7faa5ed2b9014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd59b12d4c40350799e3f5fe3a6dfdb') in 0.019102 seconds
-  Import took 0.027620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Prefabs/PausePopUp.prefab
-  artifactKey: Guid(ec701d775407aa14598feff828bdb5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PausePopUp.prefab using Guid(ec701d775407aa14598feff828bdb5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed6dbde3f65d65950d547b0ad55bd01') in 0.047104 seconds
-  Import took 0.053629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.558465 seconds.
-  path: Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs
-  artifactKey: Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs using Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f040448236ee07eadaf5ef8ff83d5bc') in 0.028358 seconds
-  Import took 0.035200 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 18.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 52.4 MB.
-System memory in use after: 52.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2277.
-Total: 7.860700 ms (FindLiveObjects: 0.465200 ms CreateObjectMapping: 0.267800 ms MarkObjects: 6.792200 ms  DeleteObjects: 0.331000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.969094 seconds.
-  path: Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs
-  artifactKey: Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs using Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44851a0fbd663ec47b693a4af50ea2c') in 0.013465 seconds
-  Import took 0.020486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.305261 seconds.
-  path: Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs
-  artifactKey: Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs using Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3bab52a7275434145d0ca0f761ddcd') in 0.009101 seconds
-  Import took 0.013268 seconds .
+  Time since last request: 0.000847 seconds.
+  path: Assets/Scripts/MainSceneScripts/ActivateSetting.cs
+  artifactKey: Guid(7ccb3b9be9a2df148b6a248e59e9f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainSceneScripts/ActivateSetting.cs using Guid(7ccb3b9be9a2df148b6a248e59e9f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0ce7dd05c39a4941cf36269b59438b') in 0.150718 seconds
+  Import took 0.159045 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010052 seconds.
+Registered in 0.006856 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002586BA5D590 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000002A97F550600 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586FFE5AC0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000002A7CAA4A820 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258704B0A30 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002A97F182050 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870B59790 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000002A7CAA22A50 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870E0F970 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000002A97F60DF60 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872B2C020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002A7CA9C6790 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870E0F970 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002A7CA8EB340 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870E0F970 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002A97F60DF60 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872B2C020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002A7CA9C6790 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B839D00 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002A7C7CA2020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BE21880 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002A7C7866390 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BC7C7B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000002A7CA93C900 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258724D11B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000002A7CA8EB340 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258724D11B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000002A7C8FF4010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B8A6D30 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000002A7C900F460 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586FF14820 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002A7CA9A0CC0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B8FD010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002A7CA671020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BC7C7B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000002A7CA93C900 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B9A0920 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000002A7C8ECC020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000256C30A2540 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000002A7CA986EC0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258712BCE40 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000002A7C97ABB90 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258713BC020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002A7C7A56020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870C88FA0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002A7CA619010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BCF4860 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002A7C8B88040 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B57D7E0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000002A7CAA24F20 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B9A0920 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000002A7CA91BEF0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258704B0A30 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000002A7C8C0E1F0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870C1BE20 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000002A7CA9B6260 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.966 seconds
+- Completed reload, in  2.026 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.9 MB.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2281.
-Total: 6.218700 ms (FindLiveObjects: 0.523300 ms CreateObjectMapping: 0.199700 ms MarkObjects: 5.257300 ms  DeleteObjects: 0.234500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.303280 seconds.
-  path: Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs
-  artifactKey: Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs using Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58c9c8144dcc04b37ea703b0c2529a2') in 0.013732 seconds
-  Import took 0.019376 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 3.051500 ms (FindLiveObjects: 0.378500 ms CreateObjectMapping: 0.142300 ms MarkObjects: 2.345700 ms  DeleteObjects: 0.183300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011064 seconds.
-  path: Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs
-  artifactKey: Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameSceneScripts/ResultPopUp/NextStageBtn.cs using Guid(b658addfcac62494f84f4a0f4f2a99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58c9c8144dcc04b37ea703b0c2529a2') in 0.009262 seconds
-  Import took 0.014037 seconds .
+  Time since last request: 69.102880 seconds.
+  path: Assets/Scripts/MainSceneScripts/ActivateSetting.cs
+  artifactKey: Guid(7ccb3b9be9a2df148b6a248e59e9f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainSceneScripts/ActivateSetting.cs using Guid(7ccb3b9be9a2df148b6a248e59e9f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62fadd5e6ff664055e0a7d7fb3ebae8') in 0.032533 seconds
+  Import took 0.037366 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005201 seconds.
+Registered in 0.003951 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025870186010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000002A97F550600 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586FFE5340 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000002A7CAA51E50 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870E197A0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002A97FA99890 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258731378F0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000002A7CA8ADCC0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872CBBEF0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000002A7C7848A20 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258724D11B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002A7C97AA010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872C31D90 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002A7CA8FAF90 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872CBBEF0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002A7CAA2F310 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258724D11B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002A7C9234020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B839D00 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002A7C7CA2020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BE21880 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002A7C97AA010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870E197A0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000002A7CA65BC20 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872B3B2B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000002A7CA8FAF90 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872CBBEF0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000002A7CAA3CEC0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B7D2310 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000002A7CA997520 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258721D1E40 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002A7C9FFDE90 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870055010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002A97FBCA360 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870E197A0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000002A7C94E56C0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B879880 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000002A7C7E9A020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872EBCB80 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000002A7CA703A20 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258707AB620 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000002A7C7869130 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B951CB0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002A7C7C4E020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870B56D50 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002A7CA9C6790 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B7BE100 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002A97F57BBC0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B57D600 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000002A7C9A536A0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872B3B2B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000002A7C81C9230 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586FF17020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000002A97F616970 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870B56D50 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000002A7CA1B4010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.177 seconds
+- Completed reload, in  2.038 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.9 MB.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2285.
-Total: 6.122600 ms (FindLiveObjects: 0.661800 ms CreateObjectMapping: 0.279000 ms MarkObjects: 5.009300 ms  DeleteObjects: 0.168600 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2284.
+Total: 5.845000 ms (FindLiveObjects: 0.408100 ms CreateObjectMapping: 0.174300 ms MarkObjects: 5.045700 ms  DeleteObjects: 0.212600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009068 seconds.
+Registered in 0.003156 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000258703DB030 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000002A7CA9D7350 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586FFE5340 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000002A7CAA4E520 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B6D9520 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002A7CB5DECC0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258731337A0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000002A7CAD0F260 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BB68040 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000002A97F5A8010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025873149040 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002A7CA78D010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B9BF150 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002A7C834A1A0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BB68040 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002A97F5A8010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002587211C020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002A97F50D360 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B839D00 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002A7CA637010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002587169D420 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002A7CB5FC8D0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B6D9520 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000002A7CA94A930 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872B3B2B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000002A7CA8FAF90 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586BB68040 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000002A7C91F4030 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258726F08E0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000002A7CA9A7EF0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872C31D60 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002A7C834A1A0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025870055010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002A7CABC4230 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B6D9520 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000002A7C7DD7230 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B879880 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000002A7C8ECC020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B70B010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000002A97F17AA30 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B72F2F0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000002A97F6EFDD0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002587275D030 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002A97FAB9040 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872513010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002A7CA805020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872FE1D00 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002A7CA808AB0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B57D7E0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000002A7C843CD80 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025872B3B2B0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000002A7C7A90040 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B6D9520 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000002A97F616970 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002587211C020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000002A7CA1B4010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.383 seconds
+- Completed reload, in  1.821 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 88.0 MB.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
-Total: 5.794000 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.139700 ms MarkObjects: 4.984000 ms  DeleteObjects: 0.297400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2288.
+Total: 4.348500 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.113400 ms MarkObjects: 3.709200 ms  DeleteObjects: 0.208400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004207 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A7CB4FA040 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CAA4E520 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C8312890 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A97F580430 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA98A7F0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C7BD8010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA6AD090 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A97F5A8010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CB6448D0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA637010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A97FAD1060 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A97F29C800 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA8FAF90 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C91F4030 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA3E6040 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C82F6010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CB653110 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A97F29C800 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CAB1C920 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A97F29C800 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA78D060 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C95F20A0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA907370 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C9A17080 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C82FD440 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C947C010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7C827A010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A7CA1B4010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 2.717200 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.079300 ms MarkObjects: 2.240800 ms  DeleteObjects: 0.162200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
