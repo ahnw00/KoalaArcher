@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'ko' Physical Memory: 8090 MB
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'ko' Physical Memory: 8001 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,337 +11,201 @@ C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject
+C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63997
-Successfully changed project path to: E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject
-E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject
+3421
+Successfully changed project path to: C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject
+C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 87.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/홍익대학교(2019~)/3학년 1학기/ExP 학프 4팀/KoalaArcher/KoalaArcherProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/김유진/OneDrive/문서/GitHub/KoalaArcher/KoalaArcherProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
     Vendor:   
-    VRAM:     4045 MB
-    Driver:   20.19.15.4549
+    VRAM:     1983 MB
+    Driver:   27.21.14.5167
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012769 seconds.
+Registered in 0.009640 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 64.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.481 seconds
+- Completed reload, in  4.563 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004807 seconds.
+Registered in 0.009902 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000014E6D032010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D40AE8BDB0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6C415E80 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D40A505240 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6C66B650 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D40A9C04E0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6CE55820 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D40B1AA020 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E7195C5C0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D40AB64220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E7195C5C0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D40AE8BDB0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6CFFF650 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D40B1E0010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E7195C5C0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D40AB64220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E7195C5C0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D40FBF6420 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E70F14020 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D40F312010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E70F41A30 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D40F33FA20 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6D066220 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001D40AF6E700 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6CFFF650 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001D40AB64220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E719645D0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001D40AB64220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6C6903B0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001D410930220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6C9EB960 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D40AB64220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6C8E9CD0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001D40F122010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E719BD450 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001D40B10EC30 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E70D9C010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001D40F420010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6D066220 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001D40B2AA620 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E72061DD0 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001D40A9B85A0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E70D9C010 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D40F420010 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6CB75E10 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D40AB64220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6C856C00 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001D40A91FB80 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6CE5B290 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001D40B0259C0 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6CFFF650 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001D40AB64220 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E712A2040 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001D40AB6BC30 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E6CB75E10 doesn't match image E:\홍익대학교(2019~)\3학년 1학기\ExP 학프 4팀\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D40F44DE30 doesn't match image C:\Users\김유진\OneDrive\문서\GitHub\KoalaArcher\KoalaArcherProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.22 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 111.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.062 seconds
+- Completed reload, in  2.276 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.8 MB.
-System memory in use after: 85.8 MB.
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2277.
-Total: 3.069300 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.594800 ms  DeleteObjects: 0.165100 ms)
+Total: 6.908200 ms (FindLiveObjects: 0.542700 ms CreateObjectMapping: 0.254500 ms MarkObjects: 5.664700 ms  DeleteObjects: 0.442500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites
-  artifactKey: Guid(8017c15fc232dd4499e319dd704d4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(8017c15fc232dd4499e319dd704d4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24072f6e3c3c16bddd8079a3f16b140') in 0.042173 seconds
-  Import took 0.048259 seconds .
+  path: Assets/Animations/GameSceneAnims/Good.controller
+  artifactKey: Guid(74ad1baf705ebc34d82ede0bbb8a379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Good.controller using Guid(74ad1baf705ebc34d82ede0bbb8a379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c32cf3b9da04c3b19eb8349681726b') in 0.173792 seconds
+  Import took 0.181683 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.936532 seconds.
-  path: Assets/Sprites/PausePopUpSprites
-  artifactKey: Guid(32730556eafe6d84996052bb502e6548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites using Guid(32730556eafe6d84996052bb502e6548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ca6252efefb2d4b67230c8b9cfbdfe') in 0.157662 seconds
-  Import took 0.165333 seconds .
+  Time since last request: 14.874794 seconds.
+  path: Assets/Animations/GameSceneAnims/Good.anim
+  artifactKey: Guid(38d9718463fdae04cb747ecb0002a32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Good.anim using Guid(38d9718463fdae04cb747ecb0002a32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a8ad9d9a6c8619d233d186f00166a7') in 0.036158 seconds
+  Import took 0.045323 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006263 seconds.
-  path: Assets/Sprites/PausePopUpSprites/x버튼.png
-  artifactKey: Guid(ee4d1bebd336246489c694452f3588e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/x버튼.png using Guid(ee4d1bebd336246489c694452f3588e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38193977667765d8fc0193d5be17d46e') in 0.340858 seconds
-  Import took 0.346653 seconds .
+  Time since last request: 131.985703 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(93015809090bcae47966b3969343e0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a7db8d9eabdca9798aebddde6cd168') in 0.019237 seconds
+  Import took 0.028222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Sprites/PausePopUpSprites/일시정지배경.png
-  artifactKey: Guid(1e9838e6916cc2d419a36c28fa47d296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/일시정지배경.png using Guid(1e9838e6916cc2d419a36c28fa47d296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097cd92c6b6273661ab35c417e45323b') in 0.328031 seconds
-  Import took 0.336805 seconds .
+  Time since last request: 268.136994 seconds.
+  path: Assets/Animations/GameSceneAnims/Miss.controller
+  artifactKey: Guid(791706c315dc4d3458ae26f2f4700567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Miss.controller using Guid(791706c315dc4d3458ae26f2f4700567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d89d6d6133cf0ce1cdc12876bbed6e') in 0.024476 seconds
+  Import took 0.033652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000967 seconds.
-  path: Assets/Sprites/PausePopUpSprites/효과음게이지.png
-  artifactKey: Guid(d2f327285a032da46a6b1966bbfabec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/효과음게이지.png using Guid(d2f327285a032da46a6b1966bbfabec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550833763258b30d1c97f9e2f21cbd59') in 0.095356 seconds
-  Import took 0.108188 seconds .
+  Time since last request: 5.496409 seconds.
+  path: Assets/Animations/GameSceneAnims/Miss.anim
+  artifactKey: Guid(e8ed3229b651b9244952eb2c2c23eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Miss.anim using Guid(e8ed3229b651b9244952eb2c2c23eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68da0b5134e404216dcb75cdd22d901') in 0.024904 seconds
+  Import took 0.038258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000823 seconds.
-  path: Assets/Sprites/PausePopUpSprites/스테이지 선택.png
-  artifactKey: Guid(b09031a5eb7cce04393eb9cc08c087ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/스테이지 선택.png using Guid(b09031a5eb7cce04393eb9cc08c087ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bcdb675b95df9066c77758076940f9') in 0.104400 seconds
-  Import took 0.116098 seconds .
+  Time since last request: 347.014852 seconds.
+  path: Assets/Animations/GameSceneAnims/Strong.controller
+  artifactKey: Guid(4eec474c4a6bfc44c972797df5e0aef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Strong.controller using Guid(4eec474c4a6bfc44c972797df5e0aef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6320865cce343b4cb2b9cff1d6a15962') in 0.033035 seconds
+  Import took 0.049154 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Sprites/PausePopUpSprites/효과음.png
-  artifactKey: Guid(96234c6e7e0aa7143a7ea8ffa6e8c4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/효과음.png using Guid(96234c6e7e0aa7143a7ea8ffa6e8c4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed079b952d63686cc88200098980f8') in 0.068919 seconds
-  Import took 0.074259 seconds .
+  Time since last request: 8.048972 seconds.
+  path: Assets/Animations/GameSceneAnims/Strong.anim
+  artifactKey: Guid(b14bc2bbbb8a0b1489fdc46ff5626c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Strong.anim using Guid(b14bc2bbbb8a0b1489fdc46ff5626c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734e99d1b476d55d7c8815b0352e6dae') in 0.016495 seconds
+  Import took 0.025042 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Sprites/PausePopUpSprites/게임 종료.png
-  artifactKey: Guid(870d8393a3fb254449c3758786a632f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/게임 종료.png using Guid(870d8393a3fb254449c3758786a632f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd778bfb9c773b1b357b6d25b514c4b7') in 0.094459 seconds
-  Import took 0.099513 seconds .
+  Time since last request: 86.409235 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(c4c4030c060c6a3408df6722a5cc178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(c4c4030c060c6a3408df6722a5cc178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d8f17c7598f65e875ad16cf87cf6e8') in 0.041395 seconds
+  Import took 0.055121 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Sprites/PausePopUpSprites/배경음커서.png
-  artifactKey: Guid(b8a390d822d5e254bbc7eeb949b37802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/배경음커서.png using Guid(b8a390d822d5e254bbc7eeb949b37802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5f8021e60bc8f45d5f4e14b25f8c55') in 0.086028 seconds
-  Import took 0.092920 seconds .
+  Time since last request: 5.698040 seconds.
+  path: Assets/Animations/GameSceneAnims/Weak.controller
+  artifactKey: Guid(21dc7c0975e924f49872975401aff2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Weak.controller using Guid(21dc7c0975e924f49872975401aff2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be375177768093a8a1b5d114566784f7') in 0.026101 seconds
+  Import took 0.038857 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Sprites/PausePopUpSprites/효과음게이지바.png
-  artifactKey: Guid(c1e8e23b597a43b4f85883a5828baac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/효과음게이지바.png using Guid(c1e8e23b597a43b4f85883a5828baac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81855689c46c9bd3c5086e8d9fd1577a') in 0.088093 seconds
-  Import took 0.096896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Sprites/PausePopUpSprites/배경음.png
-  artifactKey: Guid(aedb6217eac16dd489e89285c330f367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/배경음.png using Guid(aedb6217eac16dd489e89285c330f367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12020a7167ac069ac7922d357a8baab') in 0.077926 seconds
-  Import took 0.091240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Sprites/PausePopUpSprites/효과음커서.png
-  artifactKey: Guid(1a7edb3094203524b9a6cece46e67805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/효과음커서.png using Guid(1a7edb3094203524b9a6cece46e67805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442b8628fa5c68ca8385aff292956894') in 0.082553 seconds
-  Import took 0.091007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Sprites/PausePopUpSprites/배경음게이지바.png
-  artifactKey: Guid(5712e7be36883b448a28fe51e3ac5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/배경음게이지바.png using Guid(5712e7be36883b448a28fe51e3ac5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1b941a090962d4b42d966a83c06ab2') in 0.083234 seconds
-  Import took 0.088955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Sprites/PausePopUpSprites/배경음게이지.png
-  artifactKey: Guid(fd8c4f26d5850ec44b77539df458b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PausePopUpSprites/배경음게이지.png using Guid(fd8c4f26d5850ec44b77539df458b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de2b83a9e399318566b4eb188bf5d17') in 0.080725 seconds
-  Import took 0.087522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 260.795466 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/COMPLETE.png
-  artifactKey: Guid(53680b1b76132b94f87ff32cec48b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/COMPLETE.png using Guid(53680b1b76132b94f87ff32cec48b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae7b661c6676c1d4df94d135aac2c84') in 0.096951 seconds
-  Import took 0.105108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/STAGE 5.png
-  artifactKey: Guid(40c383d663fa3744c9299df863855e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/STAGE 5.png using Guid(40c383d663fa3744c9299df863855e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872f6218a93f1e8beac5139ef1115274') in 0.092461 seconds
-  Import took 0.097141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/your score.png
-  artifactKey: Guid(1da3bd0bcf8ea0449b7388846357b993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/your score.png using Guid(1da3bd0bcf8ea0449b7388846357b993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31fed8efdd906ab9e70afbc9087ebf3') in 0.091545 seconds
-  Import took 0.096522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/다음 스테이지.png
-  artifactKey: Guid(7ab53bf62b8d97f4c8053d826b18cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/다음 스테이지.png using Guid(7ab53bf62b8d97f4c8053d826b18cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dc6fc6f62ac1d57c0f5aa43d905b97') in 0.099510 seconds
-  Import took 0.104662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/STAGE 2.png
-  artifactKey: Guid(b3107fc5ea24c3f4bb62b9ee93bfbb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/STAGE 2.png using Guid(b3107fc5ea24c3f4bb62b9ee93bfbb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f710b0effd548ce3fb42b226473c9d4d') in 0.092457 seconds
-  Import took 0.097437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/STAGE 3.png
-  artifactKey: Guid(30d52f7ad56fd0f43b6b899779c56d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/STAGE 3.png using Guid(30d52f7ad56fd0f43b6b899779c56d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78b5ade3b3a70ba194975cda3507b55') in 0.085110 seconds
-  Import took 0.090087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/STAGE 4.png
-  artifactKey: Guid(eed7682cba4540d42909949c330440e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/STAGE 4.png using Guid(eed7682cba4540d42909949c330440e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b27040495fcd4a48e5a559ce010c6d') in 0.080858 seconds
-  Import took 0.086164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/STAGE 1.png
-  artifactKey: Guid(a0a44b5af49b03149833536fa7b261e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/STAGE 1.png using Guid(a0a44b5af49b03149833536fa7b261e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb668c6f05ed785fd1aa83a7aa45ea8') in 0.090368 seconds
-  Import took 0.094775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/다시하기.png
-  artifactKey: Guid(4ddcb63e01330a0499c774fbc3e0adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/다시하기.png using Guid(4ddcb63e01330a0499c774fbc3e0adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194c52475585f18559c0facf18890fb1') in 0.097394 seconds
-  Import took 0.102554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/failed.png
-  artifactKey: Guid(15d38e536ab448d41b6e81fef9851794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/failed.png using Guid(15d38e536ab448d41b6e81fef9851794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e86b33446536de528206476e5edbeb') in 0.237655 seconds
-  Import took 0.250512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000910 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/X버튼.png
-  artifactKey: Guid(2ac7b063214dc364db6eafaa2427bbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/X버튼.png using Guid(2ac7b063214dc364db6eafaa2427bbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bbf9bf1d87c4edb8ddfdaff1b403df') in 0.105842 seconds
-  Import took 0.119266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Sprites/InGamePopUpSprites/배경.png
-  artifactKey: Guid(6040f3e7a1ca2de4ea2869091ac0f102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/InGamePopUpSprites/배경.png using Guid(6040f3e7a1ca2de4ea2869091ac0f102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1466ee7c6e4f6e9429c6e5fe4645a93') in 2.463193 seconds
-  Import took 2.470350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.241158 seconds.
-  path: Assets/Scripts/SoundScripts/SoundController.cs
-  artifactKey: Guid(e8f39c13686ed594f9b947364372605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SoundScripts/SoundController.cs using Guid(e8f39c13686ed594f9b947364372605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fa48bb6b4efceec41b835803bf60a0') in 6.023190 seconds
-  Import took 6.032436 seconds .
+  Time since last request: 9.039191 seconds.
+  path: Assets/Animations/GameSceneAnims/Weak.anim
+  artifactKey: Guid(cd8db584ebfa39845921a458fbd520c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GameSceneAnims/Weak.anim using Guid(cd8db584ebfa39845921a458fbd520c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479efb16ced48970a50ebf84eb16540f') in 0.023540 seconds
+  Import took 0.034760 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
