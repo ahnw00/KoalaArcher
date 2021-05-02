@@ -11,6 +11,12 @@ public class InGameManager : MonoBehaviour
     public StageClass stage;
     public GameObject angleBar;
     public GameObject powerGaugeBar;
+    public GameObject perfect;
+    public GameObject good;
+    public GameObject miss;
+    public GameObject strong;
+    public GameObject weak;
+    public bool isPaused;
     public bool isOnAmingCoroutine;
     public bool isOnPowerGaugeCoroutine;
     public int currentAmingScore;
@@ -20,6 +26,8 @@ public class InGameManager : MonoBehaviour
     public bool whileShooting; //패널을 터치할때 슈팅하고 있을때만 터치할 수 있도록
     public float timer;
     public int numberOfClicked;
+    public IEnumerator angleCoroutine;
+    public IEnumerator powerCoroutine;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +37,7 @@ public class InGameManager : MonoBehaviour
         stage = saveData.currentSelectedStage;
         scoreScript = FindObjectOfType<ScoreScript>();
         scoreList = new List<int>();
+        isPaused = false;
         numberOfClicked = 0;
         orderOfShot = 0;
         timer = 0;
@@ -37,7 +46,10 @@ public class InGameManager : MonoBehaviour
             scoreList.Add(0);
         }
 
-        StartCoroutine(AngleAmingCoroutine());
+        angleCoroutine = AngleAmingCoroutine();
+        powerCoroutine = PowerGaugeCoroutine();
+
+        StartCoroutine(angleCoroutine);
     }
 
     // Update is called once per frame
@@ -86,7 +98,12 @@ public class InGameManager : MonoBehaviour
                 isOnAmingCoroutine = false;
                 StartCoroutine(PowerGaugeCoroutine());
                 break;
-            }       
+            }   
+
+            while(isPaused)
+            {
+                yield return null;
+            } 
         }        
     }
 
@@ -97,6 +114,8 @@ public class InGameManager : MonoBehaviour
         while(true)
         {
             yield return null;
+            isPaused = false;
+            numberOfClicked = 0;
             isOnPowerGaugeCoroutine = true;
             float powerGaugeFillAmount = powerGaugeBar.GetComponent<Image>().fillAmount;
 
@@ -112,6 +131,7 @@ public class InGameManager : MonoBehaviour
                 {
                     currentPowerScore = 1;
                     scoreList[orderOfShot] += currentPowerScore * 2;
+                    strong.SetActive(true);
 
                     switch(scoreList[orderOfShot])
                     {
@@ -136,6 +156,7 @@ public class InGameManager : MonoBehaviour
                 {
                     currentPowerScore = 0;
                     scoreList[orderOfShot] += currentPowerScore * 2;
+                    weak.SetActive(true);
 
                     switch(scoreList[orderOfShot])
                     {
@@ -168,8 +189,8 @@ public class InGameManager : MonoBehaviour
                 {
                     orderOfShot++;
                     scoreScript.InstantiationOfScoreText();
-                    yield return new WaitForSeconds(3f);
-                    StartCoroutine(AngleAmingCoroutine());
+                    //yield return new WaitForSeconds(3f);
+                    //StartCoroutine(AngleAmingCoroutine());
                 }
                 //10번째 슈팅일 경우, 더 이상 코루틴을 실행하지 않는다.
                 else if(orderOfShot == 9)

@@ -20,7 +20,7 @@ public class SoundController : MonoBehaviour
         //value값을 계속 맞춰주는 작업
         //여기서 bgm, soundeffect를 모두 관리
 
-        bgmSource = bgmSlider.value;
-        effectSource = effectSlider.value;
+        bgmSource.volume = bgmSlider.value;
+        effectSource.volume = effectSlider.value;
     }
 }

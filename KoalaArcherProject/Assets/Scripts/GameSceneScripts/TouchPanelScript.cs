@@ -20,11 +20,12 @@ public class TouchPanelScript : MonoBehaviour
         {
             inGameManager.numberOfClicked++;
         }
+
         //클릭 횟수가 두번이고, 각도 조준하는 중일때 터치를 받으면 일어나는 일들
         if(inGameManager.isOnAmingCoroutine && inGameManager.numberOfClicked == 2)
         {
-            inGameManager.StopAllCoroutines();
-            inGameManager.numberOfClicked = 0;
+            inGameManager.isPaused = true;
+            inGameManager.numberOfClicked++;
             inGameManager.isOnAmingCoroutine = false;
             float angleBarEulerZ = inGameManager.angleBar.GetComponent<RectTransform>().eulerAngles.z;
 
@@ -33,20 +34,22 @@ public class TouchPanelScript : MonoBehaviour
             {
                 inGameManager.currentAmingScore = 2;
                 inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
+                inGameManager.perfect.SetActive(true);
             }
             else if((angleBarEulerZ >= 190.4 && angleBarEulerZ < 215.5) || (angleBarEulerZ >= 145.1 && angleBarEulerZ < 170.9))
             {
                 inGameManager.currentAmingScore = 1;
                 inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
+                inGameManager.good.SetActive(true);
             }
             else if((angleBarEulerZ >= 215.5 && angleBarEulerZ < 253.5) || (angleBarEulerZ >= 102.6 && angleBarEulerZ < 145.1))
             {
                 inGameManager.currentAmingScore = 0;
                 inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
+                inGameManager.miss.SetActive(true);
             }
             
-            inGameManager.isOnAmingCoroutine = false;
-            StartCoroutine(inGameManager.PowerGaugeCoroutine());
+            //StartCoroutine(inGameManager.PowerGaugeCoroutine());
         }
 
         //파워 게이지 코루틴이 돌아가는 중에 터치를 받으면 일어나는 일

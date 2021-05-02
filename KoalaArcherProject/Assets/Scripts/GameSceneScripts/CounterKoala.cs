@@ -53,8 +53,16 @@ public class CounterKoala : MonoBehaviour
                 aimingObj.SetActive(false);
                 powerObj.SetActive(false);
                 counterKoala.SetActive(true);*/
-                timer += Time.deltaTime;
+                if(!inGameManager.isPaused)
+                {
+                    timer += Time.deltaTime;
+                }
+                
                 timeBar.GetComponent<Image>().fillAmount = 1 - (timer / timeLimit);
+                if(timer >= timeLimit)
+                {
+                    inGameManager.StartCoroutine(inGameManager.AngleAmingCoroutine());
+                }
             }
             else if(inGameManager.whileShooting && timer >= timeLimit)
             {
@@ -68,6 +76,7 @@ public class CounterKoala : MonoBehaviour
                 scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector3(-295 + 71.66f * (inGameManager.orderOfShot - 1), -63, 0);
                 scoreText.text = counterScore[inGameManager.saveData.currentStageIndex, inGameManager.orderOfShot - 1].ToString();
             }
+
             if(inGameManager.orderOfShot == 10 && timer >= timeLimit)
             {
                 timer = 0;
