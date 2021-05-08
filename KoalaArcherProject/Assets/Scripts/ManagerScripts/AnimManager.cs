@@ -15,6 +15,8 @@ public class AnimManager : MonoBehaviour
     {
         inGameManager.StopAllCoroutines();
         inGameManager.StartCoroutine(inGameManager.PowerGaugeCoroutine());
+        inGameManager.angleBarObj.SetActive(false);
+        inGameManager.powerBarObj.SetActive(true);
         inGameManager.isPaused = false;
         gameObject.SetActive(false);
     }
@@ -22,6 +24,7 @@ public class AnimManager : MonoBehaviour
     public void PowerGaugeAnim()
     {
         inGameManager.isPaused = false;
+        inGameManager.powerBarObj.SetActive(false);
         gameObject.SetActive(false);
     }
 

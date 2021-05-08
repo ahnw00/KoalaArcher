@@ -59,7 +59,7 @@ public class CounterKoala : MonoBehaviour
                 }
                 
                 timeBar.GetComponent<Image>().fillAmount = 1 - (timer / timeLimit);
-                if(timer >= timeLimit)
+                if(timer >= timeLimit && inGameManager.orderOfShot < 10)
                 {
                     inGameManager.StartCoroutine(inGameManager.AngleAmingCoroutine());
                 }

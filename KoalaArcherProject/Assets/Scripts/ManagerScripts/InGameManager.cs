@@ -28,6 +28,9 @@ public class InGameManager : MonoBehaviour
     public int numberOfClicked;
     public IEnumerator angleCoroutine;
     public IEnumerator powerCoroutine;
+    public GameObject angleBarObj;
+    public GameObject powerBarObj;
+
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +74,11 @@ public class InGameManager : MonoBehaviour
             whileShooting = true;
             Vector3 barPosition = angleBar.GetComponent<RectTransform>().eulerAngles;
 
+            if(numberOfClicked == 0)
+            {
+                angleBarObj.SetActive(true);
+            }
+
             //한번 누르면 클릭 횟수 1증가
             if(Input.GetKeyDown(KeyCode.Mouse0))
             {
@@ -96,6 +104,7 @@ public class InGameManager : MonoBehaviour
             if(timer >= stage.timeLimit)
             {
                 isOnAmingCoroutine = false;
+                angleBarObj.SetActive(false);
                 StartCoroutine(PowerGaugeCoroutine());
                 break;
             }   
