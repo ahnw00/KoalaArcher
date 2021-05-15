@@ -7,6 +7,7 @@ public class ScoreAndImage : MonoBehaviour
     InGameManager inGameManager;
     ScoreScript scoreScript;
     CounterKoala counterScoreScript;
+    SaveDataClass saveData;
     public Text resultScore;
     public GameObject resultImage;
     public Sprite completedImage;

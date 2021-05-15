@@ -32,7 +32,34 @@ public class StageManager : MonoBehaviour
 
             stageList.Add(stage);
         }
-        else if (stageList.Count < saveData.indexOfStageCompleted)
+        else if (stageList.Count == 1)
+        {
+            StageClass stage = new StageClass();
+            stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.powerGaugeSpeed = 2 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.bestScore = 0;
+
+            stageList.Add(stage);
+        }
+        else if (stageList.Count == 2)
+        {
+            StageClass stage = new StageClass();
+            stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.powerGaugeSpeed = 2 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.bestScore = 0;
+
+            stageList.Add(stage);
+        }
+        else if (stageList.Count == 3)
+        {
+            StageClass stage = new StageClass();
+            stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.powerGaugeSpeed = 2 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.bestScore = 0;
+
+            stageList.Add(stage);
+        }
+        else if (stageList.Count == 4)
         {
             StageClass stage = new StageClass();
             stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
