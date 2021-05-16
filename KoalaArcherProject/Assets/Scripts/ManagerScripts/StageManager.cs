@@ -17,12 +17,12 @@ public class StageManager : MonoBehaviour
         saveData = gameManager.saveData;
         stageList = saveData.stageList;
 
-        for (int i = 0; i <= saveData.indexOfStageCompleted; ++i)
+        for (int i = 0; i <= saveData.indexOfStageCompleted; i++)
         {
             stageBtnList[i].interactable = true;
         }
 
-        if (stageList.Count == 0)
+        if (saveData.indexOfStageCompleted == 0 && stageList.Count == 0)
         {
             StageClass stage = new StageClass();
             stage.aimSpeed = 100;
@@ -31,42 +31,51 @@ public class StageManager : MonoBehaviour
             stage.timeLimit = 3;
 
             stageList.Add(stage);
+            gameManager.Save();
         }
-        else if (stageList.Count == 1)
+        else if (saveData.indexOfStageCompleted == 1 && stageList.Count == 1)
         {
             StageClass stage = new StageClass();
-            stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
-            stage.powerGaugeSpeed = 2 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.aimSpeed = 100;
+            stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
+            stage.timeLimit = 3;
 
             stageList.Add(stage);
+            gameManager.Save();
         }
-        else if (stageList.Count == 2)
+        else if (saveData.indexOfStageCompleted == 2 && stageList.Count == 2)
         {
             StageClass stage = new StageClass();
-            stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
-            stage.powerGaugeSpeed = 2 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.aimSpeed = 100;
+            stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
+            stage.timeLimit = 3;
 
             stageList.Add(stage);
+            gameManager.Save();
         }
-        else if (stageList.Count == 3)
+        else if (saveData.indexOfStageCompleted == 3 && stageList.Count == 3)
         {
             StageClass stage = new StageClass();
-            stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
-            stage.powerGaugeSpeed = 2 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.aimSpeed = 100;
+            stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
+            stage.timeLimit = 3;
 
             stageList.Add(stage);
+            gameManager.Save();
         }
-        else if (stageList.Count == 4)
+        else if (saveData.indexOfStageCompleted == 4 && stageList.Count == 4)
         {
             StageClass stage = new StageClass();
-            stage.aimSpeed = 5 + saveData.indexOfStageCompleted; // 수정 필요
-            stage.powerGaugeSpeed = 2 + saveData.indexOfStageCompleted; // 수정 필요
+            stage.aimSpeed = 100;
+            stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
+            stage.timeLimit = 3;
 
             stageList.Add(stage);
+            gameManager.Save();
         }
     }
 }

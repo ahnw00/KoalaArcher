@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
         jsonManager = new JsonManager();
         //load는 세이브데이터 로드다.
         saveData = new SaveDataClass();
-        Save();  // 이거는 필요할 때만 있는 코드. 디버그용
+    
         Load();
     }
 
