@@ -39,6 +39,7 @@ public class ScoreAndImage : MonoBehaviour
         }
     }
     
+    
     IEnumerator ResultSpriteCoroutine()
     {
         while(true)

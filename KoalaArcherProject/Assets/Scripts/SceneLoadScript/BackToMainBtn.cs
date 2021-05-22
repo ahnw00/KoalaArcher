@@ -8,5 +8,6 @@ public class BackToMainBtn : MonoBehaviour
     public void backToMainScene()
     {
         SceneLoadManager.instance.LoadScene("MainScene");
+
     }
 }
