@@ -11,11 +11,7 @@ public class NewSaveBtn : MonoBehaviour
     public void LoadCutScene()
     {
         gameManager = GameManager.singleTon;
-        gameManager.saveData = new SaveDataClass();
         saveData = gameManager.saveData;
-        saveData.isFirstTimeOfPlay = false;
-        saveData = gameManager.saveData;
-        gameManager.Save();
         SceneLoadManager.instance.LoadScene("CutScene");
     }
     public void LoadStageScene()
@@ -24,4 +20,11 @@ public class NewSaveBtn : MonoBehaviour
         saveData = gameManager.saveData;
         SceneLoadManager.instance.LoadScene("StageScene");
     }
+    public void SetFirstOfPlay()
+    {
+        gameManager = GameManager.singleTon;
+        saveData = gameManager.saveData;
+        saveData.isFirstTimeOfPlay = false;
+    }
+    
 }
