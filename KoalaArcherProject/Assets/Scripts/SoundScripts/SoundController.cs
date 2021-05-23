@@ -5,20 +5,32 @@ using UnityEngine.UI;
 
 public class SoundController : MonoBehaviour
 {
+    GameManager gameManager;
+    public SaveDataClass saveData;
+    public SoundManager soundManager;
     public Slider bgmSlider;
     public Slider effectSlider;
-    public SoundManager soundManager;
 
     void Start()
     {
-        soundManager = FindObjectOfType<SoundManager>();
-    }
-    void Update()
-    {
-        //value값을 계속 맞춰주는 작업
-        //여기서 bgm, soundeffect를 모두 관리
+        gameManager = GameManager.singleTon;
+        saveData = gameManager.saveData;
 
+        soundManager = FindObjectOfType<SoundManager>();
+
+        bgmSlider.value = saveData.volumeOfBgm;
+        effectSlider.value = saveData.volumeOfEffect;
+    }
+
+    public void setBgmVolume()
+    {
         soundManager.bgmSource.volume = bgmSlider.value;
+        saveData.volumeOfBgm = bgmSlider.value;
+    }
+
+    public void setSoundEffectVolume()
+    {
         soundManager.effectSource.volume = effectSlider.value;
+        saveData.volumeOfEffect = effectSlider.value;
     }
 }

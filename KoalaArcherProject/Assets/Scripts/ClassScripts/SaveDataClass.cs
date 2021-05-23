@@ -15,6 +15,8 @@ public class SaveDataClass
     public bool isFirstTimeOfPlay;
     public int indexOfStageCompleted;
     public int currentStageIndex;
+    public float volumeOfBgm;
+    public float volumeOfEffect;
 
     public SaveDataClass()
     {
@@ -24,5 +26,7 @@ public class SaveDataClass
 
         isFirstTimeOfPlay = true;
         indexOfStageCompleted = 0;
+        volumeOfBgm = (float)0.5;
+        volumeOfEffect = (float)0.5;
     }
 }

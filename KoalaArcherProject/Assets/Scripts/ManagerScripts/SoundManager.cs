@@ -15,7 +15,7 @@ public class SoundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(inst == null)
+        if (inst == null)
         {
             inst = this;
             DontDestroyOnLoad(gameObject);
@@ -26,12 +26,13 @@ public class SoundManager : MonoBehaviour
             return;
         }
         bgmSource.clip = mainBGM;
+        bgmSource.volume = GameManager.singleTon.saveData.volumeOfBgm; //다인 추가
         bgmSource.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
