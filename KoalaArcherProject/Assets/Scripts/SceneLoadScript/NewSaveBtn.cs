@@ -6,21 +6,29 @@ using UnityEngine.SceneManagement;
 public class NewSaveBtn : MonoBehaviour
 {
     GameManager gameManager;
+    SoundManager soundManager;
     SaveDataClass saveData;
+
     public void LoadCutScene()
     {
         gameManager = GameManager.singleTon;
-        gameManager.saveData=new SaveDataClass();
-        saveData=gameManager.saveData;
+        gameManager.saveData = new SaveDataClass();
+        saveData = gameManager.saveData;
         saveData.isFirstTimeOfPlay=false;
-        saveData=gameManager.saveData;
+        saveData = gameManager.saveData;
+
+        soundManager = SoundManager.inst;
         gameManager.Save();
+        soundManager.ButtonEffectPlay();
         SceneLoadManager.instance.LoadScene("CutScene");
     }
     public void LoadStageScene()
     {
-        gameManager= GameManager.singleTon;
-        saveData=gameManager.saveData;
+        gameManager = GameManager.singleTon;
+        saveData = gameManager.saveData;
+
+        soundManager = SoundManager.inst;
+        soundManager.ButtonEffectPlay();
         SceneLoadManager.instance.LoadScene("StageScene");
     }
 }

@@ -5,10 +5,12 @@ using UnityEngine;
 public class AnimManager : MonoBehaviour
 {
     public InGameManager inGameManager;
+    public CounterKoala counterKoala;
     // Start is called before the first frame update
     void Start()
     {
         //inGameManager = FindObjectOfType<InGameManager>();
+        counterKoala = FindObjectOfType<CounterKoala>();
     }
 
     public void AngleAimingAnim()
@@ -25,6 +27,8 @@ public class AnimManager : MonoBehaviour
     {
         inGameManager.isPaused = false;
         inGameManager.powerBarObj.SetActive(false);
+        inGameManager.myKoalaAnim.SetActive(false);
+        counterKoala.counterImage.SetActive(true);
         gameObject.SetActive(false);
     }
 

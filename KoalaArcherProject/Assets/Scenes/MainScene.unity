@@ -2725,9 +2725,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2443905797678910675, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443905797678910675, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
       propertyPath: m_Volume
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2746979654847109824, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
+      propertyPath: buttonClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a8cb49bb678646c4fa3c2d4e841aa1d4, type: 3}
+    - target: {fileID: 2746979654847109824, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
+      propertyPath: goodEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d1e0bbb42beb2b418dd0f56a87e62b8, type: 3}
+    - target: {fileID: 2746979654847109824, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
+      propertyPath: missEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ccfed1842e63dc4da4197ba3f6dd253, type: 3}
+    - target: {fileID: 2746979654847109824, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
+      propertyPath: perfectEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: b0a1d64b02df65a418df05c8e6323ed7, type: 3}
     - target: {fileID: 3600065709245455224, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
       propertyPath: m_RootOrder
       value: 5

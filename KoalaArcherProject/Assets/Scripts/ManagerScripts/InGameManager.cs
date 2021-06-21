@@ -26,10 +26,13 @@ public class InGameManager : MonoBehaviour
     public bool whileShooting; //패널을 터치할때 슈팅하고 있을때만 터치할 수 있도록
     public float timer;
     public int numberOfClicked;
+    public bool isShotFinished;
+    public bool isMyShot;
     public IEnumerator angleCoroutine;
     public IEnumerator powerCoroutine;
     public GameObject angleBarObj;
     public GameObject powerBarObj;
+    public GameObject myKoalaAnim;
 
 
     // Start is called before the first frame update
@@ -189,8 +192,8 @@ public class InGameManager : MonoBehaviour
 
                 whileShooting = false;
                 timer = 0;
-                numberOfClicked=0;
-                angleBar.GetComponent<RectTransform>().eulerAngles = new Vector3(0, 0, 180);
+                numberOfClicked = 0;
+                angleBar.GetComponent<RectTransform>().eulerAngles = new Vector3(0, 0, -105.9f);
                 powerGaugeBar.GetComponent<Image>().fillAmount = 0;
 
                 //10번째 슈팅이 아닐 경우, 3초 뒤에 다음 코루틴을 실행시킨다.
@@ -198,8 +201,6 @@ public class InGameManager : MonoBehaviour
                 {
                     orderOfShot++;
                     scoreScript.InstantiationOfScoreText();
-                    //yield return new WaitForSeconds(3f);
-                    //StartCoroutine(AngleAmingCoroutine());
                 }
                 //10번째 슈팅일 경우, 더 이상 코루틴을 실행하지 않는다.
                 else if(orderOfShot == 9)

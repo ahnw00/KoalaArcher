@@ -882,6 +882,7 @@ GameObject:
   - component: {fileID: 387368691}
   - component: {fileID: 387368693}
   - component: {fileID: 387368694}
+  - component: {fileID: 387368695}
   m_Layer: 5
   m_Name: Miss
   m_TagString: Untagged
@@ -978,6 +979,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inGameManager: {fileID: 1052051604}
+  counterKoala: {fileID: 0}
+--- !u!114 &387368695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387368689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffaf58e4c5068a4298013d11f42c96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &392560636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,13 +1495,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537321347}
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.80798984, w: 0.5891964}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: -1, z: 1}
   m_Children: []
   m_Father: {fileID: 2127852984}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -107.8}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 7.8, y: -28}
@@ -2077,7 +2091,7 @@ GameObject:
   - component: {fileID: 745003455}
   - component: {fileID: 745003454}
   m_Layer: 5
-  m_Name: MyKoala
+  m_Name: MyKoalaUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2247,6 +2261,7 @@ GameObject:
   - component: {fileID: 891463587}
   - component: {fileID: 891463589}
   - component: {fileID: 891463588}
+  - component: {fileID: 891463590}
   m_Layer: 5
   m_Name: TargetBoard
   m_TagString: Untagged
@@ -2311,6 +2326,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891463586}
   m_CullTransparentMesh: 1
+--- !u!114 &891463590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891463586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e438560db1996e942a05410d7d3b00f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  daytimeTen: {fileID: 21300000, guid: cee5957e82e8acb44a2db0fd786b79d3, type: 3}
+  daytimeNine: {fileID: 21300000, guid: 100130bd2f323a945b9d58e5a0b41107, type: 3}
+  daytimeEight: {fileID: 21300000, guid: d37301e8628e43f44a7b667c3d9d4604, type: 3}
+  daytimeSeven: {fileID: 21300000, guid: f0116daa83ce9b84d80463b128d6b261, type: 3}
+  daytimeSix: {fileID: 21300000, guid: dc9ad17b5080d554eb3960b718ca2182, type: 3}
+  daytimeZero: {fileID: 21300000, guid: 5599f7590bca89c438910b55d2eba110, type: 3}
+  sunsetTen: {fileID: 21300000, guid: 1a9707faa384ee74a8761e614ca000e9, type: 3}
+  sunsetNine: {fileID: 21300000, guid: 974be3c5ba626fd4a892b53e0d55a04f, type: 3}
+  sunsetEight: {fileID: 21300000, guid: ed52239b834445346b3f8ec11adae97a, type: 3}
+  sunsetSeven: {fileID: 21300000, guid: c479ebb47fa66a6468a21d7486e4296b, type: 3}
+  sunsetSix: {fileID: 21300000, guid: a6e7fb6b69714f545b4c984da74b879e, type: 3}
+  sunsetZero: {fileID: 21300000, guid: 9e0a1e761b9920c49b89232759847b6c, type: 3}
+  nightTen: {fileID: 21300000, guid: 8b82e26e85b991346b0846d730ae20de, type: 3}
+  nightNine: {fileID: 21300000, guid: 1c5c1807760b0254793018062c49b289, type: 3}
+  nightEight: {fileID: 21300000, guid: f6e31658669e235409737c734ec9e8ec, type: 3}
+  nightSeven: {fileID: 21300000, guid: e6da22ffae2360e41994047db9a6121f, type: 3}
+  nightSix: {fileID: 21300000, guid: a813068a3b927a14d86cd84926923703, type: 3}
+  nightZero: {fileID: 21300000, guid: 34dd4799d43ad0c46977d230974c4554, type: 3}
 --- !u!1 &934799936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,7 +2445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f21177a72a318d43addb009cb65091b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inGameManager: {fileID: 0}
   timeBar: {fileID: 1847438756}
   timer: 0
   timeLimit: 0
@@ -2408,6 +2452,8 @@ MonoBehaviour:
   textPrefab: {fileID: 7078247674772802078, guid: 29b27718bafc62d4688db4716f96b53c, type: 3}
   textParent: {fileID: 1375237667}
   resultPopUp: {fileID: 1657431934}
+  counterImage: {fileID: 1480828530}
+  isPaused: 0
 --- !u!1 &955476873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,6 +2709,8 @@ MonoBehaviour:
     isFirstTimeOfPlay: 1
     indexOfStageCompleted: 0
     currentStageIndex: 0
+    volumeOfBgm: 0.5
+    volumeOfEffect: 0.5
   stage:
     scoreOfCounterpart: 0
     aimSpeed: 0
@@ -2689,8 +2737,11 @@ MonoBehaviour:
   whileShooting: 0
   timer: 0
   numberOfClicked: 0
+  isShotFinished: 0
+  isMyShot: 0
   angleBarObj: {fileID: 2127852983}
   powerBarObj: {fileID: 1324030803}
+  myKoalaAnim: {fileID: 1133578575}
 --- !u!4 &1052051605
 Transform:
   m_ObjectHideFlags: 0
@@ -2717,8 +2768,10 @@ GameObject:
   - component: {fileID: 1133578578}
   - component: {fileID: 1133578577}
   - component: {fileID: 1133578579}
+  - component: {fileID: 1133578580}
+  - component: {fileID: 1133578581}
   m_Layer: 5
-  m_Name: Shoot
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2800,6 +2853,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1133578580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133578575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a9e021e0ad6a0489c8bdcff45f13a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1133578581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133578575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5a73635ddddda4ca3de12804f873cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1223602884
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,6 +3621,7 @@ GameObject:
   - component: {fileID: 1469087429}
   - component: {fileID: 1469087428}
   - component: {fileID: 1469087431}
+  - component: {fileID: 1469087432}
   m_Layer: 5
   m_Name: Perfect
   m_TagString: Untagged
@@ -3640,6 +3718,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inGameManager: {fileID: 1052051604}
+  counterKoala: {fileID: 0}
+--- !u!114 &1469087432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469087426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffaf58e4c5068a4298013d11f42c96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1480828530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3652,13 +3743,15 @@ GameObject:
   - component: {fileID: 1480828534}
   - component: {fileID: 1480828533}
   - component: {fileID: 1480828532}
+  - component: {fileID: 1480828535}
+  - component: {fileID: 1480828536}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1480828531
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3735,6 +3828,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480828530}
   m_CullTransparentMesh: 1
+--- !u!114 &1480828535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480828530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5a73635ddddda4ca3de12804f873cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1480828536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480828530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f7048f834c38347b360ba2e9c2adb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1512187916
 GameObject:
   m_ObjectHideFlags: 0
@@ -4408,7 +4525,7 @@ GameObject:
   - component: {fileID: 1643906897}
   - component: {fileID: 1643906896}
   m_Layer: 5
-  m_Name: CounterKoala
+  m_Name: CounterKoalaUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4485,6 +4602,7 @@ GameObject:
   - component: {fileID: 1656419316}
   - component: {fileID: 1656419318}
   - component: {fileID: 1656419319}
+  - component: {fileID: 1656419320}
   m_Layer: 5
   m_Name: Good
   m_TagString: Untagged
@@ -4581,6 +4699,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inGameManager: {fileID: 1052051604}
+  counterKoala: {fileID: 0}
+--- !u!114 &1656419320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656419314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffaf58e4c5068a4298013d11f42c96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1657431934
 GameObject:
   m_ObjectHideFlags: 0
@@ -4765,6 +4896,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2746979654847109824, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
+      propertyPath: fireEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e975721e0832414088469b7bea90fe5, type: 3}
+    - target: {fileID: 2746979654847109824, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
+      propertyPath: pullingEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d85e400651c09f4ab52011c82db0ad1, type: 3}
     - target: {fileID: 3600065709245455224, guid: 38680b5ef53573b429103533f61a00a6, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5314,6 +5453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inGameManager: {fileID: 1052051604}
+  counterKoala: {fileID: 0}
 --- !u!1 &1892981958
 GameObject:
   m_ObjectHideFlags: 0
@@ -5713,6 +5853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inGameManager: {fileID: 1052051604}
+  counterKoala: {fileID: 0}
 --- !u!1 &2086501617
 GameObject:
   m_ObjectHideFlags: 0
