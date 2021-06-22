@@ -41,66 +41,66 @@ public class CounterKoala : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     IEnumerator CounterTimeBarCoroutine()
     {
-        while(true)
+        while (true)
         {
             yield return null;
-            
-            if(!inGameManager.whileShooting)
+
+            if (!inGameManager.whileShooting)
             {
                 //counterImage.SetActive(true);
-                if(!inGameManager.isPaused)
+                if (!inGameManager.isPaused)
                 {
                     timer += Time.deltaTime;
                 }
-                
+
                 timeBar.GetComponent<Image>().fillAmount = 1 - (timer / timeLimit);
-                if(timer >= timeLimit && inGameManager.orderOfShot < 10)
+                if (timer >= timeLimit && inGameManager.orderOfShot < 10)
                 {
                     inGameManager.StartCoroutine(inGameManager.AngleAmingCoroutine());
                 }
             }
-            else if(inGameManager.whileShooting && timer >= timeLimit)
+            else if (inGameManager.whileShooting && timer >= timeLimit)
             {
                 counterImage.SetActive(false);
                 //꺼져있던 나의 코알라를 게임씬에서 다시 켜준다.
                 inGameManager.myKoalaAnim.SetActive(true);
                 paramManager.StartCoroutine(paramManager.MyKoalaAnim());
-                
+
                 timer = 0;
                 timeBar.GetComponent<Image>().fillAmount = 1;
-                scoreText = Instantiate(textPrefab, textParent.transform); 
+                scoreText = Instantiate(textPrefab, textParent.transform);
                 scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector3(-295 + 71.66f * (inGameManager.orderOfShot - 1), -63, 0);
                 scoreText.text = counterScore[inGameManager.saveData.currentStageIndex, inGameManager.orderOfShot - 1].ToString();
 
-                if(inGameManager.stage == inGameManager.saveData.stageList[0] || inGameManager.stage == inGameManager.saveData.stageList[3])
+                if (inGameManager.stage == inGameManager.saveData.stageList[0] || inGameManager.stage == inGameManager.saveData.stageList[3])
                 {
                     targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.daytimeZero;
                 }
-                else if(inGameManager.stage == inGameManager.saveData.stageList[1])
+                else if (inGameManager.stage == inGameManager.saveData.stageList[1])
                 {
                     targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.sunsetZero;
                 }
-                else if(inGameManager.stage == inGameManager.saveData.stageList[2] || inGameManager.stage == inGameManager.saveData.stageList[4])
+                else if (inGameManager.stage == inGameManager.saveData.stageList[2] || inGameManager.stage == inGameManager.saveData.stageList[4])
                 {
                     targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.nightZero;
                 }
             }
 
-            if(inGameManager.orderOfShot == 10 && timer >= timeLimit)
+            if (inGameManager.orderOfShot == 10 && timer >= timeLimit)
             {
                 timer = 0;
                 timeBar.GetComponent<Image>().fillAmount = 1;
-                scoreText = Instantiate(textPrefab, textParent.transform); 
+                scoreText = Instantiate(textPrefab, textParent.transform);
                 scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector3(-295 + 71.66f * (inGameManager.orderOfShot - 1), -63, 0);
                 scoreText.text = counterScore[inGameManager.saveData.currentStageIndex, inGameManager.orderOfShot - 1].ToString();
 
-                resultScore = Instantiate(textPrefab, textParent.transform); 
+                resultScore = Instantiate(textPrefab, textParent.transform);
                 resultScore.GetComponent<RectTransform>().anchoredPosition = new Vector3(434, -63, 0);
-                for(int i = 0; i < inGameManager.orderOfShot; i++)
+                for (int i = 0; i < inGameManager.orderOfShot; i++)
                 {
                     resultScoreOfCounter += counterScore[inGameManager.saveData.currentStageIndex, i];
                 }
@@ -111,7 +111,7 @@ public class CounterKoala : MonoBehaviour
                 break;
             }
 
-            if(isPaused)
+            if (isPaused)
             {
                 yield return null;
             }
@@ -120,9 +120,9 @@ public class CounterKoala : MonoBehaviour
     public void ShuffleList(int[,] array)
     {
         System.Random prng = new System.Random();
-        for(int j = 0; j < 5; j++)
+        for (int j = 0; j < 5; j++)
         {
-            for(int i = 0; i < 9; i++)
+            for (int i = 0; i < 9; i++)
             {
                 int randomIndex = prng.Next(i, 10);
                 int temp = array[j, randomIndex];

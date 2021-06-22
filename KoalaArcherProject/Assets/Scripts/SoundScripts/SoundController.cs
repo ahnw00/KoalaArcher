@@ -28,9 +28,10 @@ public class SoundController : MonoBehaviour
         saveData.volumeOfBgm = bgmSlider.value;
     }
 
-    public void setSoundEffectVolume()
+    public void setEffectVolume()
     {
         soundManager.effectSource.volume = effectSlider.value;
+        soundManager.buttonSource.volume = effectSlider.value;
         saveData.volumeOfEffect = effectSlider.value;
     }
 }

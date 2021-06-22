@@ -14,7 +14,7 @@ public class NewSaveBtn : MonoBehaviour
         gameManager = GameManager.singleTon;
         gameManager.saveData = new SaveDataClass();
         saveData = gameManager.saveData;
-        saveData.isFirstTimeOfPlay=false;
+        saveData.isFirstTimeOfPlay = false;
         saveData = gameManager.saveData;
 
         soundManager = SoundManager.inst;

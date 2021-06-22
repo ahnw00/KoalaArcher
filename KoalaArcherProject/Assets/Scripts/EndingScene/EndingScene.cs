@@ -1,7 +1,9 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class EndingScene : MonoBehaviour
 {
     [Header("Set in Editor")]
@@ -10,6 +12,11 @@ public class EndingScene : MonoBehaviour
     [SerializeField] CanvasGroup scene3;
     [SerializeField] CanvasGroup scene4;
     [SerializeField] CanvasGroup scene5;
+    [SerializeField] CanvasGroup scene6;
+    [SerializeField] CanvasGroup scene7;
+    [SerializeField] CanvasGroup scene8;
+    [SerializeField] CanvasGroup scene9;
+
 
     [Header("Set in Runtime")]
     private int processIndex = 0;
@@ -18,13 +25,14 @@ public class EndingScene : MonoBehaviour
 
     void Start()
     {
-        PrologueProgress(0);
+        EndingProgress(0);
     }
 
-    private void PrologueProgress(int processIndex)
+    private void EndingProgress(int processIndex)
     {
         if (processIndex == 0)
         {
+            //StartCoroutine(FadeBackground(scene1, scene1));
         }
         else if (processIndex == 1)
         {
@@ -42,11 +50,28 @@ public class EndingScene : MonoBehaviour
         {
             StartCoroutine(FadeBackground(scene5, scene4));
         }
-        else if (processIndex==5)
+        else if (processIndex == 5)
         {
-            if(Lock == false){
-                Lock=true;
-                SceneLoadManager.instance.LoadScene("StageScene");
+            StartCoroutine(FadeBackground(scene6, scene5));
+        }
+        else if (processIndex == 6)
+        {
+            StartCoroutine(FadeBackground(scene7, scene6));
+        }
+        else if (processIndex == 7)
+        {
+            StartCoroutine(FadeBackground(scene8, scene7));
+        }
+        else if (processIndex == 8)
+        {
+            StartCoroutine(FadeBackground(scene9, scene8));
+        }
+        else
+        {
+            if (Lock == false) // 씬 이동, lock true로 변경
+            {
+                SceneLoadManager.instance.LoadScene("MainScene");
+                Lock = true;
             }
         }
     }
@@ -64,9 +89,9 @@ public class EndingScene : MonoBehaviour
         fadeOut.alpha = 0f;
     }
 
-    public void OnClickNextPanel() // Panel 클릭 시! 
+    public void OnClickNextPanel() // Panel 클릭 시
     {
         processIndex++;
-        PrologueProgress(processIndex);
+        EndingProgress(processIndex);
     }
 }

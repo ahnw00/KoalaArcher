@@ -2389,6 +2389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040289772}
   - component: {fileID: 2040289773}
+  - component: {fileID: 2040289774}
   m_Layer: 5
   m_Name: SoundEffectSlider
   m_TagString: Untagged
@@ -2468,7 +2469,50 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2040289774}
+        m_TargetAssemblyTypeName: SoundController, Assembly-CSharp
+        m_MethodName: setEffectVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2040289774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040289771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f39c13686ed594f9b947364372605f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveData:
+    stageList: []
+    currentSelectedStage:
+      scoreOfCounterpart: 0
+      aimSpeed: 0
+      aimingTime: 0
+      powerGaugeSpeed: 0
+      powerOfGauge: 0
+      numberOfShot: 10
+      bestScore: 0
+      timeLimit: 0
+    isFirstTimeOfPlay: 1
+    indexOfStageCompleted: 0
+    currentStageIndex: 0
+    volumeOfBgm: 0.5
+    volumeOfEffect: 0.5
+  soundManager: {fileID: 5716747968552914185}
+  bgmSlider: {fileID: 1438494007}
+  effectSlider: {fileID: 2040289773}
 --- !u!1 &2072845349
 GameObject:
   m_ObjectHideFlags: 0
