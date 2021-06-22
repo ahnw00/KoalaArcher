@@ -30,19 +30,19 @@ public class TouchPanelScript : MonoBehaviour
             float angleBarEulerZ = inGameManager.angleBar.GetComponent<RectTransform>().eulerAngles.z;
 
             //조준선의 각도에 따라 점수를 매겨줘
-            if(angleBarEulerZ >= 170.9 && angleBarEulerZ < 190.4)
+            if(angleBarEulerZ >= 162.7 && angleBarEulerZ < 190.4)
             {
                 inGameManager.currentAmingScore = 2;
                 inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
                 inGameManager.perfect.SetActive(true);
             }
-            else if((angleBarEulerZ >= 190.4 && angleBarEulerZ < 215.5) || (angleBarEulerZ >= 145.1 && angleBarEulerZ < 170.9))
+            else if((angleBarEulerZ >= 190.4 && angleBarEulerZ < 219.7) || (angleBarEulerZ >= 133.2 && angleBarEulerZ < 162.7))
             {
                 inGameManager.currentAmingScore = 1;
                 inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
                 inGameManager.good.SetActive(true);
             }
-            else if((angleBarEulerZ >= 215.5 && angleBarEulerZ < 253.5) || (angleBarEulerZ >= 102.6 && angleBarEulerZ < 145.1))
+            else if((angleBarEulerZ >= 219.7) || (angleBarEulerZ < 133.2))
             {
                 inGameManager.currentAmingScore = 0;
                 inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;

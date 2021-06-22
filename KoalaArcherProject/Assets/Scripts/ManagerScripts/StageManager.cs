@@ -25,7 +25,7 @@ public class StageManager : MonoBehaviour
         if (saveData.indexOfStageCompleted == 0 && stageList.Count == 0)
         {
             StageClass stage = new StageClass();
-            stage.aimSpeed = 100;
+            stage.aimSpeed = 300;
             stage.powerGaugeSpeed = 2;
             stage.bestScore = 0;
             stage.timeLimit = 3;

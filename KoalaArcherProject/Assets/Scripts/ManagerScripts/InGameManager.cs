@@ -75,7 +75,7 @@ public class InGameManager : MonoBehaviour
             yield return null;
             isOnAmingCoroutine = true;
             whileShooting = true;
-            Vector3 barPosition = angleBar.GetComponent<RectTransform>().eulerAngles;
+            Vector3 barPosition = angleBar.GetComponent<RectTransform>().localEulerAngles;
 
             if(numberOfClicked == 0)
             {
@@ -92,11 +92,11 @@ public class InGameManager : MonoBehaviour
             if(numberOfClicked != 0)
             {
                 timer += Time.deltaTime; 
-                if(barPosition.z < 102.6f)
+                if(barPosition.z < 93f)
                 {
                     leftOrRight = 1;
                 }
-                else if(barPosition.z > 253.5f)
+                else if(barPosition.z > 260.2f)
                 {
                     leftOrRight = -1;
                 }
@@ -193,7 +193,7 @@ public class InGameManager : MonoBehaviour
                 whileShooting = false;
                 timer = 0;
                 numberOfClicked = 0;
-                angleBar.GetComponent<RectTransform>().eulerAngles = new Vector3(0, 0, -105.9f);
+                angleBar.GetComponent<RectTransform>().eulerAngles = new Vector3(0, 0, -99.8f);
                 powerGaugeBar.GetComponent<Image>().fillAmount = 0;
 
                 //10번째 슈팅이 아닐 경우, 3초 뒤에 다음 코루틴을 실행시킨다.
