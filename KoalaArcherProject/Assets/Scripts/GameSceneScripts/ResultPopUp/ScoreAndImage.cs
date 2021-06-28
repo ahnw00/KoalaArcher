@@ -28,35 +28,35 @@ public class ScoreAndImage : MonoBehaviour
 
     IEnumerator ResultCoroutine()
     {
-        while(true)
+        while (true)
         {
             yield return null;
-            if(inGameManager.orderOfShot - 1 == 9)
+            if (inGameManager.orderOfShot - 1 == 9)
             {
                 resultScore.GetComponent<Text>().text = scoreScript.resultScore.ToString();
                 break;
             }
         }
     }
-    
-    
+
+
     IEnumerator ResultSpriteCoroutine()
     {
-        while(true)
+        while (true)
         {
             yield return null;
-            if(inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore > counterScoreScript.resultScoreOfCounter)
+            if (inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore > counterScoreScript.resultScoreOfCounter)
             {
                 resultImage.GetComponent<Image>().sprite = completedImage;
-                if(saveData.currentStageIndex >= saveData.indexOfStageCompleted)
+                if (saveData.currentStageIndex >= saveData.indexOfStageCompleted)
                 {
                     saveData.indexOfStageCompleted = saveData.currentStageIndex + 1;
                 }
                 gameManager.Save();
                 break;
             }
-            
-            else if(inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore <= counterScoreScript.resultScoreOfCounter)
+
+            else if (inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore <= counterScoreScript.resultScoreOfCounter)
             {
                 resultImage.GetComponent<Image>().sprite = failedImage;
                 break;

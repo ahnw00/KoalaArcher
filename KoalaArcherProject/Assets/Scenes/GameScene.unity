@@ -3977,6 +3977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414908079}
   - component: {fileID: 1414908080}
+  - component: {fileID: 1414908081}
   m_Layer: 5
   m_Name: SoundEffectSlider
   m_TagString: Untagged
@@ -4056,7 +4057,50 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1414908081}
+        m_TargetAssemblyTypeName: SoundController, Assembly-CSharp
+        m_MethodName: setEffectVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1414908081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414908078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f39c13686ed594f9b947364372605f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveData:
+    stageList: []
+    currentSelectedStage:
+      scoreOfCounterpart: 0
+      aimSpeed: 0
+      aimingTime: 0
+      powerGaugeSpeed: 0
+      powerOfGauge: 0
+      numberOfShot: 10
+      bestScore: 0
+      timeLimit: 0
+    isFirstTimeOfPlay: 1
+    indexOfStageCompleted: 0
+    currentStageIndex: 0
+    volumeOfBgm: 0.5
+    volumeOfEffect: 0.5
+  soundManager: {fileID: 0}
+  bgmSlider: {fileID: 1134109239}
+  effectSlider: {fileID: 1414908080}
 --- !u!1 &1426667395
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,6 +5043,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b658addfcac62494f84f4a0f4f2a99e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  saveData:
+    stageList: []
+    currentSelectedStage:
+      scoreOfCounterpart: 0
+      aimSpeed: 0
+      aimingTime: 0
+      powerGaugeSpeed: 0
+      powerOfGauge: 0
+      numberOfShot: 10
+      bestScore: 0
+      timeLimit: 0
+    isFirstTimeOfPlay: 1
+    indexOfStageCompleted: 0
+    currentStageIndex: 0
+    volumeOfBgm: 0.5
+    volumeOfEffect: 0.5
 --- !u!114 &1625735361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5461,6 +5521,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c6ba2d20a12aa4783e7dbf8e19f11c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultScore: {fileID: 0}
+  resultImage: {fileID: 0}
+  completedImage: {fileID: 21300000, guid: 53680b1b76132b94f87ff32cec48b304, type: 3}
+  failedImage: {fileID: 21300000, guid: 15d38e536ab448d41b6e81fef9851794, type: 3}
 --- !u!1 &1725845121
 GameObject:
   m_ObjectHideFlags: 0

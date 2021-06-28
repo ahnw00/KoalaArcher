@@ -26,7 +26,7 @@ public class SaveDataClass
 
         isFirstTimeOfPlay = true;
         indexOfStageCompleted = 0;
-        
+
         volumeOfBgm = (float)0.5;
         volumeOfEffect = (float)0.5;
     }

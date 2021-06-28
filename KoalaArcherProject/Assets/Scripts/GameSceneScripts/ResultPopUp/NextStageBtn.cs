@@ -5,8 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class NextStageBtn : MonoBehaviour
 {
-  public void NextStage()
-  {
-      SceneLoadManager.instance.LoadScene("StageScene");
-  }
+    GameManager gameManager;
+    public SaveDataClass saveData;
+
+    void Start()
+    {
+        saveData = gameManager.saveData;
+    }
+
+    public void NextStage()
+    {
+        if (saveData.indexOfStageCompleted == 4)
+        {
+            SceneLoadManager.instance.LoadScene("EndingScene");
+        }
+        else
+        {
+            SceneLoadManager.instance.LoadScene("StageScene");
+        }
+    }
 }

@@ -37,6 +37,7 @@ public class EndingScene : MonoBehaviour
         else if (processIndex == 1)
         {
             StartCoroutine(FadeBackground(scene2, scene1));
+            //WaitForSeconds(3);
         }
         else if (processIndex == 2)
         {

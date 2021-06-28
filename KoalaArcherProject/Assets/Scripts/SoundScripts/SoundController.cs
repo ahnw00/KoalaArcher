@@ -16,7 +16,7 @@ public class SoundController : MonoBehaviour
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
 
-        soundManager = FindObjectOfType<SoundManager>();
+        soundManager = SoundManager.inst;
 
         bgmSlider.value = saveData.volumeOfBgm;
         effectSlider.value = saveData.volumeOfEffect;
@@ -32,6 +32,7 @@ public class SoundController : MonoBehaviour
     {
         soundManager.effectSource.volume = effectSlider.value;
         soundManager.buttonSource.volume = effectSlider.value;
+        soundManager.resultSoundSource.volume = effectSlider.value;
         saveData.volumeOfEffect = effectSlider.value;
     }
 }
