@@ -16,7 +16,7 @@ public class NextStageBtn : MonoBehaviour
 
     public void NextStage()
     {
-        if (saveData.indexOfStageCompleted == 4)
+        if (saveData.indexOfStageCompleted == 5)
         {
             SceneLoadManager.instance.LoadScene("EndingScene");
         }

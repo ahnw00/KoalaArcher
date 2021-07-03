@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class EndingScene : MonoBehaviour
 {
+    public GameObject panel;
+
     [Header("Set in Editor")]
     [SerializeField] CanvasGroup scene1;
     [SerializeField] CanvasGroup scene2;
@@ -16,6 +18,7 @@ public class EndingScene : MonoBehaviour
     [SerializeField] CanvasGroup scene7;
     [SerializeField] CanvasGroup scene8;
     [SerializeField] CanvasGroup scene9;
+    [SerializeField] CanvasGroup scene10;
 
 
     [Header("Set in Runtime")]
@@ -32,40 +35,53 @@ public class EndingScene : MonoBehaviour
     {
         if (processIndex == 0)
         {
+            WaitForNextClick();
             //StartCoroutine(FadeBackground(scene1, scene1));
         }
         else if (processIndex == 1)
         {
             StartCoroutine(FadeBackground(scene2, scene1));
-            //WaitForSeconds(3);
+            WaitForNextClick();
         }
         else if (processIndex == 2)
         {
             StartCoroutine(FadeBackground(scene3, scene2));
+            WaitForNextClick();
         }
         else if (processIndex == 3)
         {
             StartCoroutine(FadeBackground(scene4, scene3));
+            WaitForNextClick();
         }
         else if (processIndex == 4)
         {
             StartCoroutine(FadeBackground(scene5, scene4));
+            WaitForNextClick();
         }
         else if (processIndex == 5)
         {
             StartCoroutine(FadeBackground(scene6, scene5));
+            WaitForNextClick();
         }
         else if (processIndex == 6)
         {
             StartCoroutine(FadeBackground(scene7, scene6));
+            WaitForNextClick();
         }
         else if (processIndex == 7)
         {
             StartCoroutine(FadeBackground(scene8, scene7));
+            WaitForNextClick();
         }
         else if (processIndex == 8)
         {
             StartCoroutine(FadeBackground(scene9, scene8));
+            WaitForNextClick();
+        }
+        else if (processIndex == 9)
+        {
+            StartCoroutine(FadeBackground(scene10, scene9));
+            WaitForNextClick();
         }
         else
         {
@@ -94,5 +110,16 @@ public class EndingScene : MonoBehaviour
     {
         processIndex++;
         EndingProgress(processIndex);
+    }
+
+    public void WaitForNextClick()
+    {
+        panel.SetActive(false);
+        Invoke("FinishWaiting", 2f);
+    }
+
+    public void FinishWaiting()
+    {
+        panel.SetActive(true);
     }
 }
