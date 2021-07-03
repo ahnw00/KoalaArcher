@@ -53,7 +53,7 @@
     ],
     "currentSelectedStage": {
         "scoreOfCounterpart": 0,
-        "aimSpeed": 120.0,
+        "aimSpeed": 110.0,
         "aimingTime": 0.0,
         "powerGaugeSpeed": 2.0,
         "powerOfGauge": 0.0,
@@ -63,7 +63,7 @@
     },
     "isFirstTimeOfPlay": false,
     "indexOfStageCompleted": 4,
-    "currentStageIndex": 1,
+    "currentStageIndex": 0,
     "volumeOfBgm": 0.0,
     "volumeOfEffect": 0.22336307168006898
 }
