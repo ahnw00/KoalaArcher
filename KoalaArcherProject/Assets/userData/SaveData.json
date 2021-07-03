@@ -1,18 +1,69 @@
 {
-    "stageList": [],
+    "stageList": [
+        {
+            "scoreOfCounterpart": 0,
+            "aimSpeed": 110.0,
+            "aimingTime": 0.0,
+            "powerGaugeSpeed": 2.0,
+            "powerOfGauge": 0.0,
+            "numberOfShot": 10,
+            "bestScore": 0,
+            "timeLimit": 3.0
+        },
+        {
+            "scoreOfCounterpart": 0,
+            "aimSpeed": 120.0,
+            "aimingTime": 0.0,
+            "powerGaugeSpeed": 2.0,
+            "powerOfGauge": 0.0,
+            "numberOfShot": 10,
+            "bestScore": 0,
+            "timeLimit": 3.0
+        },
+        {
+            "scoreOfCounterpart": 0,
+            "aimSpeed": 130.0,
+            "aimingTime": 0.0,
+            "powerGaugeSpeed": 2.0,
+            "powerOfGauge": 0.0,
+            "numberOfShot": 10,
+            "bestScore": 0,
+            "timeLimit": 3.0
+        },
+        {
+            "scoreOfCounterpart": 0,
+            "aimSpeed": 140.0,
+            "aimingTime": 0.0,
+            "powerGaugeSpeed": 2.0,
+            "powerOfGauge": 0.0,
+            "numberOfShot": 10,
+            "bestScore": 0,
+            "timeLimit": 3.0
+        },
+        {
+            "scoreOfCounterpart": 0,
+            "aimSpeed": 150.0,
+            "aimingTime": 0.0,
+            "powerGaugeSpeed": 2.0,
+            "powerOfGauge": 0.0,
+            "numberOfShot": 10,
+            "bestScore": 0,
+            "timeLimit": 3.0
+        }
+    ],
     "currentSelectedStage": {
         "scoreOfCounterpart": 0,
-        "aimSpeed": 0.0,
+        "aimSpeed": 120.0,
         "aimingTime": 0.0,
-        "powerGaugeSpeed": 0.0,
+        "powerGaugeSpeed": 2.0,
         "powerOfGauge": 0.0,
         "numberOfShot": 10,
         "bestScore": 0,
-        "timeLimit": 0.0
+        "timeLimit": 3.0
     },
     "isFirstTimeOfPlay": false,
-    "indexOfStageCompleted": 0,
-    "currentStageIndex": 0,
-    "volumeOfBgm": 0.5,
-    "volumeOfEffect": 0.5
+    "indexOfStageCompleted": 4,
+    "currentStageIndex": 1,
+    "volumeOfBgm": 0.0,
+    "volumeOfEffect": 0.22336307168006898
 }

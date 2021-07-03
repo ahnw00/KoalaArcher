@@ -33,6 +33,7 @@ public class InGameManager : MonoBehaviour
     public GameObject angleBarObj;
     public GameObject powerBarObj;
     public GameObject myKoalaAnim;
+    SpriteManager spriteManager;
 
 
     // Start is called before the first frame update
@@ -41,6 +42,7 @@ public class InGameManager : MonoBehaviour
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
         stage = saveData.currentSelectedStage;
+        spriteManager = FindObjectOfType<SpriteManager>();
         scoreScript = FindObjectOfType<ScoreScript>();
         scoreList = new List<int>();
         isPaused = false;
@@ -73,6 +75,8 @@ public class InGameManager : MonoBehaviour
         while (true)
         {
             yield return null;
+            myKoalaAnim.GetComponent<Animator>().speed = 1f;
+
             isOnAmingCoroutine = true;
             whileShooting = true;
             Vector3 barPosition = angleBar.GetComponent<RectTransform>().localEulerAngles;
@@ -115,6 +119,7 @@ public class InGameManager : MonoBehaviour
             while (isPaused)
             {
                 yield return null;
+                myKoalaAnim.GetComponent<Animator>().speed = 0f;
             }
         }
     }
@@ -126,6 +131,8 @@ public class InGameManager : MonoBehaviour
         while (true)
         {
             yield return null;
+            myKoalaAnim.GetComponent<Animator>().speed = 1f;
+
             //isPaused = false;  < 이게 꼭 필요한건가요?
             numberOfClicked = 0;
             isOnPowerGaugeCoroutine = true;
@@ -196,6 +203,7 @@ public class InGameManager : MonoBehaviour
                 angleBar.GetComponent<RectTransform>().eulerAngles = new Vector3(0, 0, -99.8f);
                 powerGaugeBar.GetComponent<Image>().fillAmount = 0;
 
+                
                 //10번째 슈팅이 아닐 경우, 3초 뒤에 다음 코루틴을 실행시킨다.
                 if (orderOfShot < 9)
                 {
@@ -209,13 +217,14 @@ public class InGameManager : MonoBehaviour
                     scoreScript.InstantiationOfScoreText();
                     scoreScript.ShowResultScore();
                 }
-
+                
                 break;
             }
 
             while (isPaused) //일시정지 위해서 추가
             {
                 yield return null;
+                myKoalaAnim.GetComponent<Animator>().speed = 0f;
             }
         }
     }

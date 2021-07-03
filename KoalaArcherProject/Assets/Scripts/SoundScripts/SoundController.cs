@@ -6,33 +6,32 @@ using UnityEngine.UI;
 public class SoundController : MonoBehaviour
 {
     GameManager gameManager;
-    public SaveDataClass saveData;
-    public SoundManager soundManager;
+    SoundManager soundManager;
     public Slider bgmSlider;
     public Slider effectSlider;
 
     void Start()
     {
         gameManager = GameManager.singleTon;
-        saveData = gameManager.saveData;
-
         soundManager = SoundManager.inst;
 
-        bgmSlider.value = saveData.volumeOfBgm;
-        effectSlider.value = saveData.volumeOfEffect;
+        bgmSlider.value = gameManager.saveData.volumeOfBgm;
+        effectSlider.value = gameManager.saveData.volumeOfEffect;
     }
 
-    public void setBgmVolume()
+    public void SetBgmVolume()
     {
         soundManager.bgmSource.volume = bgmSlider.value;
-        saveData.volumeOfBgm = bgmSlider.value;
+        gameManager.saveData.volumeOfBgm = bgmSlider.value;
+        gameManager.Save();
     }
 
-    public void setEffectVolume()
+    public void SetEffectVolume()
     {
         soundManager.effectSource.volume = effectSlider.value;
         soundManager.buttonSource.volume = effectSlider.value;
         soundManager.resultSoundSource.volume = effectSlider.value;
-        saveData.volumeOfEffect = effectSlider.value;
+        gameManager.saveData.volumeOfEffect = effectSlider.value;
+        gameManager.Save();
     }
 }

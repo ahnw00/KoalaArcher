@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class CounterKoala : MonoBehaviour
 {
+    GameManager gameManager;
+    SaveDataClass saveData;
     InGameManager inGameManager;
     TargetBoardManager targetBoardManager;
     public GameObject timeBar;
@@ -17,6 +19,7 @@ public class CounterKoala : MonoBehaviour
     public GameObject resultPopUp;
     public GameObject counterImage;
     ParamManager paramManager;
+    SpriteManager spriteManager;
     Text scoreText;
     Text resultScore;
     public bool isPaused;
@@ -24,7 +27,10 @@ public class CounterKoala : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameManager.singleTon;
+        saveData = gameManager.saveData;
         inGameManager = FindObjectOfType<InGameManager>();
+        spriteManager = FindObjectOfType<SpriteManager>();
         paramManager = inGameManager.myKoalaAnim.GetComponent<ParamManager>();
         targetBoardManager = FindObjectOfType<TargetBoardManager>();
         timeLimit = 3.8f;
@@ -48,6 +54,7 @@ public class CounterKoala : MonoBehaviour
         while (true)
         {
             yield return null;
+            counterImage.GetComponent<Animator>().speed = 1f;
 
             if (!inGameManager.whileShooting)
             {
@@ -65,6 +72,57 @@ public class CounterKoala : MonoBehaviour
             }
             else if (inGameManager.whileShooting && timer >= timeLimit)
             {
+                //스테이지1, 스테이지4
+                if(saveData.currentSelectedStage == saveData.stageList[0] || saveData.currentSelectedStage == saveData.stageList[3])
+                {
+                    if(inGameManager.orderOfShot < 3)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.myKoalaDaytimeAnim.runtimeAnimatorController;
+                    }
+                    else if(inGameManager.orderOfShot >= 3 && inGameManager.orderOfShot < 6)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.motherKoalaDaytimeAnim.runtimeAnimatorController;
+                    }
+                    else if(inGameManager.orderOfShot >= 6 && inGameManager.orderOfShot < 9)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.fatherKoalaDaytimeAnim.runtimeAnimatorController;
+                    }
+                }
+
+                //스테이지3
+                else if(saveData.currentSelectedStage == saveData.stageList[2])
+                {
+                    if(inGameManager.orderOfShot < 3)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.myKoalaSunsetAnim.runtimeAnimatorController;
+                    }
+                    else if(inGameManager.orderOfShot >= 3 && inGameManager.orderOfShot < 6)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.motherKoalaSunsetAnim.runtimeAnimatorController;
+                    }
+                    else if(inGameManager.orderOfShot >= 6 && inGameManager.orderOfShot < 9)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.fatherKoalaSunsetAnim.runtimeAnimatorController;
+                    }
+                }
+
+                //스테이지2, 스테이지5
+                else if(saveData.currentSelectedStage == saveData.stageList[1] || saveData.currentSelectedStage == saveData.stageList[4])
+                {
+                    if(inGameManager.orderOfShot < 3)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.myKoalaNightAnim.runtimeAnimatorController;
+                    }
+                    else if(inGameManager.orderOfShot >= 3 && inGameManager.orderOfShot < 6)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.motherKoalaNightAnim.runtimeAnimatorController;
+                    }
+                    else if(inGameManager.orderOfShot >= 6 && inGameManager.orderOfShot < 9)
+                    {
+                        spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.fatherKoalaNightAnim.runtimeAnimatorController;
+                    }
+                }    
+
                 counterImage.SetActive(false);
                 //꺼져있던 나의 코알라를 게임씬에서 다시 켜준다.
                 inGameManager.myKoalaAnim.SetActive(true);
@@ -76,15 +134,23 @@ public class CounterKoala : MonoBehaviour
                 scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector3(-295 + 71.66f * (inGameManager.orderOfShot - 1), -63, 0);
                 scoreText.text = counterScore[inGameManager.saveData.currentStageIndex, inGameManager.orderOfShot - 1].ToString();
 
-                if (inGameManager.stage == inGameManager.saveData.stageList[0] || inGameManager.stage == inGameManager.saveData.stageList[3])
+                if (inGameManager.stage == saveData.stageList[0])
                 {
                     targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.daytimeZero;
                 }
-                else if (inGameManager.stage == inGameManager.saveData.stageList[1])
+                else if (inGameManager.stage == saveData.stageList[2])
                 {
                     targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.sunsetZero;
                 }
-                else if (inGameManager.stage == inGameManager.saveData.stageList[2] || inGameManager.stage == inGameManager.saveData.stageList[4])
+                else if (inGameManager.stage == saveData.stageList[1])
+                {
+                    targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.nightZero;
+                }
+                else if (inGameManager.stage == saveData.stageList[3])
+                {
+                    targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.daytimeZero;
+                }
+                else if (inGameManager.stage == saveData.stageList[4])
                 {
                     targetBoardManager.gameObject.GetComponent<Image>().sprite = targetBoardManager.nightZero;
                 }
@@ -111,12 +177,14 @@ public class CounterKoala : MonoBehaviour
                 break;
             }
 
-            if (isPaused)
+            while (isPaused)
             {
                 yield return null;
+                counterImage.GetComponent<Animator>().speed = 0;
             }
         }
     }
+
     public void ShuffleList(int[,] array)
     {
         System.Random prng = new System.Random();

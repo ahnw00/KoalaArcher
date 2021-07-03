@@ -1656,7 +1656,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1438494008}
         m_TargetAssemblyTypeName: SoundController, Assembly-CSharp
-        m_MethodName: setBgmVolume
+        m_MethodName: SetBgmVolume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2472,7 +2472,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2040289774}
         m_TargetAssemblyTypeName: SoundController, Assembly-CSharp
-        m_MethodName: setEffectVolume
+        m_MethodName: SetEffectVolume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

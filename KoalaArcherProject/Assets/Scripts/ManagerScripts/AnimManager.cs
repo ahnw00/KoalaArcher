@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class AnimManager : MonoBehaviour
 {
+    GameManager gameManager;
+    SaveDataClass saveData;
+    int orderOfShot;
     public InGameManager inGameManager;
     public CounterKoala counterKoala;
+    SpriteManager spriteManager;
+
     // Start is called before the first frame update
     void Start()
     {
-        //inGameManager = FindObjectOfType<InGameManager>();
+        gameManager = GameManager.singleTon;
+        saveData = gameManager.saveData;
+        
+        inGameManager = FindObjectOfType<InGameManager>();
+        orderOfShot = inGameManager.orderOfShot;
+
+        spriteManager = FindObjectOfType<SpriteManager>();
         counterKoala = FindObjectOfType<CounterKoala>();
     }
 

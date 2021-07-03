@@ -36,14 +36,13 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        
         bgmSource.clip = mainBGM;
         bgmSource.volume = GameManager.singleTon.saveData.volumeOfBgm;
 
         buttonSource.clip = buttonClip;
         buttonSource.volume = GameManager.singleTon.saveData.volumeOfEffect;
-
         effectSource.volume = GameManager.singleTon.saveData.volumeOfEffect;
-
         resultSoundSource.volume = GameManager.singleTon.saveData.volumeOfEffect;
 
         bgmSource.Play();

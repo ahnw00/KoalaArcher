@@ -10,6 +10,7 @@ public class NextStageBtn : MonoBehaviour
 
     void Start()
     {
+        gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
     }
 
