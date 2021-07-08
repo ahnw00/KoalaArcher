@@ -27,6 +27,11 @@ public class SpriteManager : MonoBehaviour
     public Sprite fallNightSkySprite;
     public Sprite nightSpectatorSprite;
 
+    //어피어 컷 스프라이트들
+    public Sprite koalaAppearCut;
+    public Sprite momAppearCut;
+    public Sprite dadAppearCut;
+
     //상대 코알라 애니메이션들
     public Animator farmerKoalaAnim;
     public Animator babyKoalaAnim;
@@ -61,6 +66,9 @@ public class SpriteManager : MonoBehaviour
     //코알라 오브젝트들
     public GameObject myKoalaObj;
     public GameObject counterKoalaObj;
+
+    //어피어 컷 오브젝트
+    public GameObject appearCutObj;
 
     // Start is called before the first frame update
     void Start()

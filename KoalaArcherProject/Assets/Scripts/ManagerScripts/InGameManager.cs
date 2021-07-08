@@ -8,6 +8,7 @@ public class InGameManager : MonoBehaviour
     GameManager gameManager;
     public SaveDataClass saveData;
     ScoreScript scoreScript;
+    SpriteManager spriteManager;
     public StageClass stage;
     public GameObject angleBar;
     public GameObject powerGaugeBar;
@@ -33,7 +34,7 @@ public class InGameManager : MonoBehaviour
     public GameObject angleBarObj;
     public GameObject powerBarObj;
     public GameObject myKoalaAnim;
-    SpriteManager spriteManager;
+    bool appearCutSwitch;
 
 
     // Start is called before the first frame update
@@ -46,6 +47,7 @@ public class InGameManager : MonoBehaviour
         scoreScript = FindObjectOfType<ScoreScript>();
         scoreList = new List<int>();
         isPaused = false;
+        appearCutSwitch = true;
         numberOfClicked = 0;
         orderOfShot = 0;
         timer = 0;
@@ -84,6 +86,27 @@ public class InGameManager : MonoBehaviour
             if (numberOfClicked == 0)
             {
                 angleBarObj.SetActive(true);
+                if(orderOfShot == 0 && appearCutSwitch)
+                {
+                    isPaused = true;
+                    spriteManager.appearCutObj.transform.GetChild(1).GetComponent<Image>().sprite = spriteManager.koalaAppearCut;
+                    spriteManager.appearCutObj.SetActive(true);
+                    appearCutSwitch = false;
+                }
+                else if(orderOfShot == 3 && !appearCutSwitch)
+                {
+                    isPaused = true;
+                    spriteManager.appearCutObj.transform.GetChild(1).GetComponent<Image>().sprite = spriteManager.momAppearCut;
+                    spriteManager.appearCutObj.SetActive(true);
+                    appearCutSwitch = true;
+                }
+                else if(orderOfShot == 6 && appearCutSwitch)
+                {
+                    isPaused = true;
+                    spriteManager.appearCutObj.transform.GetChild(1).GetComponent<Image>().sprite = spriteManager.dadAppearCut;
+                    spriteManager.appearCutObj.SetActive(true);
+                    appearCutSwitch = false;
+                }
             }
 
             //한번 누르면 클릭 횟수 1증가
