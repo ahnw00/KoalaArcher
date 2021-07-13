@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene.unity
     guid: 93015809090bcae47966b3969343e0a7
   - enabled: 1
+    path: Assets/Scenes/EpisodeCutScene.unity
+    guid: 1965a04b190c83e4f875586acdbaf14a
+  - enabled: 1
     path: Assets/Scenes/EndingScene.unity
     guid: afa53bdb81247cf45bc1cc940b80430a
   - enabled: 1

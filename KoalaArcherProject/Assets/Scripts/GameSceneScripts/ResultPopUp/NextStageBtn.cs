@@ -22,7 +22,13 @@ public class NextStageBtn : MonoBehaviour
         }
         else
         {
+            SceneLoadManager.instance.LoadScene("EpisodeCutScene");
+        }
+        /*
+        else
+        {
             SceneLoadManager.instance.LoadScene("StageScene");
         }
+        */
     }
 }
