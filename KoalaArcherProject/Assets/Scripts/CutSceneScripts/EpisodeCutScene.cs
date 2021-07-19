@@ -30,10 +30,10 @@ public class EpisodeCutScene : MonoBehaviour
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
         currentStageNum = saveData.currentStageIndex + 1;
-        PrologueProgress(0);
+        EpisodeCutProgress(0);
     }
 
-    private void PrologueProgress(int processIndex)
+    private void EpisodeCutProgress(int processIndex)
     {
         if (currentStageNum == 1)
         {
@@ -109,7 +109,7 @@ public class EpisodeCutScene : MonoBehaviour
                 }
             }
         }
-        else if (currentStageNum == 3)
+        else //(currentStageNum == 3 || currentStageNum == 4)
         {
             if (processIndex == 0)
             {
@@ -131,47 +131,6 @@ public class EpisodeCutScene : MonoBehaviour
             {
                 StartCoroutine(FadeBackground(scene5, scene4));
             }
-            else if (processIndex == 5)
-            {
-                StartCoroutine(FadeBackground(scene6, scene5));
-            }
-            //컷씬 이미지 개수에 따라 수정
-            else
-            {
-                if (Lock == false) // 씬 이동, lock true로 변경
-                {
-                    SceneLoadManager.instance.LoadScene("StageScene");
-                    Lock = true;
-                }
-            }
-        }
-        else
-        {
-            if (processIndex == 0)
-            {
-                //StartCoroutine(FadeBackground(scene1, scene1));
-            }
-            else if (processIndex == 1)
-            {
-                StartCoroutine(FadeBackground(scene2, scene1));
-            }
-            else if (processIndex == 2)
-            {
-                StartCoroutine(FadeBackground(scene3, scene2));
-            }
-            else if (processIndex == 3)
-            {
-                StartCoroutine(FadeBackground(scene4, scene3));
-            }
-            else if (processIndex == 4)
-            {
-                StartCoroutine(FadeBackground(scene5, scene4));
-            }
-            else if (processIndex == 5)
-            {
-                StartCoroutine(FadeBackground(scene6, scene5));
-            }
-            //컷씬 이미지 개수에 따라 수정
             else
             {
                 if (Lock == false) // 씬 이동, lock true로 변경
@@ -199,6 +158,6 @@ public class EpisodeCutScene : MonoBehaviour
     public void OnClickNextPanel() // Panel 클릭 시
     {
         processIndex++;
-        PrologueProgress(processIndex);
+        EpisodeCutProgress(processIndex);
     }
 }

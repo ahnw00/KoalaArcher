@@ -775,28 +775,28 @@ MonoBehaviour:
   ImgList1:
   - {fileID: 21300000, guid: 4fb712a83a142d64b9b697499abd8bec, type: 3}
   - {fileID: 21300000, guid: c143721af588cb946a66474644ea7d3d, type: 3}
-  - {fileID: 21300000, guid: c143721af588cb946a66474644ea7d3d, type: 3}
-  - {fileID: 21300000, guid: c143721af588cb946a66474644ea7d3d, type: 3}
+  - {fileID: 21300000, guid: c2481e0c4e3b466469456b939b766859, type: 3}
+  - {fileID: 21300000, guid: 56d09c73bab0023478b62c4904cc9921, type: 3}
   ImgList2:
   - {fileID: 21300000, guid: 09d85d6e11bf0664694bc11a0a1b80be, type: 3}
   - {fileID: 21300000, guid: 5e5146b22ee17444487847e2a77a1d22, type: 3}
-  - {fileID: 21300000, guid: 5e5146b22ee17444487847e2a77a1d22, type: 3}
-  - {fileID: 21300000, guid: 5e5146b22ee17444487847e2a77a1d22, type: 3}
+  - {fileID: 21300000, guid: 452a8f7273a641a41a62f123937fc6a9, type: 3}
+  - {fileID: 21300000, guid: abb02312213b4334dbed66c3321f8fc1, type: 3}
   ImgList3:
   - {fileID: 21300000, guid: d31702feedbd94e41a1175d82bca4435, type: 3}
   - {fileID: 21300000, guid: 36fab231651a39442bcaff16bf9d8893, type: 3}
-  - {fileID: 21300000, guid: 36fab231651a39442bcaff16bf9d8893, type: 3}
-  - {fileID: 21300000, guid: 36fab231651a39442bcaff16bf9d8893, type: 3}
+  - {fileID: 21300000, guid: 1f1ccd8bebb5a2c4e8f5ee54c10803ac, type: 3}
+  - {fileID: 21300000, guid: 3f2ea15d92e87eb418282a1c967fb6e3, type: 3}
   ImgList4:
   - {fileID: 21300000, guid: 0ad7da4d1df64bb439d11814daae21bb, type: 3}
   - {fileID: 21300000, guid: bb075c335c9c9074a85baf357d1f0265, type: 3}
-  - {fileID: 21300000, guid: bb075c335c9c9074a85baf357d1f0265, type: 3}
-  - {fileID: 21300000, guid: bb075c335c9c9074a85baf357d1f0265, type: 3}
+  - {fileID: 21300000, guid: 3ceccae04f9eeda45b10ceda189ca6b6, type: 3}
+  - {fileID: 21300000, guid: bb8a33045d450ca42a48bff9133f89dc, type: 3}
   ImgList5:
   - {fileID: 21300000, guid: 655f5d809b7b4124d93401931f2bc60d, type: 3}
   - {fileID: 21300000, guid: 4ca26b27916fcdc4a8977fbdce68a1e8, type: 3}
-  - {fileID: 21300000, guid: 4ca26b27916fcdc4a8977fbdce68a1e8, type: 3}
-  - {fileID: 21300000, guid: 4ca26b27916fcdc4a8977fbdce68a1e8, type: 3}
+  - {fileID: 21300000, guid: 2ed20fd598335ef4c8f75bbb101479e0, type: 3}
+  - {fileID: 21300000, guid: 8fa72a282fc18a64099dc6aadf7f3cb9, type: 3}
   ImgList6:
   - {fileID: 21300000, guid: b7d5209220fcd6648b9c1b78cd232717, type: 3}
   - {fileID: 21300000, guid: 89a7baad376acfe47b533d3a95933c9d, type: 3}
@@ -1412,4 +1412,4 @@ MonoBehaviour:
     currentStageIndex: 0
     volumeOfBgm: 0.5
     volumeOfEffect: 0.5
-  Img: {fileID: 1947599716}
+  anim: {fileID: 0}
