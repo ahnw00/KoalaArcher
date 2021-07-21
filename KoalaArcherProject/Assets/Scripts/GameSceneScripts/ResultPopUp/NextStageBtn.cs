@@ -7,28 +7,41 @@ public class NextStageBtn : MonoBehaviour
 {
     GameManager gameManager;
     public SaveDataClass saveData;
+    SoundManager soundManager;
+    ScoreScript scoreScript;
+    CounterKoala counterScoreScript;
 
     void Start()
     {
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
+        soundManager = SoundManager.inst;
+
+        scoreScript = FindObjectOfType<ScoreScript>();
+        counterScoreScript = FindObjectOfType<CounterKoala>();
     }
 
     public void NextStage()
     {
-        if (saveData.indexOfStageCompleted == 5)
+        if (saveData.currentStageIndex == 4 && scoreScript.resultScore > counterScoreScript.resultScoreOfCounter)
         {
+            soundManager.SecondButtonPlay();
+            soundManager.StageBGMPlay();
             SceneLoadManager.instance.LoadScene("EndingScene");
         }
-        else
+
+        else if(saveData.currentStageIndex <= 3 && scoreScript.resultScore > counterScoreScript.resultScoreOfCounter)
         {
+            soundManager.SecondButtonPlay();
+            soundManager.StageBGMPlay();
             SceneLoadManager.instance.LoadScene("EpisodeCutScene");
         }
-        /*
+        
         else
         {
+            soundManager.SecondButtonPlay();
+            soundManager.StageBGMPlay();
             SceneLoadManager.instance.LoadScene("StageScene");
         }
-        */
     }
 }

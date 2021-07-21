@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8823525597791064873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4929539, y: -0.5480078, z: 108.049095}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,13 +51,21 @@ MonoBehaviour:
   effectSource: {fileID: 7098361871693532426}
   buttonSource: {fileID: 8335350670254136622}
   resultSoundSource: {fileID: 5008722109324325942}
-  mainBGM: {fileID: 8300000, guid: bf2c4e1239ef0214ba93cc7b0c339cb8, type: 3}
-  buttonClip: {fileID: 8300000, guid: a8cb49bb678646c4fa3c2d4e841aa1d4, type: 3}
+  mainBGM: {fileID: 8300000, guid: be0cc59342f399b488188304f9c9db25, type: 3}
+  stageBGM: {fileID: 8300000, guid: a696b110fd32f744799cf5af340fcbc8, type: 3}
+  inGameBGM: {fileID: 8300000, guid: 00ee7e60800c847458c73952f2a33a39, type: 3}
+  buttonClip: {fileID: 8300000, guid: 4311ee37ec01fbf449a38aa4fa7f95df, type: 3}
+  secondButtonClip: {fileID: 8300000, guid: 594290a1b572a0049ad376cae6521cd9, type: 3}
   missEffect: {fileID: 8300000, guid: 0ccfed1842e63dc4da4197ba3f6dd253, type: 3}
   goodEffect: {fileID: 8300000, guid: 9d1e0bbb42beb2b418dd0f56a87e62b8, type: 3}
   perfectEffect: {fileID: 8300000, guid: b0a1d64b02df65a418df05c8e6323ed7, type: 3}
   pullingEffect: {fileID: 8300000, guid: 9d85e400651c09f4ab52011c82db0ad1, type: 3}
   fireEffect: {fileID: 8300000, guid: 9e975721e0832414088469b7bea90fe5, type: 3}
+  ourTeamAppearEffect: {fileID: 8300000, guid: 1cc89723fd4af0e45af8ef47010651f2, type: 3}
+  rivalTeamAppearEffect: {fileID: 8300000, guid: e78b8c6345c061a4eac6958c50d8961b, type: 3}
+  gameEndEffect: {fileID: 8300000, guid: 87375f42ac63b1e45827fcaaa818a102, type: 3}
+  gameWinEffect: {fileID: 8300000, guid: 56392f990ff61d843b02eaa6ebd1a4c7, type: 3}
+  gameLoseEffect: {fileID: 8300000, guid: 7be89a0567734f14d838231d41efe03c, type: 3}
 --- !u!82 &2443905797678910675
 AudioSource:
   m_ObjectHideFlags: 0
@@ -70,7 +78,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0

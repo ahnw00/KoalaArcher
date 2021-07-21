@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ReplayBtn : MonoBehaviour
 {   
+    SoundManager soundManager;
     public void Replay()
     {
+        soundManager = SoundManager.inst;
+        soundManager.SecondButtonPlay();
         SceneLoadManager.instance.LoadScene("GameScene");
     }
 }

@@ -6,6 +6,7 @@ public class ScoreAndImage : MonoBehaviour
 {
     GameManager gameManager;
     InGameManager inGameManager;
+    SoundManager soundManager;
     ScoreScript scoreScript;
     CounterKoala counterScoreScript;
     SaveDataClass saveData;
@@ -21,6 +22,7 @@ public class ScoreAndImage : MonoBehaviour
 
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
+        soundManager = SoundManager.inst;
 
         StartCoroutine(ResultCoroutine());
         StartCoroutine(ResultSpriteCoroutine());
@@ -45,13 +47,17 @@ public class ScoreAndImage : MonoBehaviour
         while (true)
         {
             yield return null;
+            
             if (inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore > counterScoreScript.resultScoreOfCounter)
             {
                 resultImage.GetComponent<Image>().sprite = completedImage;
+                soundManager.GameWinEffectPlay();
+
                 if (saveData.currentStageIndex >= saveData.indexOfStageCompleted)
                 {
                     saveData.indexOfStageCompleted = saveData.currentStageIndex + 1;
                 }
+
                 gameManager.Save();
                 break;
             }
@@ -59,6 +65,7 @@ public class ScoreAndImage : MonoBehaviour
             else if (inGameManager.orderOfShot - 1 == 9 && scoreScript.resultScore <= counterScoreScript.resultScoreOfCounter)
             {
                 resultImage.GetComponent<Image>().sprite = failedImage;
+                soundManager.GameLoseEffectPlay();
                 break;
             }
         }

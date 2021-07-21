@@ -7,6 +7,7 @@ public class InGameManager : MonoBehaviour
 {
     GameManager gameManager;
     public SaveDataClass saveData;
+    SoundManager soundManager;
     ScoreScript scoreScript;
     SpriteManager spriteManager;
     public StageClass stage;
@@ -34,6 +35,7 @@ public class InGameManager : MonoBehaviour
     public GameObject angleBarObj;
     public GameObject powerBarObj;
     public GameObject myKoalaAnim;
+    public GameObject spectator;
     bool appearCutSwitch;
 
 
@@ -42,6 +44,7 @@ public class InGameManager : MonoBehaviour
     {
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
+        soundManager = SoundManager.inst;
         stage = saveData.currentSelectedStage;
         spriteManager = FindObjectOfType<SpriteManager>();
         scoreScript = FindObjectOfType<ScoreScript>();
@@ -61,13 +64,6 @@ public class InGameManager : MonoBehaviour
 
         StartCoroutine(angleCoroutine);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //Debug.Log(timer);
-    }
-
 
     //각도 조준선 왔다리 갔다리 하는 것을 AngleAmingCoroutine에서 구현
     public IEnumerator AngleAmingCoroutine()
@@ -91,20 +87,29 @@ public class InGameManager : MonoBehaviour
                     isPaused = true;
                     spriteManager.appearCutObj.transform.GetChild(1).GetComponent<Image>().sprite = spriteManager.koalaAppearCut;
                     spriteManager.appearCutObj.SetActive(true);
+                    soundManager.AppearEffectPlay();
+
+                    spectator.GetComponent<Animator>().SetTrigger("Cheering");
                     appearCutSwitch = false;
                 }
-                else if(orderOfShot == 3 && !appearCutSwitch)
+                else if(orderOfShot == 3 && !appearCutSwitch && saveData.currentSelectedStage != saveData.stageList[0])
                 {
                     isPaused = true;
                     spriteManager.appearCutObj.transform.GetChild(1).GetComponent<Image>().sprite = spriteManager.momAppearCut;
                     spriteManager.appearCutObj.SetActive(true);
+                    soundManager.AppearEffectPlay();
+
+                    spectator.GetComponent<Animator>().SetTrigger("Cheering");
                     appearCutSwitch = true;
                 }
-                else if(orderOfShot == 6 && appearCutSwitch)
+                else if(orderOfShot == 6 && appearCutSwitch && saveData.currentSelectedStage != saveData.stageList[0])
                 {
                     isPaused = true;
                     spriteManager.appearCutObj.transform.GetChild(1).GetComponent<Image>().sprite = spriteManager.dadAppearCut;
                     spriteManager.appearCutObj.SetActive(true);
+                    soundManager.AppearEffectPlay();
+
+                    spectator.GetComponent<Animator>().SetTrigger("Cheering");
                     appearCutSwitch = false;
                 }
             }

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ScoreScript : MonoBehaviour
 {
+    GameManager gameManager;
     public InGameManager inGameManager;
     public Text textprefab;
     public int resultScore;
@@ -13,6 +14,7 @@ public class ScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameManager.singleTon;
         inGameManager = FindObjectOfType<InGameManager>();
         resultScore = 0;
     }
@@ -31,6 +33,11 @@ public class ScoreScript : MonoBehaviour
         for(int i = 0; i < inGameManager.scoreList.Count; i++)
         {
             resultScore += inGameManager.scoreList[i];
+            if(resultScore > inGameManager.saveData.stageList[inGameManager.saveData.currentStageIndex].bestScore)
+            {
+                inGameManager.saveData.stageList[inGameManager.saveData.currentStageIndex].bestScore = resultScore;
+                gameManager.Save();
+            }
         }
         scoreText.text = resultScore.ToString();
         scoreText.GetComponent<Text>().color = Color.black;

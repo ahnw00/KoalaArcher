@@ -20,6 +20,7 @@ public class NewSaveBtn : MonoBehaviour
         soundManager = SoundManager.inst;
         gameManager.Save();
         soundManager.ButtonEffectPlay();
+        soundManager.StageBGMPlay();
         SceneLoadManager.instance.LoadScene("CutScene");
     }
     public void LoadStageScene()
@@ -29,6 +30,7 @@ public class NewSaveBtn : MonoBehaviour
 
         soundManager = SoundManager.inst;
         soundManager.ButtonEffectPlay();
+        soundManager.StageBGMPlay();
         SceneLoadManager.instance.LoadScene("StageScene");
     }
 }

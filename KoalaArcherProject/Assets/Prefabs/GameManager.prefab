@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7634039806966904297}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.095201105, y: 0.07309805, z: 503.2022}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -53,5 +53,9 @@ MonoBehaviour:
       powerOfGauge: 0
       numberOfShot: 10
       bestScore: 0
+      timeLimit: 0
     isFirstTimeOfPlay: 1
     indexOfStageCompleted: 0
+    currentStageIndex: 0
+    volumeOfBgm: 0.5
+    volumeOfEffect: 0.5

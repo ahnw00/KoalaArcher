@@ -22,7 +22,7 @@
         },
         {
             "scoreOfCounterpart": 0,
-            "aimSpeed": 130.0,
+            "aimSpeed": 300.0,
             "aimingTime": 0.0,
             "powerGaugeSpeed": 2.0,
             "powerOfGauge": 0.0,
@@ -64,6 +64,6 @@
     "isFirstTimeOfPlay": false,
     "indexOfStageCompleted": 5,
     "currentStageIndex": 4,
-    "volumeOfBgm": 0.0767604261636734,
-    "volumeOfEffect": 0.09014660865068436
+    "volumeOfBgm": 0.6088937520980835,
+    "volumeOfEffect": 0.6421101689338684
 }

@@ -81,7 +81,7 @@ public class EndingScene : MonoBehaviour
         else if (processIndex == 9)
         {
             StartCoroutine(FadeBackground(scene10, scene9));
-            WaitForNextClick();
+            WaitForLastClick();
         }
         else
         {
@@ -116,6 +116,12 @@ public class EndingScene : MonoBehaviour
     {
         panel.SetActive(false);
         Invoke("FinishWaiting", 2f);
+    }
+
+    public void WaitForLastClick()
+    {
+        panel.SetActive(false);
+        Invoke("FinishWaiting", 5f);
     }
 
     public void FinishWaiting()

@@ -55,7 +55,7 @@ public class TouchPanelScript : MonoBehaviour
         //파워 게이지 코루틴이 돌아가는 중에 터치를 받으면 일어나는 일
         else if(inGameManager.isOnPowerGaugeCoroutine)
         {
-            inGameManager.powerGaugeBar.GetComponent<Image>().fillAmount += 0.4f;
+            inGameManager.powerGaugeBar.GetComponent<Image>().fillAmount += inGameManager.saveData.stageList[inGameManager.saveData.currentStageIndex].powerOfGauge;
         }
     }
 }

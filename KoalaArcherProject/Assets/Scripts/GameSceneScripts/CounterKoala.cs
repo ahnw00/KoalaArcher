@@ -8,6 +8,7 @@ public class CounterKoala : MonoBehaviour
     GameManager gameManager;
     SaveDataClass saveData;
     InGameManager inGameManager;
+    SoundManager soundManager;
     TargetBoardManager targetBoardManager;
     public GameObject timeBar;
     public float timer;
@@ -29,6 +30,7 @@ public class CounterKoala : MonoBehaviour
     {
         gameManager = GameManager.singleTon;
         saveData = gameManager.saveData;
+        soundManager = SoundManager.inst;
         inGameManager = FindObjectOfType<InGameManager>();
         spriteManager = FindObjectOfType<SpriteManager>();
         paramManager = inGameManager.myKoalaAnim.GetComponent<ParamManager>();
@@ -37,6 +39,7 @@ public class CounterKoala : MonoBehaviour
         timer = 0;
         resultScoreOfCounter = 0;
 
+        // @ 밸런스 패치 - 스코어, 순서대로 1스테이지부터 5스테이지
         counterScore = new int[5, 10] {{0,6,6,6,7,8,8,9,10,10}, {6,6,6,7,7,8,8,8,9,10}, {0,6,7,8,9,10,10,10,10,10},
         {6,6,7,8,9,9,10,10,10,10}, {6,8,9,9,9,9,10,10,10,10}};
 
@@ -72,8 +75,14 @@ public class CounterKoala : MonoBehaviour
             }
             else if (inGameManager.whileShooting && timer >= timeLimit)
             {
-                //스테이지1, 스테이지4
-                if(saveData.currentSelectedStage == saveData.stageList[0] || saveData.currentSelectedStage == saveData.stageList[3])
+                //스테이지1
+                if(saveData.currentSelectedStage == saveData.stageList[0])
+                {
+                    spriteManager.myKoalaObj.GetComponent<Animator>().runtimeAnimatorController = spriteManager.myKoalaDaytimeAnim.runtimeAnimatorController;
+                }
+                
+                //스테이지4
+                else if(saveData.currentSelectedStage == saveData.stageList[3])
                 {
                     if(inGameManager.orderOfShot < 3)
                     {
@@ -172,7 +181,12 @@ public class CounterKoala : MonoBehaviour
                 }
                 resultScore.text = resultScoreOfCounter.ToString();
                 resultScore.GetComponent<Text>().color = Color.black;
-                yield return new WaitForSeconds(3f);
+
+                soundManager.bgmSource.Stop();
+                soundManager.GameEndEffectPlay();
+
+                yield return new WaitForSeconds(4.5f);
+
                 resultPopUp.SetActive(true);
                 break;
             }
