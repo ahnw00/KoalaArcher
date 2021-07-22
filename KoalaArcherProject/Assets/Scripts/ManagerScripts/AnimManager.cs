@@ -24,6 +24,11 @@ public class AnimManager : MonoBehaviour
         counterKoala = FindObjectOfType<CounterKoala>();
     }
 
+    void Update()
+    {
+
+    }
+
     public void AngleAimingAnim()
     {
         inGameManager.StopAllCoroutines();
@@ -37,6 +42,7 @@ public class AnimManager : MonoBehaviour
     public void PowerGaugeAnim()
     {
         inGameManager.isPaused = false;
+        this.gameObject.GetComponent<Animator>().speed = 1f;
         inGameManager.powerBarObj.SetActive(false);
         inGameManager.myKoalaAnim.SetActive(false);
         counterKoala.counterImage.SetActive(true);
@@ -46,5 +52,17 @@ public class AnimManager : MonoBehaviour
     public void PauseCoroutine()
     {
         inGameManager.isPaused = true;
+    }
+
+    public void PauseAnim()
+    {
+        this.gameObject.GetComponent<Animator>().speed = 0f;
+        StartCoroutine(WaitForSeconds(0.3f));
+    }
+
+    IEnumerator WaitForSeconds(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        this.gameObject.GetComponent<Animator>().speed = 1f;
     }
 }

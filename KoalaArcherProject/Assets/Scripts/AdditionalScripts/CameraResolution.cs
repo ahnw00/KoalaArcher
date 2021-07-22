@@ -15,7 +15,7 @@ public class CameraResolution : MonoBehaviour
             rect.height = scaleheight;
             rect.y = (1f - scaleheight) / 2f;
         }
-        else
+        if(scalewidth < 1)
         {
             rect.width = scalewidth;
             rect.x = (1f - scalewidth) / 2f;
