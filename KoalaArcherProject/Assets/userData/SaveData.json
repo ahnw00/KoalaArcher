@@ -2,20 +2,10 @@
     "stageList": [
         {
             "scoreOfCounterpart": 0,
-            "aimSpeed": 110.0,
+            "aimSpeed": 250.0,
             "aimingTime": 0.0,
             "powerGaugeSpeed": 2.0,
-            "powerOfGauge": 0.0,
-            "numberOfShot": 10,
-            "bestScore": 0,
-            "timeLimit": 3.0
-        },
-        {
-            "scoreOfCounterpart": 0,
-            "aimSpeed": 120.0,
-            "aimingTime": 0.0,
-            "powerGaugeSpeed": 2.0,
-            "powerOfGauge": 0.0,
+            "powerOfGauge": 0.25,
             "numberOfShot": 10,
             "bestScore": 0,
             "timeLimit": 3.0
@@ -25,27 +15,37 @@
             "aimSpeed": 300.0,
             "aimingTime": 0.0,
             "powerGaugeSpeed": 2.0,
-            "powerOfGauge": 0.0,
+            "powerOfGauge": 0.20000000298023225,
             "numberOfShot": 10,
             "bestScore": 0,
             "timeLimit": 3.0
         },
         {
             "scoreOfCounterpart": 0,
-            "aimSpeed": 140.0,
+            "aimSpeed": 400.0,
             "aimingTime": 0.0,
-            "powerGaugeSpeed": 2.0,
-            "powerOfGauge": 0.0,
+            "powerGaugeSpeed": 3.0,
+            "powerOfGauge": 0.25,
             "numberOfShot": 10,
             "bestScore": 0,
             "timeLimit": 3.0
         },
         {
             "scoreOfCounterpart": 0,
-            "aimSpeed": 150.0,
+            "aimSpeed": 450.0,
             "aimingTime": 0.0,
-            "powerGaugeSpeed": 2.0,
-            "powerOfGauge": 0.0,
+            "powerGaugeSpeed": 3.0,
+            "powerOfGauge": 0.20000000298023225,
+            "numberOfShot": 10,
+            "bestScore": 0,
+            "timeLimit": 3.0
+        },
+        {
+            "scoreOfCounterpart": 0,
+            "aimSpeed": 500.0,
+            "aimingTime": 0.0,
+            "powerGaugeSpeed": 4.0,
+            "powerOfGauge": 0.20000000298023225,
             "numberOfShot": 10,
             "bestScore": 0,
             "timeLimit": 3.0
@@ -53,17 +53,17 @@
     ],
     "currentSelectedStage": {
         "scoreOfCounterpart": 0,
-        "aimSpeed": 150.0,
+        "aimSpeed": 0.0,
         "aimingTime": 0.0,
-        "powerGaugeSpeed": 2.0,
+        "powerGaugeSpeed": 0.0,
         "powerOfGauge": 0.0,
         "numberOfShot": 10,
         "bestScore": 0,
-        "timeLimit": 3.0
+        "timeLimit": 0.0
     },
     "isFirstTimeOfPlay": false,
-    "indexOfStageCompleted": 5,
-    "currentStageIndex": 4,
-    "volumeOfBgm": 0.6088937520980835,
-    "volumeOfEffect": 0.6421101689338684
+    "indexOfStageCompleted": 0,
+    "currentStageIndex": 0,
+    "volumeOfBgm": 0.5,
+    "volumeOfEffect": 0.5
 }

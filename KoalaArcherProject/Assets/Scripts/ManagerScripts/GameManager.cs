@@ -43,18 +43,6 @@ public class GameManager : MonoBehaviour
         Load();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     //세이브데이터 세이브
     public void Save()
     {

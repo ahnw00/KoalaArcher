@@ -6,7 +6,6 @@ using System.Text;
 
 public class JsonManager
 {
-
     public void DataInitialize()
     {
         SaveDataClass data = new SaveDataClass();
@@ -50,6 +49,7 @@ public class JsonManager
 
     public SaveDataClass LoadSaveData()
     {
+        Debug.Log("로드는 되냐");
         //이제 우리가 이전에 저장했던 데이터를 꺼내야한다
         //만약 저장한 데이터가 없다면? 이걸 실행 안하고 튜토리얼을 실행하면 그만이다. 그 작업은 씬로더에서 해준다
         SaveDataClass gameData;
@@ -73,15 +73,17 @@ public class JsonManager
         if (!Directory.Exists(builderToString))
         {
             //디렉토리가 없는경우 만들어준다
+            //Directory.CreateDirectory(builderToString);
             Directory.CreateDirectory(builderToString);
-
+            Debug.Log("디렉토리가 없다");
         }
         builder.Append(appender);
 
         if (File.Exists(builder.ToString()))
         {
             //세이브 파일이 있는경우
-
+            Debug.Log("세이브파일이 있단다");
+            Debug.Log(builder.ToString());
             FileStream stream = new FileStream(builder.ToString(), FileMode.Open);
 
             byte[] bytes = new byte[stream.Length];
@@ -96,6 +98,7 @@ public class JsonManager
         {
             //세이브파일이 없는경우
             gameData = new SaveDataClass();
+            Debug.Log("세이브 파일이 없단다");
         }
 
         return gameData;
