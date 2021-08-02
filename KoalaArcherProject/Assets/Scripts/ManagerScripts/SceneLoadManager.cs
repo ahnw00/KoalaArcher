@@ -40,6 +40,11 @@ public class SceneLoadManager : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         gameObject.SetActive(true);
+
+        Canvas canvas = this.gameObject.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceCamera;
+        canvas.worldCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
+
         myKoala.SetActive(true);
         loadingBar.SetActive(true);
         SceneManager.sceneLoaded += LoadSceneEnd;
