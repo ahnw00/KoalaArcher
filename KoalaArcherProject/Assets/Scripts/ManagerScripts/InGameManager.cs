@@ -38,6 +38,10 @@ public class InGameManager : MonoBehaviour
     public GameObject spectator;
     bool appearCutSwitch;
 
+    void Awake()
+    {
+        CameraResolution.instance.SetResolution();
+    }
 
     // Start is called before the first frame update
     void Start()

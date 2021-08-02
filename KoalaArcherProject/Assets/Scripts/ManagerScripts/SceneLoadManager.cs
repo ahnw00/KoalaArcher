@@ -20,7 +20,7 @@ public class SceneLoadManager : MonoBehaviour
             instance = this;
         }
 
-        if (instance != this)
+        else if (instance != this)
         {
             Destroy(gameObject);
             return;
@@ -28,6 +28,13 @@ public class SceneLoadManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         gameObject.SetActive(false);
+    }
+
+    private void Start()
+    {
+        Canvas canvas = this.gameObject.GetComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceCamera;
+        canvas.worldCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
 
     public void LoadScene(string sceneName)
@@ -80,6 +87,7 @@ public class SceneLoadManager : MonoBehaviour
     {
         if (scene.name == loadSceneName)
         {
+            CameraResolution.instance.SetResolution();
             StartCoroutine(Fade(false));
             SceneManager.sceneLoaded -= LoadSceneEnd;
         }

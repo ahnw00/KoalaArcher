@@ -23,4 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutScene.unity
     guid: 97b900d5bf26e8c41b1f61fae49e3ac5
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1813d0f0ca09b2b4982704421d5b1984, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 860271fb24aabf249a3360ded65ebfd8, type: 2}

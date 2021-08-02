@@ -57,4 +57,9 @@ public class GameManager : MonoBehaviour
         //그러게요....혹시나 뭐가 늘어날지도 모르잖아요.
         saveData = jsonManager.LoadSaveData();
     }
+
+    public void DataInitialize()
+    {
+        jsonManager.DataInitialize();
+    }
 }
