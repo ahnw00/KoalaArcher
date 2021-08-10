@@ -6,6 +6,7 @@ public class StagePopUp : MonoBehaviour
 {
     public GameObject popUp;
     SoundManager soundManager;
+    GameManager gameManager;
 
     public void OpenPopUp()
     {
@@ -18,6 +19,10 @@ public class StagePopUp : MonoBehaviour
     {
         soundManager = SoundManager.inst;
         soundManager.SecondButtonPlay();
+
+        gameManager = GameManager.singleTon;
+        gameManager.Save();
+
         popUp.SetActive(false);
     }
 }
