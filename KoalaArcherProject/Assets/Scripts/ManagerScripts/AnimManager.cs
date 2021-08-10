@@ -31,7 +31,6 @@ public class AnimManager : MonoBehaviour
 
     public void AngleAimingAnim()
     {
-        inGameManager.StopAllCoroutines();
         inGameManager.StartCoroutine(inGameManager.PowerGaugeCoroutine());
         inGameManager.angleBarObj.SetActive(false);
         inGameManager.powerBarObj.SetActive(true);

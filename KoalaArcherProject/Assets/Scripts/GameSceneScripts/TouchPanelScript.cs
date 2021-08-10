@@ -28,6 +28,9 @@ public class TouchPanelScript : MonoBehaviour
             inGameManager.numberOfClicked++;
             inGameManager.isOnAmingCoroutine = false;
             float angleBarEulerZ = inGameManager.angleBar.GetComponent<RectTransform>().eulerAngles.z;
+            inGameManager.StopAllCoroutines();
+
+            Debug.Log(angleBarEulerZ);
 
             //조준선의 각도에 따라 점수를 매겨줘
             if(angleBarEulerZ >= 162.7 && angleBarEulerZ < 190.4)
@@ -48,8 +51,6 @@ public class TouchPanelScript : MonoBehaviour
                 inGameManager.scoreList[inGameManager.orderOfShot] += inGameManager.currentAmingScore * 4;
                 inGameManager.miss.SetActive(true);
             }
-            
-            //StartCoroutine(inGameManager.PowerGaugeCoroutine());
         }
 
         //파워 게이지 코루틴이 돌아가는 중에 터치를 받으면 일어나는 일

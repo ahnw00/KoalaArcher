@@ -2176,7 +2176,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1262142724}
-        m_TargetAssemblyTypeName: StagePopUp, Assembly-CSharp
+        m_TargetAssemblyTypeName: NewBtnPopUp, Assembly-CSharp
         m_MethodName: OpenPopUp
         m_Mode: 1
         m_Arguments:
@@ -2234,7 +2234,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1262142719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64b684a3705063546ac49282f3b20488, type: 3}
+  m_Script: {fileID: 11500000, guid: 78236754ee002bc48adecfae80726037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   popUp: {fileID: 2033020152}
