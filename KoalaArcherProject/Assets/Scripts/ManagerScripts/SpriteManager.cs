@@ -70,6 +70,16 @@ public class SpriteManager : MonoBehaviour
     //어피어 컷 오브젝트
     public GameObject appearCutObj;
 
+    //결과창 스테이지 표시 오브젝트
+    public GameObject currentStage;
+
+    //결과창 스테이지 표시 스프라이트
+    public Sprite stage1;
+    public Sprite stage2;
+    public Sprite stage3;
+    public Sprite stage4;
+    public Sprite stage5;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -81,6 +91,7 @@ public class SpriteManager : MonoBehaviour
             backgroundObject.GetComponent<Image>().sprite = summerDaytimeBGSprite;
             skyObject.GetComponent<Image>().sprite = summerDaytimeSkySprite;
             spectatorObject.GetComponent<Image>().sprite = daytimeSpectatorSprite;
+            currentStage.GetComponent<Image>().sprite = stage1;
 
             cloud.SetActive(true);
             summerDaytimeBird.SetActive(true);
@@ -94,6 +105,7 @@ public class SpriteManager : MonoBehaviour
             backgroundObject.GetComponent<Image>().sprite = sunsetBGSprite;
             skyObject.GetComponent<Image>().sprite = sunsetSkySprite;
             spectatorObject.GetComponent<Image>().sprite = sunsetSpectatorSprite;
+            currentStage.GetComponent<Image>().sprite = stage3;
 
             sun.SetActive(true);
             sunsetBird.SetActive(true);
@@ -107,6 +119,7 @@ public class SpriteManager : MonoBehaviour
             backgroundObject.GetComponent<Image>().sprite = summerNightBGSprite;
             skyObject.GetComponent<Image>().sprite = summerNightSkySprite;
             spectatorObject.GetComponent<Image>().sprite = nightSpectatorSprite;
+            currentStage.GetComponent<Image>().sprite = stage2;
 
             star.SetActive(true);
 
@@ -119,6 +132,7 @@ public class SpriteManager : MonoBehaviour
             backgroundObject.GetComponent<Image>().sprite = fallDaytimeBGSprite;
             skyObject.GetComponent<Image>().sprite = fallDaytimeSkySprite;
             spectatorObject.GetComponent<Image>().sprite = daytimeSpectatorSprite;
+            currentStage.GetComponent<Image>().sprite = stage4;
 
             cloud.SetActive(true);
             fallDaytimeBird.SetActive(true);
@@ -132,6 +146,7 @@ public class SpriteManager : MonoBehaviour
             backgroundObject.GetComponent<Image>().sprite = fallNightBGSprite;
             skyObject.GetComponent<Image>().sprite = fallNightSkySprite;
             spectatorObject.GetComponent<Image>().sprite = nightSpectatorSprite;
+            currentStage.GetComponent<Image>().sprite = stage5;
 
             star.SetActive(true);
 

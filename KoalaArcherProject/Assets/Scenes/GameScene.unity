@@ -401,6 +401,12 @@ MonoBehaviour:
   myKoalaObj: {fileID: 1747820003}
   counterKoalaObj: {fileID: 404558531}
   appearCutObj: {fileID: 515004566}
+  currentStage: {fileID: 2111317766}
+  stage1: {fileID: 21300000, guid: a0a44b5af49b03149833536fa7b261e2, type: 3}
+  stage2: {fileID: 21300000, guid: b3107fc5ea24c3f4bb62b9ee93bfbb29, type: 3}
+  stage3: {fileID: 21300000, guid: 30d52f7ad56fd0f43b6b899779c56d23, type: 3}
+  stage4: {fileID: 21300000, guid: eed7682cba4540d42909949c330440e3, type: 3}
+  stage5: {fileID: 21300000, guid: 40c383d663fa3744c9299df863855e1d, type: 3}
 --- !u!1 &235811636
 GameObject:
   m_ObjectHideFlags: 0
