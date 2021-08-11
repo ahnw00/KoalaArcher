@@ -25,6 +25,8 @@ public class NewBtnPopUp : MonoBehaviour
 
         else
         {
+            saveData.isFirstTimeOfPlay = false;
+            gameManager.Save();
             soundManager.ButtonEffectPlay();
             soundManager.StageBGMPlay();
             SceneLoadManager.instance.LoadScene("CutScene");

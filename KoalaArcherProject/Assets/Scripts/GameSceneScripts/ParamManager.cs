@@ -33,6 +33,10 @@ public class ParamManager : MonoBehaviour
                 animator.SetTrigger("gaugeToShoot");
                 soundManager.FireEffectPlay();
             }
+            if(inGameManager.numberOfClicked == 1)
+            {
+                animator.SetTrigger("raiseArchery");
+            }
         }
     }
 }
