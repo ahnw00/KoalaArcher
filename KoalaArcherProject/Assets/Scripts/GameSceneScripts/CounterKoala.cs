@@ -41,7 +41,7 @@ public class CounterKoala : MonoBehaviour
 
         // @ 밸런스 패치 - 스코어, 순서대로 1스테이지부터 5스테이지
         counterScore = new int[5, 10] {{8,7,7,6,7,8,8,9,10,10}, {9,8,8,10,7,8,8,8,9,10}, {0,10,10,10,10,10,10,10,10,10},
-        {10,10,7,8,9,9,10,10,10,10}, {9,9,9,9,9,10,10,10,10,10}};
+        {10,10,9,8,9,9,10,10,10,10}, {9,9,9,10,10,10,10,10,10,10}};
 
         ShuffleList(counterScore);
         StartCoroutine(CounterTimeBarCoroutine());
